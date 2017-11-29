@@ -24,3 +24,8 @@ branches:
 env:
  global:
    - GH_REF: github.com/DIYgod/diygod.me.git  #设置GH_REF，注意更改yourname
+
+cache:
+  yarn: true
+  directories:
+    - node_modules
