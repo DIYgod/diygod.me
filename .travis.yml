@@ -5,6 +5,10 @@ node_js: stable  #设置相应的版本
 install:
   - yarn  #安装hexo及插件
 
+before_script:
+  - cd themes/sagiri
+  - yarn
+
 script:
   - hexo cl  #清除
   - hexo g  #生成
