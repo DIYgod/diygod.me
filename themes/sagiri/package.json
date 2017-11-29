@@ -1,0 +1,60 @@
+{
+  "name": "hexo-theme-sagiri",
+  "version": "0.0.1",
+  "description": "As lovely as sagiri",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DIYgod/hexo-theme-sagiri.git"
+  },
+  "keywords": [
+    "sagiri",
+    "Hexo"
+  ],
+  "author": "DIYgod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DIYgod/hexo-theme-sagiri/issues"
+  },
+  "homepage": "https://diygod.me",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.1",
+    "coffee-script": "^1.10.0",
+    "cross-env": "5.1.1",
+    "exports-loader": "0.6.4",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.5",
+    "git-revision-webpack-plugin": "2.5.1",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-shell": "^0.6.1",
+    "js-yaml": "^3.8.1",
+    "jshint-stylish": "^2.1.0",
+    "strip-loader": "0.1.2",
+    "stylint": "^1.5.9",
+    "webpack": "3.8.1"
+  },
+  "dependencies": {
+    "balloon-css": "0.5.0",
+    "corner-notie": "1.2.1",
+    "fancybox": "3.0.0",
+    "fastclick": "1.0.6",
+    "gsap": "1.20.3",
+    "headroom.js": "0.9.4",
+    "jquery-pjax": "2.0.1",
+    "lazyload": "2.0.0-beta.2",
+    "leancloud-storage": "3.3.1",
+    "nprogress": "0.2.0",
+    "social-share.js": "1.0.16",
+    "typed.js": "2.0.6",
+    "velocity-animate": "1.5.0"
+  }
+}

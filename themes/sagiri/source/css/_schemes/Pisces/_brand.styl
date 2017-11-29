@@ -1,0 +1,58 @@
+.site-brand-wrapper {
+  position: relative;
+  height: 650px;
+  width: 100%;
+  background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+
+  +mobile() {
+    height: 260px;
+  }
+}
+
+.site-meta {
+  padding: 20px 0;
+  color: white;
+}
+
+.brand {
+  padding: 0;
+  background: none;
+  position: relative;
+  top: 180px;
+  font-size: 68px;
+  text-align: center;
+  text-shadow: 0 1px 1px #47456d;
+  margin-bottom: 130px;
+  z-index: 1;
+  font-family: $font-family-title;
+  display: block;
+
+  +mobile() {
+    font-size: 7.8vw;
+    top: 40px;
+    margin-bottom: 0;
+  }
+
+  &:hover { color: white; }
+}
+
+.site-subtitle {
+  margin: 10px 10px 0;
+  font-weight: initial;
+}
+
+.site-search form { display: none; }
+
+.site-title {
+  .guide {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .animate span {
+    position: absolute;
+    opacity: 0;
+  }
+}

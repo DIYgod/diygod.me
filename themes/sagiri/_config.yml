@@ -1,0 +1,847 @@
+# ---------------------------------------------------------------
+# Theme Core Configuration Settings
+# ---------------------------------------------------------------
+
+# Set to true, if you want to fully override the default configuration.
+# Useful if you don't want to inherit the theme _config.yml configurations.
+override: false
+
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# To get or check favicons visit: https://realfavicongenerator.net
+# Put your favicons into `hexo-site/source/` (recommend) or `hexo-site/themes/next/source/images/` directory.
+
+# Default NexT favicons placed in `hexo-site/themes/next/source/images/` directory.
+# And if you want to place your icons in `hexo-site/source/` root directory, you must remove `/images` prefix from pathes.
+
+# For example, you put your favicons into `hexo-site/source/images` directory.
+# Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
+favicon:
+  visibilitychange: true
+  narmal: /images/favicon.ico
+  hidden: /images/failure.ico
+  show_text: (/≧▽≦/)咦！又好了！
+  hide_text: (●—●)喔哟，崩溃啦！
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+  #android_manifest: /images/manifest.json
+  #ms_browserconfig: /images/browserconfig.xml
+
+# Set default keywords (Use a comma to separate)
+keywords: "DIYgod,blog"
+
+# Set rss to false to disable feed link.
+# Leave rss as empty to use site's feed link.
+# Set rss to specific value if you have burned your feed already.
+rss:
+
+# ---------------------------------------------------------------
+# SEO Settings
+# ---------------------------------------------------------------
+
+# Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
+# See: https://support.google.com/webmasters/answer/139066
+# Tips: Before you open this tag, remember set up your URL in hexo _config.yml ( ex. url: http://yourdomain.com )
+canonical: true
+
+# Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
+seo: false
+
+# If true, will add site-subtitle to index page, added in main hexo config.
+# subtitle: Subtitle
+index_with_subtitle: false
+
+
+# ---------------------------------------------------------------
+# Menu Settings
+# ---------------------------------------------------------------
+
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If translate for this menu will find in languages - this translate will be loaded; if not - Key name will be used. Key is case-senstive.
+# Value before `||` delimeter is the target link.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
+menu:
+  home: / || home
+  archives: /archives/ || archive
+  实验室: /lab/ || flask
+  投喂: /donate/ || cutlery
+  后宫: /friends/ || mars
+  留言板: /message/ || pencil
+  about: /about/ || rocket
+
+# Enable/Disable menu icons.
+menu_icons:
+  enable: true
+
+
+# ---------------------------------------------------------------
+# Scheme Settings
+# ---------------------------------------------------------------
+
+# Schemes
+# scheme: Muse
+#scheme: Mist
+scheme: Pisces
+#scheme: Gemini
+
+
+# ---------------------------------------------------------------
+# Sidebar Settings
+# ---------------------------------------------------------------
+
+# Social Links.
+# Usage: `Key: permalink || icon`
+# Key is the link label showing to end users.
+# Value before `||` delimeter is the target permalink.
+# Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
+social:
+  GitHub: https://github.com/DIYgod || github
+  Twitter: https://twitter.com/DIYgod || twitter
+  QQ 群: /images/qq-g.jpg || qq || qq
+  Telegram Channel: https://t.me/awesomeDIYgod || telegram
+  更多: https://www.anotherhome.net/3163 || more
+
+social_icons:
+  enable: true
+  icons_only: true
+  transition: false
+
+# Blog rolls
+links_icon: link
+links_title: Links
+links_layout: block
+#links_layout: inline
+links:
+  A_of_All: https://blog.aofall.com/ || https://linklink.b0.upaiyun.com/A_of_All.jpeg || 待我归来.
+  Aaron: https://aoaoao.me/ || https://linklink.b0.upaiyun.com/Aaron.png || 树洞
+  Balthild: https://qaq.cat/ || https://linklink.b0.upaiyun.com/Balthild.jpg || 轻歌
+  Cee: http://blog.cee.moe/ || https://linklink.b0.upaiyun.com/Cee.jpeg || 九五小鮮肉，大四出國狗
+  FGHRSH: https://www.fghrsh.net/ || https://linklink.b0.upaiyun.com/FGHRSH.jpg || FGHRSH 的博客
+  Fly: https://www.fly3949.com/ || https://linklink.b0.upaiyun.com/Fly.jpg || 喜欢各种瞎折腾
+  freejishu: http://www.freejishu.com/ || https://linklink.b0.upaiyun.com/freejishu.jpg || A New World
+  Jimmy66: http://jimmy66.com/ || https://linklink.b0.upaiyun.com/Jimmy66.jpeg || 一个不断成长，学习着的BMEer
+  journey.ad: https://imjad.cn/ || https://linklink.b0.upaiyun.com/imjad.jpeg || 浊以静之徐清
+  kn007: https://kn007.net/ || https://linklink.b0.upaiyun.com/kn007.jpeg || 这家伙很懒，什么也没有留下
+  Zankyo: https://zankyo.cc/ || https://linklink.b0.upaiyun.com/Zankyo.jpg || I Stay Alive.
+  liwanglin12: https://blog.lwl12.com/ || https://linklink.b0.upaiyun.com/lwl.jpeg || 我老婆
+  METO: https://i-meto.com/ || https://linklink.b0.upaiyun.com/meto.jpg || 萨摩公园
+  Micooz: https://apporz.com/ || https://linklink.b0.upaiyun.com/Micooz.png || FullStack Engineer
+  Mokeyjay: http://www.mokeyjay.com/ || https://linklink.b0.upaiyun.com/Mokeyjay.jpg || Just a PHP Noob
+  MonkeyFigaro: http://monkeyfigaro.cn/ || https://linklink.b0.upaiyun.com/MonkeyFigaro.jpg || 脸盲｜路痴｜智障｜拖延症｜LGBT｜非单身
+  myhloli: http://myhloli.com/ || https://linklink.b0.upaiyun.com/myhloli.jpeg || 爱生活，爱萝莉
+  Showfom: https://sb.sb/ || https://linklink.b0.upaiyun.com/Showfom.jpg || 烧饼博客是专注于服务器教程，专业域名投资和见解的博客
+  TyzuaL: https://tyzual.com/ || https://linklink.b0.upaiyun.com/TyzuaL.jpg || 一只潜伏在企鹅群中的小喵
+  u3u: https://quq.cat/ || https://linklink.b0.upaiyun.com/u3u.jpeg || 陪伴是最长情的告白
+  Xcat Liu: http://blog.xcatliu.com/ || https://linklink.b0.upaiyun.com/xcatliu.png || A cat who writes code
+  zchen9: http://www.chen9.info/ || https://linklink.b0.upaiyun.com/zchen9.jpeg || 离用户最近的艺术家
+  ZGQ: http://blog.izgq.net/ || https://linklink.b0.upaiyun.com/ZGQ.jpeg || 高三党一枚
+  zkl2333: http://www.zkl2333.com/ || https://linklink.b0.upaiyun.com/zkl2333.jpeg || zkl2333的博客
+  一曲长歌辞烟雨: https://ls12.me/ || https://linklink.b0.upaiyun.com/%E6%B5%81%E8%A7%9E%E6%9B%B2%E6%B0%B4.png || 相逢千里负烟霞。空山人去远，回首落梅花
+  佳佳: http://luojia.me/ || https://linklink.b0.upaiyun.com/%E4%BD%B3%E4%BD%B3.jpg || 跨次元日常卖萌
+  千千: https://www.dreamwings.cn/ || https://linklink.b0.upaiyun.com/%E5%8D%83%E5%8D%83.jpg || 烟花、绽放之后只剩黑暗
+  变态鹅: https://conoha.vip/ || https://linklink.b0.upaiyun.com/skipper.jpg || 本鹅最喜欢萌妹纸了！
+  吟梦: https://kirainmoe.com/ || https://linklink.b0.upaiyun.com/%E5%90%9F%E6%A2%A6.jpeg || 这家伙很懒，什么也没有留下
+  地瓜: http://digua.moe/ || https://linklink.b0.upaiyun.com/%E5%9C%B0%E7%93%9C.png || 总有一天，咱也要和菊苣一起玩耍！
+  夜绫千裕: https://yecl.net/ || https://linklink.b0.upaiyun.com/%E5%A4%9C%E7%BB%AB%E5%8D%83%E8%A3%95.jpeg || 醒后无所见，耳旁昨日声
+  大袋鼠: http://muguang.me/ || https://linklink.b0.upaiyun.com/%E5%A4%A7%E8%A2%8B%E9%BC%A0.jpg || 这家伙很懒，什么也没有留下
+  小霖: https://xiaolin.in/ || https://linklink.b0.upaiyun.com/%E5%B0%8F%E9%9C%96.png || 岁月静好,现世安稳
+  悠然RE: https://blog.mitsuha.space/ || https://linklink.b0.upaiyun.com/%E6%82%A0%E7%84%B6RE.jpg || 萌萌噠傲嬌妹紙
+  晚风映浮云: https://mxd.moe/ || https://linklink.b0.upaiyun.com/%E6%99%9A%E9%A3%8E%E6%98%A0%E6%B5%AE%E4%BA%91.jpeg || 死宅|渣渣前端|好奇心和猫一样|有强迫症|钟爱火狐|chrome黑|情伤几乎为0|⑨控|萝莉控|已脱团
+  笈川可可: https://blog.0xbbc.com/ || https://linklink.b0.upaiyun.com/2016-08-04_0xBBC.png || a.k.a 神楽坂碧玺，某可爱的蓝孩纸程序猿
+  羡辙: http://zhangwenli.com/ || https://linklink.b0.upaiyun.com/%E7%BE%A1%E8%BE%99.jpeg || 羡辙，字子免，号灵石笠翁
+  音風: https://www.otokaze.cn/ || https://linklink.b0.upaiyun.com/%E9%9F%B3%E9%A2%A8.jpg || 一介布衣的自我修养
+  小白-白: https://www.fczbl.vip || https://linklink.b0.upaiyun.com/FCZBL.jpg || 咦？我是谁？我为什么会在这？
+  Sonic853: http://blog.853lab.com || https://linklink.b0.upaiyun.com/Sonic853.png || 虚拟人物 天王星号侦察船
+  保罗: http://hi-paul.space/ || https://linklink.b0.upaiyun.com/%E4%BF%9D%E7%BD%97.jpg || 保罗的小宇宙
+  Giuem: http://www.giuem.com/ || https://	linklink.b0.upaiyun.com/giuem.jpg || BiuBiuBiu~
+
+# Sidebar Avatar
+# in theme directory(source/images): /images/avatar.gif
+# in site  directory(source/uploads): /uploads/avatar.gif
+avatar: /images/DIYgod.jpg
+
+# Table Of Contents in the Sidebar
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: false
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+#creative_commons:
+
+sidebar:
+  # Sidebar Position, available value: left | right (only for Pisces | Gemini).
+  # position: left
+  position: right
+
+  # Sidebar Display, available value (only for Muse | Mist):
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  Totally remove sidebar including sidebar toggle.
+  # display: post
+  display: always
+  #display: hide
+  #display: remove
+
+  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  offset: 52
+
+  # Back to top in sidebar (only for Pisces | Gemini).
+  b2t: false
+
+  # Scroll percent label in b2t button.
+  scrollpercent: false
+
+  # Enable sidebar on narrow view (only for Muse | Mist).
+  onmobile: false
+
+
+# ---------------------------------------------------------------
+# Post Settings
+# ---------------------------------------------------------------
+
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: true
+
+# Automatically saving scroll position on each post/page in cookies.
+save_scroll: false
+
+# Automatically excerpt description in homepage as preamble text.
+excerpt_description: true
+
+# Automatically Excerpt. Not recommend.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: false
+  length: 150
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at: false
+  categories: true
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: false
+  min2read: false
+  totalcount: false
+  separated_meta: true
+
+# Wechat Subscriber
+#wechat_subscriber:
+  #enabled: true
+  #qcode: /path/to/your/wechatqcode ex. /uploads/wechat-qcode.jpg
+  #description: ex. subscribe to my blog by scanning my public wechat account
+
+# Reward
+reward_comment:
+wechatpay: /images/wechatpay.png
+alipay: /images/alipay.png
+bitcoin:
+
+# Declare license on posts
+post_copyright:
+  enable: false
+  license: CC BY-NC-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+
+# ---------------------------------------------------------------
+# Misc Theme Settings
+# ---------------------------------------------------------------
+
+# Reduce padding / margin indents on devices with narrow width.
+mobile_layout_economy: false
+
+# Android Chrome header panel color ($black-deep).
+android_chrome_color: "#222"
+
+# Custom Logo.
+# !!Only available for Default Scheme currently.
+# Options:
+#   enabled: [true/false] - Replace with specific image
+#   image: url-of-image   - Images's url
+custom_logo:
+  enabled: false
+  image:
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+
+
+# ---------------------------------------------------------------
+# Font Settings
+# - Find fonts on Google Fonts (https://www.google.com/fonts)
+# - All fonts set here will have the following styles:
+#     light, light italic, normal, normal italic, bold, bold italic
+# - Be aware that setting too much fonts will cause site running slowly
+# - Introduce in 5.0.1
+# ---------------------------------------------------------------
+# CAUTION! Safari Version 10.1.2 bug: https://github.com/iissnan/hexo-theme-next/issues/1844
+# To avoid space between header and sidebar in Pisces / Gemini themes recommended to use Web Safe fonts for `global` (and `logo`):
+# Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
+# ---------------------------------------------------------------
+font:
+  enable: true
+
+  # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
+  host: //fonts.cat.net
+
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: xx`. Use `px` as unit.
+
+  # Global font settings used on <body> element.
+  global:
+    external: false
+    family: Lato
+    size:
+
+  # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
+  # Fallback to `global` font settings.
+  headings:
+    external: true
+    family:
+    size:
+
+  # Font settings for posts.
+  # Fallback to `global` font settings.
+  posts:
+    external: true
+    family:
+
+  # Font settings for Logo.
+  # Fallback to `global` font settings.
+  logo:
+    external: true
+    family:
+    size:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family:
+    size:
+
+  title:
+    external: true
+    family: Sigmar One
+
+
+# ---------------------------------------------------------------
+# Third Party Services Settings
+# ---------------------------------------------------------------
+
+# MathJax Support
+mathjax:
+  enable: false
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+# Han Support docs: https://hanzi.pro/
+han: false
+
+# Swiftype Search API Key
+#swiftype_key:
+
+# Baidu Analytics ID
+#baidu_analytics:
+
+# Duoshuo ShortName
+#duoshuo_shortname:
+
+# Disqus
+disqus:
+  enable: true
+  shortname: diygod-me
+  count: false
+
+# Hypercomments
+#hypercomments_id:
+
+# changyan
+changyan:
+  enable: false
+  appid:
+  appkey:
+
+
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://github.com/xCss/Valine
+valine:
+  enable: false
+  appid:  # your leancloud application appid
+  appkey:  # your leancloud application appkey
+  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: Comment input placeholder
+
+# Support for youyan comments system.
+# You can get your uid from http://www.uyan.cc
+#youyan_uid: your uid
+
+# Support for LiveRe comments system.
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+#livere_uid: your uid
+
+# Gitment
+# Introduction: https://imsun.net/posts/gitment-introduction/
+gitment:
+  enable: false
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: false # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: # MUST HAVE, Your Github ID
+  github_repo: # MUST HAVE, The repo you use to store Gitment comments
+  client_id:   # MUST HAVE, Github client id for the Gitment
+  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+
+# Baidu Share
+# Available value:
+#    button | slide
+# Warning: Baidu Share does not support https.
+#baidushare:
+##  type: button
+
+# Share
+# This plugin is more useful in China, make sure you known how to use it.
+# And you can find the use guide at official webiste: http://www.jiathis.com/.
+# Warning: JiaThis does not support https.
+#jiathis:
+  ##uid: Get this uid from http://www.jiathis.com/
+#add_this_id:
+
+# Share
+#duoshuo_share: true
+
+# NeedMoreShare2
+# This plugin is a pure javascript sharing lib which is useful in China.
+# See: https://github.com/revir/need-more-share2
+# Also see: https://github.com/DzmVasileusky/needShareButton
+# iconStyle: default | box
+# boxForm: horizontal | vertical
+# position: top / middle / bottom + Left / Center / Right
+# networks: Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,
+#           Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,Slashdot,
+#           Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,
+#           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
+needmoreshare2:
+  enable: false
+  postbottom:
+    enable: false
+    options:
+      iconStyle: box
+      boxForm: horizontal
+      position: bottomCenter
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+  float:
+    enable: false
+    options:
+      iconStyle: box
+      boxForm: horizontal
+      position: middleRight
+      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+
+# Google Webmaster tools verification setting
+# See: https://www.google.com/webmasters/
+#google_site_verification:
+
+# Google Analytics
+google_analytics: UA-48084758-7
+
+# Bing Webmaster tools verification setting
+# See: https://www.bing.com/webmaster/
+#bing_site_verification:
+
+# Yandex Webmaster tools verification setting
+# See: https://webmaster.yandex.ru/
+#yandex_site_verification:
+
+# CNZZ count
+#cnzz_siteid:
+
+# Application Insights
+# See https://azure.microsoft.com/en-us/services/application-insights/
+# application_insights:
+
+# Make duoshuo show UA
+# user_id must NOT be null when admin_enable is true!
+# you can visit http://dev.duoshuo.com get duoshuo user id.
+duoshuo_info:
+  ua_enable: true
+  admin_enable: false
+  user_id: 0
+  #admin_nickname: Author
+
+# Post widgets & FB/VK comments settings.
+# ---------------------------------------------------------------
+# Facebook SDK Support.
+# https://github.com/iissnan/hexo-theme-next/pull/410
+facebook_sdk:
+  enable:       false
+  app_id:       #<app_id>
+  fb_admin:     #<user_id>
+  like_button:  #true
+  webmaster:    #true
+
+# Facebook comments plugin
+# This plugin depends on Facebook SDK.
+# If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
+facebook_comments_plugin:
+  enable:       false
+  num_of_posts: 10    # min posts num is 1
+  width:        100%  # default width is 550px
+  scheme:       light # default scheme is light (light or dark)
+
+# VKontakte API Support.
+# To get your AppID visit https://vk.com/editapp?act=create
+vkontakte_api:
+  enable:       false
+  app_id:       #<app_id>
+  like:         true
+  comments:     true
+  num_of_posts: 10
+
+# Star rating support to each article.
+# To get your ID visit https://widgetpack.com
+rating:
+  enable: false
+  id:     #<app_id>
+  color:  fc6423
+# ---------------------------------------------------------------
+
+# Show number of visitors to each article.
+# You can visit https://leancloud.cn get AppID and AppKey.
+leancloud_visitors:
+  enable: true
+  app_id: Ti5mwFDXXbpWqeWdaydLNfOS-gzGzoHsz
+  app_key: rXpryRyVs5jlk2LAGGI1bfEd
+
+# Show PV/UV of the website/page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi/
+busuanzi_count:
+  # count values only if the other configs are false
+  enable: false
+  # custom uv span for the whole site
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer:
+  # custom pv span for the whole site
+  site_pv: true
+  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_footer:
+  # custom pv span for one page only
+  page_pv: true
+  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_footer:
+
+
+# Tencent analytics ID
+# tencent_analytics:
+
+# Tencent MTA ID
+# tencent_mta:
+
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
+baidu_push: false
+
+# Google Calendar
+# Share your recent schedule to others via calendar page
+#
+# API Documentation:
+# https://developers.google.com/google-apps/calendar/v3/reference/events/list
+calendar:
+  enable: false
+  calendar_id: <required>
+  api_key: <required>
+  orderBy: startTime
+  offsetMax: 24
+  offsetMin: 4
+  timeZone:
+  showDeleted: false
+  singleEvents: true
+  maxResults: 250
+
+# Algolia Search
+algolia_search:
+  enable: false
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "We didn't find any results for the search: ${query}"
+    hits_stats: "${hits} results found in ${time} ms"
+
+# Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
+local_search:
+  enable: false
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+
+
+# ---------------------------------------------------------------
+# Tags Settings
+# ---------------------------------------------------------------
+
+# External URL with BASE64 encrypt & decrypt.
+# Usage: {% exturl text url "title" %}
+# Alias: {% extlink text url "title" %}
+exturl: false
+
+# Note tag (bs-callout).
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# Label tag.
+label: true
+
+# Tabs tag.
+tabs:
+  enable: true
+  transition:
+    tabs: false
+    labels: true
+  border_radius: 0
+
+
+#! ---------------------------------------------------------------
+#! DO NOT EDIT THE FOLLOWING SETTINGS
+#! UNLESS YOU KNOW WHAT YOU ARE DOING
+#! ---------------------------------------------------------------
+
+# Use velocity to animate everything.
+motion:
+  enable: false
+  async: false
+  transition:
+    # Transition variants:
+    # fadeIn | fadeOut | flipXIn | flipXOut | flipYIn | flipYOut | flipBounceXIn | flipBounceXOut | flipBounceYIn | flipBounceYOut
+    # swoopIn | swoopOut | whirlIn | whirlOut | shrinkIn | shrinkOut | expandIn | expandOut
+    # bounceIn | bounceOut | bounceUpIn | bounceUpOut | bounceDownIn | bounceDownOut | bounceLeftIn | bounceLeftOut | bounceRightIn | bounceRightOut
+    # slideUpIn | slideUpOut | slideDownIn | slideDownOut | slideLeftIn | slideLeftOut | slideRightIn | slideRightOut
+    # slideUpBigIn | slideUpBigOut | slideDownBigIn | slideDownBigOut | slideLeftBigIn | slideLeftBigOut | slideRightBigIn | slideRightBigOut
+    # perspectiveUpIn | perspectiveUpOut | perspectiveDownIn | perspectiveDownOut | perspectiveLeftIn | perspectiveLeftOut | perspectiveRightIn | perspectiveRightOut
+    post_block: fadeIn
+    post_header: slideDownIn
+    post_body: slideDownIn
+    coll_header: slideLeftIn
+    # Only for Pisces | Gemini.
+    sidebar: slideUpIn
+
+# Fancybox
+fancybox: true
+
+# Progress bar in the top during page loading.
+pace: false
+# Themes list:
+#pace-theme-big-counter
+#pace-theme-bounce
+#pace-theme-barber-shop
+#pace-theme-center-atom
+#pace-theme-center-circle
+#pace-theme-center-radar
+#pace-theme-center-simple
+#pace-theme-corner-indicator
+#pace-theme-fill-left
+#pace-theme-flash
+#pace-theme-loading-bar
+#pace-theme-mac-osx
+#pace-theme-minimal
+# For example
+# pace_theme: pace-theme-center-simple
+pace_theme: pace-theme-minimal
+
+# Canvas-nest
+canvas_nest: false
+
+# three_waves
+three_waves: false
+
+# canvas_lines
+canvas_lines: false
+
+# canvas_sphere
+canvas_sphere: false
+
+# Only fit scheme Pisces
+# Canvas-ribbon
+# size: The width of the ribbon.
+# alpha: The transparency of the ribbon.
+# zIndex: The display level of the ribbon.
+canvas_ribbon:
+  enable: true
+  size: 100
+  alpha: 0.6
+  zIndex: -1
+
+# Script Vendors.
+# Set a CDN address for the vendor you want to customize.
+# For example
+#    jquery: https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js
+# Be aware that you should use the same version as internal ones to avoid potential problems.
+# Please use the https protocol of CDN files when you enable https on your site.
+vendors:
+  # Internal path prefix. Please do not edit it.
+  _internal: lib
+
+  # Internal version: 2.1.3
+  jquery: https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js
+
+  # Internal version: 2.1.5
+  # See: http://fancyapps.com/fancybox/
+  fancybox: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js
+  fancybox_css: https://cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
+
+  # Internal version: 1.0.6
+  # See: https://github.com/ftlabs/fastclick
+  fastclick: https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js
+
+  # Internal version: 1.9.7
+  # See: https://github.com/tuupola/jquery_lazyload
+  lazyload: https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js
+
+  # Internal version: 1.2.1
+  # See: http://VelocityJS.org
+  velocity: https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js
+
+  # Internal version: 1.2.1
+  # See: http://VelocityJS.org
+  velocity_ui: https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js
+
+  # Internal version: 0.7.9
+  # See: https://faisalman.github.io/ua-parser-js/
+  ua_parser: https://cdn.bootcss.com/UAParser.js/0.7.9/ua-parser.min.js
+
+  # Internal version: 4.7.0
+  # See: http://fontawesome.io/
+  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css
+
+  social_share_css: https://cdn.bootcss.com/social-share.js/1.0.9/css/share.min.css
+
+  # Internal version: 1
+  # https://www.algolia.com
+  algolia_instant_js:
+  algolia_instant_css:
+
+  # Internal version: 1.0.2
+  # See: https://github.com/HubSpot/pace
+  # Or use direct links below:
+  # pace: //cdn.bootcss.com/pace/1.0.2/pace.min.js
+  # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
+  pace: https://cdn.bootcss.com/pace/1.0.2/pace.min.js
+  pace_css: https://cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
+
+  # Internal version: 1.0.0
+  # https://github.com/hustcc/canvas-nest.js
+  canvas_nest:
+
+  # three
+  three:
+
+  # three_waves
+  # https://github.com/jjandxa/three_waves
+  three_waves:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_lines
+  canvas_lines:
+
+  # three_waves
+  # https://github.com/jjandxa/canvas_sphere
+  canvas_sphere:
+
+  # Internal version: 1.0.0
+  # https://github.com/zproo/canvas-ribbon
+  canvas_ribbon:
+
+  # Internal version: 3.3.0
+  # https://github.com/ethantw/Han
+  han: https://cdn.bootcss.com/Han/3.3.0/han.min.js
+
+  # needMoreShare2
+  # https://github.com/revir/need-more-share2
+  needMoreShare2:
+
+
+# Assets
+css: css
+js: js
+images: images
+
+header_bg: /images/header-sagiri.jpg
+
+card:
+  avatar: /images/card.jpg
+  name: <span style="opacity:.2;">网红</span>DIYgod
+  description: 你能抓到我么？
+
+footer:
+  # Specify the date when the site was setup.
+  # If not defined, current year will be used.
+  since: 2/9/2014 11:30:00
+
+  # Icon between year and copyright info.
+  icon: user
+
+  # If not defined, will be used `author` from Hexo main config.
+  copyright:
+  # -------------------------------------------------------------
+  # Hexo link (Powered by Hexo).
+  powered: true
+
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: true
+    # Version info of NexT after scheme info (vX.X.X).
+    version: true
+  # -------------------------------------------------------------
+  # Any custom text can be defined here.
+  custom_text: 托管于<a href="https://github.com/" target="_blank" rel="nofollow"> GitHub</a>. <a href="https://www.upyun.com/" target="_blank" rel="nofollow">又拍云</a> 提供 CDN 服务. <a href="http://www.google.com/analytics/" target="_blank" rel="nofollow">Google Analytics </a>提供网站统计服务. <a href="https://www.cloudxns.net/" target="_blank" rel="nofollow">CloudXNS </a>提供 DNS 解析服务.
+  sitemap: /sitemap.xml
+  beian: 鲁ICP备16000184号
+
+online_api: wss://api.prprpr.me/online/
+
+description: <span style="color:#3369e8;">Write</span> <span style="color:#d50f25;">the</span> <span style="color:#eeb211;">Code,</span> <span style="color:#3369e8;">Change</span> <span style="color:#009925;">the</span> <span style="color:#d50f25;">World.</span>
+
+# Theme version
+version: 0.0.7
