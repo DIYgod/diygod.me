@@ -8,6 +8,7 @@ install:
 before_script:
   - cd themes/sagiri
   - yarn
+  - cd ../..
 
 script:
   - hexo cl  #清除
