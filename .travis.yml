@@ -13,7 +13,7 @@ after_script:
   - cd ./public
   - git init
   - git config user.name "Travis CI"  #修改name
-  - git config user.email "diy.d.god@gmail.com"  #修改email
+  - git config user.email "no-reply@html.love"  #修改email
   - git add .
   - git commit -m "update"
   - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master  #GH_TOKEN是在Travis中配置token的名称
