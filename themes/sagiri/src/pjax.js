@@ -14,25 +14,40 @@ $(document).pjax('a:not(.fancybox)', '#main', {
 });
 
 $(document).on('pjax:start', function () {
-  NProgress.start();
-  $('html, body').animate({
-    scrollTop: $('.main').position().top - 60
-  }, 500);
-  if (window.dplayerInstances) {
-    for (var i = 0; i < window.dplayerInstances.length; i++) {
-      window.dplayerInstances[i].destroy();
+    NProgress.start();
+    $('html, body').animate({
+      scrollTop: $('.main').position().top - 60
+    }, 500);
+    if (window.dplayerInstances) {
+      for (var i = 0; i < window.dplayerInstances.length; i++) {
+        window.dplayerInstances[i].destroy();
+      }
     }
-  }
+
+    if (window.dplayers) {
+      for (let i = 0; i < window.dplayers.length; i++) {
+          window.dplayers[i].destroy();
+      }
+      window.dplayers = [];
+    }
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        window.aplayers[i].destroy();
+      }
+      window.aplayers = [];
+    }
 });
 
 $(document).on('pjax:end', function () {
-  NProgress.done();
-  require('./post-details')();
-  require('./leancloud')();
-  require('./share')();
-  require('./pisces')();
-  CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
+    NProgress.done();
+    require('./post-details')();
+    require('./leancloud')();
+    require('./share')();
+    require('./pisces')();
+    CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
 
-  ga('set', 'location', window.location.href);
-  ga('send', 'pageview');
+    if (ga) {
+      ga('set', 'location', window.location.href);
+      ga('send', 'pageview');
+    }
 });
