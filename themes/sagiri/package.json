@@ -43,8 +43,10 @@
     "webpack": "3.8.1"
   },
   "dependencies": {
+    "aplayer": "1.6.0",
     "balloon-css": "0.5.0",
     "corner-notie": "1.2.1",
+    "dplayer": "1.17.1",
     "fancybox": "3.0.0",
     "fastclick": "1.0.6",
     "gsap": "1.20.3",

@@ -16,8 +16,6 @@ permalink: 2889
 
 直播中间断了一次，所以分成两个视频。
 
-<link href="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css" rel="stylesheet">
-
 <style>
 .dplayer-time {
     display: inline-block !important;
@@ -35,7 +33,9 @@ permalink: 2889
 第一弹：[https://www.anotherhome.net/2805](https://www.anotherhome.net/2805)
 第二弹：[https://www.anotherhome.net/2847](https://www.anotherhome.net/2847)
 
+<script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script>
 <script>
+$(function () {
     function myDPlayer () {
         var dp7 = new DPlayer({
             element: document.getElementById('dplayer7'),
@@ -71,17 +71,18 @@ permalink: 2889
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1216/2/danmaku.json']
             }
         });
-        window.dplayerInstances = [dp7, dp8];
+        window.dplayers || (window.dplayers = []);
+        window.dplayers.push(dp7);
+        window.dplayers.push(dp8);
     }
 
     if (!window.Hls || !window.DPlayer) {
         $.getScript('https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js', function () {
-            $.getScript('https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js', function () {
-                myDPlayer();
-            });
+            myDPlayer();
         });
     }
     else {
         myDPlayer();
     }
+});
 </script>

@@ -18,11 +18,6 @@ $(document).on('pjax:start', function () {
     $('html, body').animate({
       scrollTop: $('.main').position().top - 60
     }, 500);
-    if (window.dplayerInstances) {
-      for (var i = 0; i < window.dplayerInstances.length; i++) {
-        window.dplayerInstances[i].destroy();
-      }
-    }
 
     if (window.dplayers) {
       for (let i = 0; i < window.dplayers.length; i++) {

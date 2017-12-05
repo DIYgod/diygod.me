@@ -14,7 +14,6 @@ permalink: 2847
 
 <!--more-->
 
-<link href="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css" rel="stylesheet">
 <style>
 .dplayer-time {
     display: inline-block !important;
@@ -27,7 +26,9 @@ permalink: 2847
 
 第一弹：[https://www.anotherhome.net/2805](https://www.anotherhome.net/2805)
 
+<script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script>
 <script>
+$(function () {
     function myDPlayer() {
         var dp5 = new DPlayer({
             element: document.getElementById('dplayer5'),
@@ -47,16 +48,16 @@ permalink: 2847
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1102/danmaku.json']
             }
         });
-        window.dplayerInstances = [dp5];
+        window.dplayers || (window.dplayers = []);
+        window.dplayers.push(dp5);
     }
-    if (!window.Hls || !window.DPlayer) {
+    if (!window.Hls) {
         $.getScript('https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js', function () {
-            $.getScript('https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js', function () {
-                myDPlayer();
-            });
+            myDPlayer();
         });
     }
     else {
         myDPlayer();
     }
+});
 </script>

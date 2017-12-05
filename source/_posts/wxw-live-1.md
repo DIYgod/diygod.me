@@ -16,7 +16,6 @@ permalink: 2805
 
 <!--more-->
 
-<link href="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css" rel="stylesheet">
 <style>
 .dplayer-time {
     display: inline-block !important;
@@ -91,8 +90,8 @@ ajaxDan(1);
 完成。
 
 <script src="https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js"></script>
-<script src="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js"></script>
 <script>
+$(function () {
     function myDPlayer() {
         var dp4 = new DPlayer({
             element: document.getElementById('dplayer4'),
@@ -112,16 +111,16 @@ ajaxDan(1);
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1019/danmaku.json']
             }
         });
-        window.dplayerInstances = [dp4];
+        window.dplayers || (window.dplayers = []);
+        window.dplayers.push(dp4);
     }
-    if (!window.Hls || !window.DPlayer) {
+    if (!window.Hls) {
         $.getScript('https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js', function () {
-            $.getScript('https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js', function () {
-                myDPlayer();
-            });
+            myDPlayer();
         });
     }
     else {
         myDPlayer();
     }
+});
 </script>

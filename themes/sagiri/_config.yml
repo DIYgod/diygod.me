@@ -158,6 +158,7 @@ links:
   保罗: http://hi-paul.space/ || https://linklink.b0.upaiyun.com/%E4%BF%9D%E7%BD%97.jpg || 保罗的小宇宙
   Giuem: http://www.giuem.com/ || https://linklink.b0.upaiyun.com/giuem.jpg || BiuBiuBiu~
   Mashiro: https://2heng.xin || https://linklink.b0.upaiyun.com/Mashiro.jpeg || 樱花庄的白猫
+  Kay: https://wwww.lvmoo.com/ || https://linklink.b0.upaiyun.com/Kay.jpeg || 我的腿让我停下，可是心却不允许我那么做。
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -845,4 +846,4 @@ online_api: wss://api.prprpr.me/online/
 description: <span style="color:#3369e8;">Write</span> <span style="color:#d50f25;">the</span> <span style="color:#eeb211;">Code,</span> <span style="color:#3369e8;">Change</span> <span style="color:#009925;">the</span> <span style="color:#d50f25;">World.</span>
 
 # Theme version
-version: 0.0.8
+version: 0.0.9
