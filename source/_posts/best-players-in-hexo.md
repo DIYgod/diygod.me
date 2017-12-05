@@ -6,6 +6,7 @@ tags:
 
 我实在也不是谦虚，这~~可能~~是目前最好用的两个 Hexo 播放器插件，感谢插件作者（给大佬们递女装
 本文只作为演示，使用方法和 issue 请移步 GitHub
+<!--more-->
 
 # [hexo-tag-aplayer](https://github.com/MoePlayer/hexo-tag-aplayer)
 
