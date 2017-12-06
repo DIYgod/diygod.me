@@ -92,3 +92,25 @@ js_minifier:
 
 image_minifier:
   enable: false
+
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
+  logo:
+    path:   sample/DIYgod.jpg
+    width:  600
+    height: 60
+  substituteTitleImage:
+    path:   sample/header-sagiri.jpg
+    width:  1024
+    height: 800
+  warningLog: false
+  theme:
+    menu:
+      首页: /
+      归档: /archives/
+      实验室: /lab/
+      投喂: /donate/
+      后宫: /friends/
+      留言板: /message/
+      关于: /about/

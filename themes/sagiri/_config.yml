@@ -64,13 +64,13 @@ index_with_subtitle: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
-  archives: /archives/ || archive
+  首页: / || home
+  归档: /archives/ || archive
   实验室: /lab/ || flask
   投喂: /donate/ || cutlery
   后宫: /friends/ || mars
   留言板: /message/ || pencil
-  about: /about/ || rocket
+  关于: /about/ || rocket
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -159,6 +159,7 @@ links:
   Giuem: http://www.giuem.com/ || https://linklink.b0.upaiyun.com/giuem.jpg || BiuBiuBiu~
   Mashiro: https://2heng.xin || https://linklink.b0.upaiyun.com/Mashiro.jpeg || 樱花庄的白猫
   Kay: https://wwww.lvmoo.com/ || https://linklink.b0.upaiyun.com/Kay.jpeg || 我的腿让我停下，可是心却不允许我那么做。
+  Troy: https://itroy.cc/ || https://linklink.b0.upaiyun.com/Troy.jpeg || Troy的星球
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
