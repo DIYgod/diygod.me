@@ -119,6 +119,9 @@
 	<% if (cssTxt != ""){ %>
 	<style amp-custom>
 		<%- cssTxt %>
+		header {
+			background-image: url(<%- post.titleImageForAmp %>);
+		}
 	</style>
 	<% } %>
   </head>
@@ -146,7 +149,7 @@
   	
   	
   	<!-- menu -->
-  	<header style="background-image: url(<%- post.titleImageForAmp %>)">
+  	<header>
   		<div class="nav-container">
 	  		<div class="left-nav">
 	  			<div class="header-title">
