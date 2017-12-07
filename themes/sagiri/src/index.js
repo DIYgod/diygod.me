@@ -1,6 +1,5 @@
 window.FastClick = require('fastclick');
 require('lazyload');
-require('fancybox')(window.$);
 window.notie = require('corner-notie');
 window.APlayer = require('aplayer');
 window.DPlayer = require('dplayer');
@@ -25,3 +24,4 @@ require('./clipboard');
 require('./pjax');
 require('./online');
 require('./search');
+require('./zoom')();

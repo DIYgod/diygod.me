@@ -39,7 +39,7 @@ $(document).on('pjax:end', function () {
     require('./leancloud')();
     require('./share')();
     require('./pisces')();
-    CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
+    require('./zoom')();
 
     if (ga) {
       ga('set', 'location', window.location.href);

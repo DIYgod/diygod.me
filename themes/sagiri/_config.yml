@@ -671,7 +671,7 @@ motion:
     sidebar: slideUpIn
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Progress bar in the top during page loading.
 pace: false
