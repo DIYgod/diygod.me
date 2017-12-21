@@ -18,6 +18,8 @@ permalink: 3264
 
 订阅番剧：[https://api.prprpr.me/bilibili2rss/bangumi/6446](https://api.prprpr.me/bilibili2rss/bangumi/6446)
 
+订阅分区：[https://api.prprpr.me/bilibili2rss/partion/33](https://api.prprpr.me/bilibili2rss/partion/33)
+
 项目名叫 bilibili2RSS，开源在 [GitHub](https://github.com/DIYgod/bilibili2RSS)
 
 另外可以使用相关项目 [Weibo2RSS](https://github.com/DIYgod/Weibo2RSS) 订阅喜欢的微博博主
