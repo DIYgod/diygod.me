@@ -1,7 +1,7 @@
 ---
 title: BAS 高级弹幕
 date: 2018-01-25 23:50:26
-tags: 创作集
+categories: 创作集
 ---
 ## 写在前面
 
