@@ -1,7 +1,7 @@
 ---
 title: BAS 高级弹幕
 date: 2018-01-25 23:50:26
-tags:
+tags: 创作集
 ---
 ## 写在前面
 
@@ -325,7 +325,7 @@ set a {
 
 从 BAS 脚本到渲染在浏览器的 DOM 元素主要有以下步骤：
 
-1. 将 BAS 脚本解析成 js 对象（https://github.com/aristotle9/as3cc）
+1. 将 BAS 脚本解析成 js 对象（[https://github.com/aristotle9/as3cc](https://github.com/aristotle9/as3cc)）
 2. 应用默认值、计算百分比值
 3. 监控生命周期
 4. 解决属性冲突
