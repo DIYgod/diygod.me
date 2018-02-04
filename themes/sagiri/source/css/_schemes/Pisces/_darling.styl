@@ -77,9 +77,19 @@ $darling-red    = #ff3f1a
     height: 64px;
     background: url(/images/darling-xx.png);
     background-size: contain;
+
+    +mobile() {
+      display: none;
+    }
   }
 
   .links-of-author-item a {
     text-shadow: 1px 1px 0 $darling-red, -1px -1px 0 $darling-blue;
+  }
+
+  .brand {
+    +mobile() {
+      top: 60px;
+    }
   }
 }
