@@ -1,0 +1,85 @@
+$darling-blue   = #00a7e0
+$darling-black  = #000
+$darling-red    = #ff3f1a
+
+.theme-darling {
+  .site-title {
+    text-shadow: 1px 1px 0 $darling-red, -1px -1px 0 $darling-blue;
+  }
+
+  .site-brand-wrapper {
+    background-image: url(/images/header-darling.jpg) !important;
+  }
+
+  .menu .menu-item {
+    text-shadow: 1px 1px 0 $darling-red, -1px -1px 0 $darling-blue;
+  }
+
+  .menu .menu-item a:hover, .menu .menu-item.menu-item-active a {
+    color: #fff;
+  }
+
+  .site-master-description {
+    span:nth-child(1) {
+      color: $darling-blue !important;
+    }
+    span:nth-child(2) {
+      color: $darling-blue !important;
+    }
+    span:nth-child(3) {
+      color: $darling-black !important;
+    }
+    span:nth-child(4) {
+      color: $darling-black !important;
+    }
+    span:nth-child(5) {
+      color: $darling-red !important;
+    }
+    span:nth-child(6) {
+      color: $darling-red !important;
+    }
+  }
+
+  .post-meta {
+    .post-time {
+      color: $darling-blue;
+    }
+    .post-category {
+      color: $darling-black;
+
+      a {
+        color: $darling-black;
+      }
+    }
+    .leancloud_visitors {
+      color: $darling-red;
+    }
+  }
+
+  .site-author-name {
+    text-shadow: 1px 1px 0 $darling-red, -1px -1px 0 $darling-blue;
+  }
+
+  .site-state-posts .site-state-item-name {
+    color: $darling-blue;
+  }
+
+  .site-state-categories .site-state-item-name {
+    color: $darling-red;
+  }
+
+  .post:before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 60px;
+    height: 64px;
+    background: url(/images/darling-xx.png);
+    background-size: contain;
+  }
+
+  .links-of-author-item a {
+    text-shadow: 1px 1px 0 $darling-red, -1px -1px 0 $darling-blue;
+  }
+}
