@@ -44,4 +44,4 @@ $('#darling-trigger').click(function () {
 没错，我就是她的 Darling！
 天哪，世界上怎么会有那么可爱的女孩子！
 我现在只想看 DITF 第五集别的什么都不想干.jpg
-![](http://localhost:4000/images/header-darling.jpg)
+![](https://diygod.me/images/header-darling.jpg)
