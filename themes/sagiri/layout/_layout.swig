@@ -58,7 +58,7 @@
     {% endif %}
 
     <canvas id="evanyou"></canvas>
-    <canvas id="live2d" width="150" height="400" class="live2d"></canvas>
+    <div id="aplayer-fixed"></div>
 
     {% if theme.needmoreshare2.enable and theme.needmoreshare2.float.enable %}
       <div id="needsharebutton-float">

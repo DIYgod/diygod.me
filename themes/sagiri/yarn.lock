@@ -67,9 +67,13 @@ anymatch@^1.3.0:
     micromatch "^2.1.5"
     normalize-path "^2.0.0"
 
-aplayer@1.6.0:
-  version "1.6.0"
-  resolved "https://registry.npmjs.org/aplayer/-/aplayer-1.6.0.tgz#1c28edf2793375c416359c3a2bcd0ae6bf293820"
+aplayer@1.10.0:
+  version "1.10.0"
+  resolved "http://registry.npmjs.org/aplayer/download/aplayer-1.10.0.tgz#d7479f77cdbf3959d0b0879b7a2d86d70d340572"
+  dependencies:
+    balloon-css "^0.5.0"
+    promise-polyfill "7.1.0"
+    smoothscroll "0.4.0"
 
 aproba@^1.0.3:
   version "1.2.0"
@@ -185,11 +189,11 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
-axios@^0.16.1:
-  version "0.16.2"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
+axios@^0.17.1:
+  version "0.17.1"
+  resolved "http://registry.npmjs.org/axios/download/axios-0.17.1.tgz#2d8e3e5d0bdbd7327f91bc814f5c57660f81824d"
   dependencies:
-    follow-redirects "^1.2.3"
+    follow-redirects "^1.2.5"
     is-buffer "^1.1.5"
 
 babel-code-frame@^6.26.0:
@@ -666,6 +670,10 @@ balloon-css@0.5.0, balloon-css@^0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/balloon-css/-/balloon-css-0.5.0.tgz#6a3c065efab9ea5f509a95d4315df00aae114fa3"
 
+base64-arraybuffer@^0.1.5:
+  version "0.1.5"
+  resolved "http://registry.npmjs.org/base64-arraybuffer/download/base64-arraybuffer-0.1.5.tgz#73926771923b5a19747ad666aa5cd4bf9c6e9ce8"
+
 base64-js@^1.0.2:
   version "1.2.1"
   resolved "https://registry.npmjs.org/base64-js/-/base64-js-1.2.1.tgz#a91947da1f4a516ea38e5b4ec0ec3773675e0886"
@@ -1088,13 +1096,13 @@ dateformat@^2.0.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/dateformat/-/dateformat-2.2.0.tgz#4065e2013cf9fb916ddfd82efb506ad4c6769062"
 
-debug@^2.2.0, debug@^2.4.4, debug@^2.6.8:
+debug@^2.2.0, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.0:
+debug@^3.0.0, debug@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
@@ -1189,11 +1197,12 @@ domutils@1.5:
     dom-serializer "0"
     domelementtype "1"
 
-dplayer@1.17.1:
-  version "1.17.1"
-  resolved "https://registry.npmjs.org/dplayer/-/dplayer-1.17.1.tgz#40fa3aa4244f410e451e1607080b87ac34763810"
+dplayer@1.22.2:
+  version "1.22.2"
+  resolved "http://registry.npmjs.org/dplayer/download/dplayer-1.22.2.tgz#92228706118df92795080b9f781297cc96114765"
   dependencies:
     balloon-css "^0.5.0"
+    promise-polyfill "7.1.0"
 
 duplexer2@0.0.2:
   version "0.0.2"
@@ -1288,9 +1297,9 @@ es6-map@^0.1.3:
     es6-symbol "~3.1.1"
     event-emitter "~0.3.5"
 
-es6-promise@^4.0.5:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/es6-promise/-/es6-promise-4.1.1.tgz#8811e90915d9a0dba36274f0b242dbda78f9c92a"
+es6-promise@4.2.3:
+  version "4.2.3"
+  resolved "http://registry.npmjs.org/es6-promise/download/es6-promise-4.2.3.tgz#29454b8db21b73fbef1df070c35dc09b7fd606c4"
 
 es6-set@~0.1.5:
   version "0.1.5"
@@ -1357,9 +1366,13 @@ event-emitter@~0.3.5:
     d "1"
     es5-ext "~0.10.14"
 
-eventemitter3@^2.0.0, eventemitter3@^2.0.3:
+eventemitter3@^2.0.3:
   version "2.0.3"
   resolved "https://registry.npmjs.org/eventemitter3/-/eventemitter3-2.0.3.tgz#b5e1079b59fb5e1ba2771c0a993be060a58c99ba"
+
+eventemitter3@^3.0.0:
+  version "3.0.1"
+  resolved "http://registry.npmjs.org/eventemitter3/download/eventemitter3-3.0.1.tgz#4ce66c3fc5b5a6b9f2245e359e1938f1ab10f960"
 
 events@^1.0.0:
   version "1.1.1"
@@ -1449,9 +1462,9 @@ fancy-log@^1.1.0:
     chalk "^1.1.1"
     time-stamp "^1.0.0"
 
-fancybox@3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/fancybox/-/fancybox-3.0.0.tgz#8c21af8142c621bed7d551ba69c4c38eaecd2e04"
+fancybox@3.0.1:
+  version "3.0.1"
+  resolved "http://registry.npmjs.org/fancybox/download/fancybox-3.0.1.tgz#13f6927449157ed026c69e78c2ba5bf0f1da9af7"
 
 fast-deep-equal@^1.0.0:
   version "1.0.0"
@@ -1538,9 +1551,9 @@ flagged-respawn@^0.3.2:
   version "0.3.2"
   resolved "https://registry.npmjs.org/flagged-respawn/-/flagged-respawn-0.3.2.tgz#ff191eddcd7088a675b2610fffc976be9b8074b5"
 
-follow-redirects@^1.2.3:
-  version "1.2.6"
-  resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.2.6.tgz#4dcdc7e4ab3dd6765a97ff89c3b4c258117c79bf"
+follow-redirects@^1.2.5:
+  version "1.4.1"
+  resolved "http://registry.npmjs.org/follow-redirects/download/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
   dependencies:
     debug "^3.1.0"
 
@@ -1776,9 +1789,9 @@ graceful-fs@~1.2.0:
   version "1.2.3"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-1.2.3.tgz#15a4806a57547cb2d2dbf27f42e89a8c3451b364"
 
-gsap@1.20.3:
-  version "1.20.3"
-  resolved "https://registry.npmjs.org/gsap/-/gsap-1.20.3.tgz#c9a6e7be057cf59417483448f925472fa2f73cd7"
+gsap@1.20.4:
+  version "1.20.4"
+  resolved "http://registry.npmjs.org/gsap/download/gsap-1.20.4.tgz#005fba2a7bfbb3b9d27bd77e1634d2bad365a86a"
 
 gulp-jshint@^1.12.0:
   version "1.12.0"
@@ -2282,33 +2295,34 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-leancloud-realtime-plugin-live-query@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/leancloud-realtime-plugin-live-query/-/leancloud-realtime-plugin-live-query-1.0.0.tgz#2910d96b66c0cf1782bd7eb1c18f1bd95561968e"
+leancloud-realtime-plugin-live-query@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npmjs.org/leancloud-realtime-plugin-live-query/download/leancloud-realtime-plugin-live-query-1.1.0.tgz#990d7e83e79c3dc36da0971cb3f054e3c23271bb"
 
-leancloud-realtime@^3.5.0:
-  version "3.5.7"
-  resolved "https://registry.npmjs.org/leancloud-realtime/-/leancloud-realtime-3.5.7.tgz#6c0d7ad31c5f496e80eef6e4b9598bac83eef105"
+leancloud-realtime@^4.0.0-beta.2:
+  version "4.0.0-beta.4"
+  resolved "http://registry.npmjs.org/leancloud-realtime/download/leancloud-realtime-4.0.0-beta.4.tgz#ccdd777f84ddd9f08e05dd86214f9b1c5e2dada6"
   dependencies:
-    axios "^0.16.1"
+    axios "^0.17.1"
     babel-runtime "^6.6.1"
-    debug "^2.4.4"
-    eventemitter3 "^2.0.0"
+    base64-arraybuffer "^0.1.5"
+    debug "^3.0.0"
+    eventemitter3 "^3.0.0"
     javascript-state-machine "^2.3.5"
     lodash "^4.6.0"
     protobufjs "^5.0.1"
     uuid "^3.0.0"
-    ws "^3.0.0"
+    ws "^4.0.0"
 
-leancloud-storage@3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/leancloud-storage/-/leancloud-storage-3.3.1.tgz#5c488a3f7c0b2d8684268eacd1b4c35439ab8622"
+leancloud-storage@3.6.1:
+  version "3.6.1"
+  resolved "http://registry.npmjs.org/leancloud-storage/download/leancloud-storage-3.6.1.tgz#94b8fb8231fe4611c1186f71b22d131939b8c302"
   dependencies:
-    debug "^2.2.0"
-    es6-promise "^4.0.5"
+    debug "^3.1.0"
+    es6-promise "4.2.3"
     eventemitter3 "^2.0.3"
-    leancloud-realtime "^3.5.0"
-    leancloud-realtime-plugin-live-query "^1.0.0"
+    leancloud-realtime "^4.0.0-beta.2"
+    leancloud-realtime-plugin-live-query "^1.1.0"
     localstorage-memory "^1.0.1"
     md5 "^2.0.0"
     superagent "^3.3.1"
@@ -3062,6 +3076,10 @@ process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.npmjs.org/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
 
+promise-polyfill@7.1.0:
+  version "7.1.0"
+  resolved "http://registry.npmjs.org/promise-polyfill/download/promise-polyfill-7.1.0.tgz#4d749485b44577c14137591c6f36e5d7e2dd3378"
+
 protobufjs@^5.0.1:
   version "5.0.2"
   resolved "https://registry.npmjs.org/protobufjs/-/protobufjs-5.0.2.tgz#59748d7dcf03d2db22c13da9feb024e16ab80c91"
@@ -3439,6 +3457,10 @@ slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
 
+smoothscroll@0.4.0:
+  version "0.4.0"
+  resolved "http://registry.npmjs.org/smoothscroll/download/smoothscroll-0.4.0.tgz#40e507b46461408ba1b787d0081e1e883c4124a5"
+
 sntp@1.x.x:
   version "1.0.9"
   resolved "https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz#6541184cc90aeea6c6e7b35e2659082443c66198"
@@ -3777,10 +3799,6 @@ uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
-ultron@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
 unc-path-regex@^0.1.0:
   version "0.1.2"
   resolved "https://registry.npmjs.org/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
@@ -3837,9 +3855,9 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
-velocity-animate@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.npmjs.org/velocity-animate/-/velocity-animate-1.5.0.tgz#fc8771d8dfe1136ff02a707e10fbb0957c4b030f"
+velocity-animate@1.5.1:
+  version "1.5.1"
+  resolved "http://registry.npmjs.org/velocity-animate/download/velocity-animate-1.5.1.tgz#606837047bab8fbfb59a636d1d82ecc3f7bd71a6"
 
 verror@1.10.0:
   version "1.10.0"
@@ -3974,13 +3992,12 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
 
-ws@^3.0.0:
-  version "3.3.2"
-  resolved "https://registry.npmjs.org/ws/-/ws-3.3.2.tgz#96c1d08b3fefda1d5c1e33700d3bfaa9be2d5608"
+ws@^4.0.0:
+  version "4.1.0"
+  resolved "http://registry.npmjs.org/ws/download/ws-4.1.0.tgz#a979b5d7d4da68bf54efe0408967c324869a7289"
   dependencies:
     async-limiter "~1.0.0"
     safe-buffer "~5.1.0"
-    ultron "~1.1.0"
 
 "xtend@>=4.0.0 <4.1.0-0", xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"
