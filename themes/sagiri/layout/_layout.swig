@@ -80,7 +80,7 @@
   {% include '_third-party/scroll-cookie.swig' %}
   {% include '_third-party/exturl.swig' %}
 
-  <script>
+  <!--<script>
     // remove service worker cache
     // from https://stackoverflow.com/questions/33704791/how-do-i-uninstall-a-service-worker
     "use strict";
@@ -89,12 +89,12 @@
         navigator.serviceWorker.getRegistrations().then(function(registrations) {
             for(let registration of registrations) {
                 registration.unregister()
-            } 
+            }
         })
     }
-  </script>
-  
-  <!--<script>
+  </script>-->
+
+  <script>
     var serviceWorkerUri = '/sw.js';
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register(serviceWorkerUri).then(function() {
@@ -109,6 +109,6 @@
     } else {
         console.log('Service workers are not supported in the current browser.');
     }
-  </script>-->
+  </script>
 </body>
 </html>

@@ -102,9 +102,9 @@ anymatch@^2.0.0:
     micromatch "^3.1.4"
     normalize-path "^2.1.1"
 
-aplayer@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.npmjs.org/aplayer/-/aplayer-1.10.0.tgz#d7479f77cdbf3959d0b0879b7a2d86d70d340572"
+aplayer@1.10.1:
+  version "1.10.1"
+  resolved "https://registry.npmjs.org/aplayer/-/aplayer-1.10.1.tgz#318289206107452cc39e8f552fa6cc6cb459a90c"
   dependencies:
     balloon-css "^0.5.0"
     promise-polyfill "7.1.0"
@@ -2674,9 +2674,9 @@ leancloud-realtime@^4.0.0-beta.2:
     uuid "^3.0.0"
     ws "^4.0.0"
 
-leancloud-storage@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmjs.org/leancloud-storage/-/leancloud-storage-3.6.1.tgz#94b8fb8231fe4611c1186f71b22d131939b8c302"
+leancloud-storage@3.6.3:
+  version "3.6.3"
+  resolved "https://registry.npmjs.org/leancloud-storage/-/leancloud-storage-3.6.3.tgz#4fcb2b574be3a06b43adffb68967fb0b99917ae6"
   dependencies:
     debug "^3.1.0"
     es6-promise "4.2.3"
