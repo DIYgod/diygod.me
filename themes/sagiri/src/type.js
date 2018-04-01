@@ -89,4 +89,4 @@ setTimeout(() => {
   resize();
   animateIn();
   window.addEventListener('resize', resize);
-}, 100);
+}, 500);
