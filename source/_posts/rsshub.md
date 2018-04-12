@@ -3,11 +3,11 @@ title: RSSHub - 使用 RSS 连接全世界
 date: 2018-04-13 00:53:01
 categories: 创作集
 ---
+**[项目地址](https://github.com/DIYgod/RSSHub)**
+
 ## 介绍
 
 RSSHub 是一个轻量、易于扩展的 RSS 生成器，可以给任何奇奇怪怪的内容生成 RSS 订阅源
-
-[使用文档](https://rsshub.js.org)
 
 当前支持列表：
 
