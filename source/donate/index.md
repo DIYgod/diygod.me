@@ -6,28 +6,23 @@ date: 2014-02-15 23:11:10
 
 ![](/images/donate.jpg)
 
-### 赞赏说明
-
-若无特殊说明，赞赏之款项用于给我和[酸奶](https://suannai.cat/)改善饮食（*/∇＼*）
-
-如果我给你带来过欢乐，或者对你有所帮助，欢迎赞赏支持:)
-
-有任何疑问请在下面留言。
+如果我给你带来过欢乐，或者对你有所帮助，欢迎赞赏支持（/∇＼）
 
 ### 赞赏方式
 
-#### 微信
+#### 一次性赞助
 
-![](/images/2016-08-25_wxd.png)
+我们通过以下方式接受赞助：
 
-#### 支付宝
+-   [微信支付](https://i.imgur.com/aq6PtWa.png)
+-   [支付宝](https://i.imgur.com/wv1Pj2k.png)
+-   [Paypal](https://www.paypal.me/DIYgod)
+-   比特币: 13CwQLHzPYm2tewNMSJBeArbbRM5NSmCD1
 
-![](/images/2016-08-25_zfbd.png)
+#### 周期性赞助
 
-#### PayPal
+周期性赞助可以获得额外的回报，比如你的名字会出现在我的 GitHub 仓库或博客中。
 
-[https://www.paypal.me/DIYgod](https://www.paypal.me/DIYgod)
-
-#### 比特币
-
-13CwQLHzPYm2tewNMSJBeArbbRM5NSmCD1
+-   通过 [OpenCollective](https://opencollective.com/RSSHub) 赞助成为 backer 或 sponsor
+-   通过 [Patreon](https://www.patreon.com/DIYgod) 赞助成为 backer
+-   给我们发邮件联系赞助事宜: i#html.love

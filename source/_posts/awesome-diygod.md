@@ -22,7 +22,7 @@ DIYgod 可能会在任何地方出现，但只要掌握了 DIYgod 的习性，�
 
 [博客 RSS](https://diygod.me/atom.xml)：就是这里
 
-[微博 RSS](https://api.prprpr.me/weibo/rss/3306934123)：使用 [WeiboRSS](https://github.com/DIYgod/Weibo2RSS) 构建
+~~[微博 RSS](https://api.prprpr.me/weibo/rss/3306934123)：使用 [WeiboRSS](https://github.com/DIYgod/Weibo2RSS) 构建~~
 
 &nbsp;
 
@@ -42,19 +42,19 @@ DIYgod 可能会在任何地方出现，但只要掌握了 DIYgod 的习性，�
 
 芳文社的埃罗芒阿老师：496685635，主群，无主题随便撩，经常换奇奇怪怪的名字
 
-网红女装屁股战队：624503765，守望先锋开黑
+~~网红女装屁股战队：624503765，守望先锋开黑~~
 
-吃🐔：669026238，大吉大利，今晚吃鸡
+~~吃🐔：669026238，大吉大利，今晚吃鸡~~
 
-MC的同居生活：397976165，MC 开黑，想一起玩需要申请白名单
+~~MC的同居生活：397976165，MC 开黑，想一起玩需要申请白名单~~
 
 MoePlayer 交流群：415835947，[MoePlayer](https://github.com/MoePlayer) 相关讨论
 
-线下女装活动小分队：605133465，漫展、面基等线下活动，平时很冷清
+~~线下女装活动小分队：605133465，漫展、面基等线下活动，平时很冷清~~
 
 [芳文社的埃罗芒阿老师（Telegram）](https://t.me/prpr233)：没有言论审查
 
-[MoePlayer 交流群（Telegram）](https://t.me/adplayer)：[MoePlayer](https://github.com/MoePlayer) 相关讨论
+~~[MoePlayer 交流群（Telegram）](https://t.me/adplayer)：[MoePlayer](https://github.com/MoePlayer) 相关讨论~~
 
 &nbsp;
 

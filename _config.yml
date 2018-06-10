@@ -109,7 +109,6 @@ generator_amp:
     menu:
       首页: /
       归档: /archives/
-      实验室: /lab/
       投喂: /donate/
       后宫: /friends/
       留言板: /message/
