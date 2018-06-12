@@ -85,9 +85,7 @@
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.posted') }}</span>
               {% endif %}
-              <time title="{{ __('post.created') }}" itemprop="dateCreated datePublished" datetime="{{ moment(post.date).format() }}">
-                {{ date(post.date, config.date_format) }}
-              </time>
+              <time title="{{ __('post.created') }}" itemprop="dateCreated datePublished" datetime="{{ moment(post.date).format() }}">{{ date(post.date, config.date_format) }}</time>
             {% endif %}
 
             {% if theme.post_meta.created_at and theme.post_meta.updated_at %}
@@ -130,6 +128,39 @@
                   {{ __('symbol.comma') }}
                 {% endif %}
               {% endfor %}
+            </span>
+          {% endif %}
+
+          {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
+            <span class="post-wordcount">
+              {% if theme.post_wordcount.wordcount %}
+                {% if not theme.post_wordcount.separated_meta %}
+                  <span class="post-meta-divider">•</span>
+                {% endif %}
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                {% if theme.post_wordcount.item_text %}
+                  <span class="post-meta-item-text">{{ __('post.wordcount') }}</span>
+                {% endif %}
+                <span title="{{ __('post.wordcount') }}">{{ wordcount(post.content).replace(',', '') }}</span>
+              {% endif %}
+
+              {% if theme.post_wordcount.wordcount and theme.post_wordcount.min2read %}
+                <span class="post-meta-divider">•</span>
+              {% endif %}
+
+              {% if theme.post_wordcount.min2read %}
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                {% if theme.post_wordcount.item_text %}
+                  <span class="post-meta-item-text">{{ __('post.min2read') }} &asymp;</span>
+                {% endif %}
+                <span title="{{ __('post.min2read') }}">
+                  {{ min2read(post.content) }}
+                </span>
+              {% endif %}
             </span>
           {% endif %}
 
@@ -213,7 +244,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                {% if theme.post_meta.item_text %}
-                 <span class="post-meta-item-text">{{__('post.visitors')}}&#58;</span>
+                 <span class="post-meta-item-text">{{__('post.visitors')}}</span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -224,41 +255,6 @@
             <span class="page-pv">{{ theme.busuanzi_count.page_pv_header }}
             <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
             </span>
-          {% endif %}
-
-          {% if theme.post_wordcount.wordcount or theme.post_wordcount.min2read %}
-            <div class="post-wordcount">
-              {% if theme.post_wordcount.wordcount %}
-                {% if not theme.post_wordcount.separated_meta %}
-                  <span class="post-meta-divider">•</span>
-                {% endif %}
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                {% if theme.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __('post.wordcount') }}&#58;</span>
-                {% endif %}
-                <span title="{{ __('post.wordcount') }}">
-                  {{ wordcount(post.content) }}
-                </span>
-              {% endif %}
-
-              {% if theme.post_wordcount.wordcount and theme.post_wordcount.min2read %}
-                <span class="post-meta-divider">•</span>
-              {% endif %}
-
-              {% if theme.post_wordcount.min2read %}
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                {% if theme.post_wordcount.item_text %}
-                  <span class="post-meta-item-text">{{ __('post.min2read') }} &asymp;</span>
-                {% endif %}
-                <span title="{{ __('post.min2read') }}">
-                  {{ min2read(post.content) }}
-                </span>
-              {% endif %}
-            </div>
           {% endif %}
 
           {% if post.description and (not theme.excerpt_description or not is_index) %}
