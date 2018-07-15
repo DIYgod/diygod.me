@@ -2019,9 +2019,9 @@ hexo-fs@^0.2.0, hexo-fs@^0.2.2:
     escape-string-regexp "^1.0.5"
     graceful-fs "^4.1.4"
 
-hexo-generator-amp@3.0.15:
-  version "3.0.15"
-  resolved "https://registry.npmjs.org/hexo-generator-amp/-/hexo-generator-amp-3.0.15.tgz#c41b649b13c129403d9f7eadeb08c1f44d865da5"
+hexo-generator-amp@3.0.16:
+  version "3.0.16"
+  resolved "https://registry.npmjs.org/hexo-generator-amp/-/hexo-generator-amp-3.0.16.tgz#84bd106d982ac9d7089a40a7c8d0c2825ea12a01"
   dependencies:
     amphtml-validator "^1.0.21"
     bluebird "^3.5.1"

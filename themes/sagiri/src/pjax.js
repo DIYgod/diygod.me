@@ -7,7 +7,7 @@ NProgress.configure({
   speed: 1000
 });
 
-$(document).pjax('a:not(.fancybox)', '#main', {
+$(document).pjax('a:not(.fancybox):not([target="_blank"])', '#main', {
   scrollTo: $('.main').position().top - 60,
   fragment: '#main',
   timeout: 5000,
@@ -40,6 +40,7 @@ $(document).on('pjax:end', function () {
     require('./share')();
     require('./pisces')();
     require('./zoom')();
+    window.originTitle = document.title;
 
     if (ga) {
       ga('set', 'location', window.location.href);

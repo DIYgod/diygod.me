@@ -66,6 +66,7 @@ index_with_subtitle: false
 menu:
   首页: / || home
   归档: /archives/ || archive
+  媒体库: /library/ || video-camera || 1
   投喂: /donate/ || cutlery
   后宫: /friends/ || mars
   留言板: /message/ || pencil
@@ -861,4 +862,4 @@ online_api: wss://api.prprpr.me/online/
 description: <span style="color:#3369e8;">Write</span> <span style="color:#d50f25;">the</span> <span style="color:#eeb211;">Code,</span> <span style="color:#3369e8;">Change</span> <span style="color:#009925;">the</span> <span style="color:#d50f25;">World.</span>
 
 # Theme version
-version: 0.0.19
+version: 0.0.20
