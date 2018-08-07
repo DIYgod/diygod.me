@@ -42,7 +42,7 @@ $(function () {
             },
             danmaku: {
                 id: 'f171a0b104c1fd55',
-                api: 'https://api.prprpr.me/dplayer/',
+                api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 maximum: 3000,
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1102/danmaku.json']

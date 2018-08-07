@@ -77,7 +77,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme1',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);

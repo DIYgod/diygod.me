@@ -56,37 +56,25 @@ Demo：
 
 **A：**差点忘了最重要的事情：我的战网ID **DIYgod#5922**，加我一起屁股开黑呀！
 
-<script src="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js"></script>
 <script>
-    function myDPlayer () {
-        var dp1 = new DPlayer({
-            element: document.getElementById('dplayer1'),
-            autoplay: false,
-            theme: '#FADFA3',
-            loop: true,
-            screenshot: false,
-            preload: 'none',
-            video: {
-                url: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.mp4',
-                pic: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.png'
-            },
-            danmaku: {
-                id: '9E2E3368B56CDBB4',
-                api: 'https://api.prprpr.me/dplayer/',
-                token: 'tokendemo',
-                maximum: 3000
-            }
-        });
-        window.dplayerInstances = [dp1];
-    }
-    if (!window.DPlayer) {
-        $.getScript('https://cdn.bootcss.com/hls.js/0.8.7/hls.min.js', function () {
-            $.getScript('https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.js', function () {
-                myDPlayer();
-            });
-        });
-    }
-    else {
-        myDPlayer();
-    }
+    var dp1 = new DPlayer({
+        element: document.getElementById('dplayer1'),
+        autoplay: false,
+        theme: '#FADFA3',
+        loop: true,
+        screenshot: false,
+        preload: 'none',
+        video: {
+            url: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.mp4',
+            pic: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.png'
+        },
+        danmaku: {
+            id: '9E2E3368B56CDBB4',
+            api: 'https://dplayer.prprpr.me/',
+            token: 'tokendemo',
+            maximum: 3000
+        }
+    });
+    window.dplayers || (window.dplayers = []);
+    window.dplayers.push(dp);
 </script>

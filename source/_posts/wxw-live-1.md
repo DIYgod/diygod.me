@@ -105,7 +105,7 @@ $(function () {
             },
             danmaku: {
                 id: '02d53ea190dc8583',
-                api: 'https://api.prprpr.me/dplayer/',
+                api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 maximum: 3000,
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1019/danmaku.json']

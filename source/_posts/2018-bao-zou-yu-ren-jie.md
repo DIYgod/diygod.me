@@ -29,7 +29,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-1',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -52,7 +52,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-2',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -77,7 +77,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-3',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -100,7 +100,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-4',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -125,7 +125,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-5',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -150,7 +150,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-6',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -173,7 +173,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-7',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);
@@ -196,7 +196,7 @@ $(function () {
         },
         danmaku:{
             id: 'diygodme-bz-8',
-            api: 'https://api.prprpr.me/dplayer/'
+            api: 'https://dplayer.prprpr.me/'
         }
     });
     window.dplayers || (window.dplayers = []);

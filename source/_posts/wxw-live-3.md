@@ -49,7 +49,7 @@ $(function () {
             },
             danmaku: {
                 id: '8810755617f77d00',
-                api: 'https://api.prprpr.me/dplayer/',
+                api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1216/1/danmaku.json']
             }
@@ -66,7 +66,7 @@ $(function () {
             },
             danmaku: {
                 id: 'f9e80f1d90cd12f5',
-                api: 'https://api.prprpr.me/dplayer/',
+                api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1216/2/danmaku.json']
             }
