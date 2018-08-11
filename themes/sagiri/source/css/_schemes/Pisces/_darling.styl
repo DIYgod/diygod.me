@@ -8,7 +8,7 @@ $darling-red    = #ff3f1a
   }
 
   .site-brand-wrapper {
-    background-image: url(/images/header-darling2.jpg) !important;
+    background-image: url(/images/header-darling3.jpg) !important;
   }
 
   .site-master-description {
@@ -16,18 +16,6 @@ $darling-red    = #ff3f1a
       color: $darling-blue !important;
     }
     span:nth-child(2) {
-      color: $darling-blue !important;
-    }
-    span:nth-child(3) {
-      color: $darling-black !important;
-    }
-    span:nth-child(4) {
-      color: $darling-black !important;
-    }
-    span:nth-child(5) {
-      color: $darling-red !important;
-    }
-    span:nth-child(6) {
       color: $darling-red !important;
     }
   }
@@ -71,6 +59,12 @@ $darling-red    = #ff3f1a
     background-size: contain;
 
     +mobile() {
+      display: none;
+    }
+  }
+
+  .posts-collapse {
+    .post:before {
       display: none;
     }
   }

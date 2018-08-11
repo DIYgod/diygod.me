@@ -23,6 +23,5 @@ date: 2014-02-15 23:11:10
 
 周期性赞助可以获得额外的回报，比如你的名字会出现在我的 GitHub 仓库或博客中。
 
--   通过 [OpenCollective](https://opencollective.com/RSSHub) 赞助成为 backer 或 sponsor
 -   通过 [Patreon](https://www.patreon.com/DIYgod) 赞助成为 backer
 -   给我们发邮件联系赞助事宜: i#html.love
