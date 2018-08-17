@@ -57,6 +57,7 @@
     the-transition();
     color: #fff;
     font-size: 14px;
+    border-bottom: none;
 
     +mobile() {
       text-align: center;
@@ -64,9 +65,8 @@
     }
 
     &:hover {
-      background: #f9f9f9;
+      background: #999;
       border-bottom: none;
-      color: #555;
     }
 
     .fa {
@@ -188,5 +188,49 @@
     font-size: 18px;
     font-weight: 700;
     margin: 20px 0 0;
+  }
+}
+
+.submenu {
+  position: absolute;
+  padding: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  list-style-type: none;
+  top: 38px;
+  background: rgba(40,42,44,.6);
+  height: 0;
+  overflow: hidden;
+  transition: height 0.2s ease-in-out;
+
+  &.submenu-抓到我 {
+    left: -24px;
+    right: -24px;
+
+    +mobile() {
+      left: -44px;
+      right: -44px;
+    }
+  }
+
+  &.submenu-实验室 {
+    left: -10px;
+    right: -10px;
+
+    +mobile() {
+      left: -30px;
+      right: -30px;
+    }
+  }
+}
+
+.menu .menu-item .submenu a {
+  border-bottom: none;
+  line-height: 20px;
+  padding: 10px 0;
+
+  +mobile() {
+    padding: 8px 0;
   }
 }

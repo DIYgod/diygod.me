@@ -65,13 +65,29 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   首页: / || home
+  抓到我: javascript:; || sign-language
+  实验室: javascript:; || flask
   归档: /archives/ || archive
-  媒体库: /library/ || video-camera || 1
-  监控: https://status.diygod.me/ || television || 1
   投喂: /donate/ || cutlery
   后宫: /friends/ || mars
   留言板: /message/ || pencil
-  关于: /about/ || rocket
+  # 关于: /about/ || rocket
+
+submenu:
+  抓到我:
+    GitHub: https://github.com/DIYgod
+    Twitter: https://twitter.com/DIYgod
+    QQ 群: /images/qq-g.jpg
+    Telegram Channel: https://t.me/awesomeDIYgod
+    Telegram Group: https://t.me/prpr233
+  实验室:
+    媒体库: /library/
+    RSSHub: https://docs.rsshub.app/
+    DPlayer: http://dplayer.js.org/
+    APlayer: https://aplayer.js.org/
+    Oneindex: https://pan.prprpr.me/
+    Tiny Tiny RSS: https://rss.diygod.me/
+    监控: https://status.diygod.me/
 
 # Enable/Disable menu icons.
 menu_icons:
@@ -864,4 +880,4 @@ online_api: wss://api.prprpr.me/online/
 description: <span>写代码是热爱，</span><span>写到世界充满爱！</span>
 
 # Theme version
-version: 0.0.23
+version: 0.0.24

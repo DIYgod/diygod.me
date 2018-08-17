@@ -12,6 +12,18 @@
             {% endif %}
             {{ __('menu.' + name) | replace('menu.', '') }}
           </a>
+          {% if theme.submenu[itemName] %}
+            <ul class="submenu submenu-{{ itemName | replace(' ', '-') }}">
+              {% for name, path in theme.submenu[itemName] %}
+                {% set itemName = name.toLowerCase() %}
+                <li class="submenu-item submenu-item-{{ itemName | replace(' ', '-') }}">
+                  <a href="{{ url_for(path) | trim }}" rel="section" target="_blank">
+                    {{ __('menu.' + name) | replace('menu.', '') }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
         </li>
       {% endfor %}
 
