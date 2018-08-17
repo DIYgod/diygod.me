@@ -94,18 +94,36 @@
 .feed-link {
   text-align: center;
   margin: 10px 0 10px;
-}
+  display: flex;
 
-.feed-link a {
-  display: block;
-  color: $orange;
-  border: none;
+  a {
+    display: inline-block;
+    border: none;
+    flex: 1;
 
-  &:hover {
-    background: none;
-    color: darken($orange, 20%);
+    &:hover {
+      background: none;
+    }
+  }
 
-    i { color: darken($orange, 20%); }
+  .feed-rss {
+    color: $orange;
+
+    &:hover {
+      color: darken($orange, 20%);
+
+      i { color: darken($orange, 20%); }
+    }
+  }
+
+  .feed-email {
+    color: #48c7fb;
+
+    &:hover {
+      color: darken(#48c7fb, 20%);
+
+      i { color: darken(#48c7fb, 20%); }
+    }
   }
 }
 

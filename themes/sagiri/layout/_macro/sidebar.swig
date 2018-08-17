@@ -63,9 +63,15 @@
 
           {% if theme.rss %}
             <div class="feed-link motion-element">
-              <a href="{{ url_for(theme.rss) }}" rel="alternate" target="_blank">
+              {% if theme.emailfeed %}
+              <a class="feed-email" href="{{ theme.emailfeed }}" rel="alternate" target="_blank">
+                <i class="fa fa-envelope"></i>
+                <span>Email 订阅</span>
+              </a>
+              {% endif %}
+              <a class="feed-rss" href="{{ url_for(theme.rss) }}" rel="alternate" target="_blank">
                 <i class="fa fa-rss"></i>
-                RSS
+                <span>RSS 订阅</span>
               </a>
             </div>
           {% endif %}
@@ -124,7 +130,7 @@
           {% if theme.links %}
             <div class="links-of-blogroll motion-element {{ "links-of-blogroll-" + theme.links_layout | default('inline') }}">
               <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></i>
+                <i class="fa  fa-fw fa-{{ theme.links_icon | default('globe') | lower }}"></span>
                 {{ theme.links_title }}
               </div>
               <ul class="links-of-blogroll-list">
