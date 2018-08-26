@@ -25,7 +25,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-1'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/1.mp4',
+            url: 'https://cdn1.diygod.me/bz/1.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-1',
@@ -48,7 +48,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-2'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/2.mp4',
+            url: 'https://cdn1.diygod.me/bz/2.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-2',
@@ -73,7 +73,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-3'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/3.mp4',
+            url: 'https://cdn1.diygod.me/bz/3.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-3',
@@ -96,7 +96,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-4'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/4.mp4',
+            url: 'https://cdn1.diygod.me/bz/4.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-4',
@@ -121,7 +121,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-5'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/5.mp4',
+            url: 'https://cdn1.diygod.me/bz/5.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-5',
@@ -146,7 +146,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-6'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/6.mp4',
+            url: 'https://cdn1.diygod.me/bz/6.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-6',
@@ -169,7 +169,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-7'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/7.mp4',
+            url: 'https://cdn1.diygod.me/bz/7.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-7',
@@ -192,7 +192,7 @@ $(function () {
         container: document.getElementById('dplayer-bz-8'),
         preload: 'metadata',
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/bz/8.mp4',
+            url: 'https://cdn1.diygod.me/bz/8.mp4',
         },
         danmaku:{
             id: 'diygodme-bz-8',

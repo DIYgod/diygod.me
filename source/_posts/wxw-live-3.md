@@ -8,7 +8,7 @@ tags:
 permalink: 2889
 ---
 
-![](https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png)
+![](https://cdn1.diygod.me/wxwlive/1216/1/poster.png)
 
 老婆真是越来越可爱了，啊啊啊我要死了。
 
@@ -44,14 +44,14 @@ $(function () {
             loop: true,
             screenshot: true,
             video: {
-                url: 'https://dplayer.b0.upaiyun.com/wxwlive/1216/1/index.m3u8',
-                pic: 'https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png'
+                url: 'https://cdn1.diygod.me/wxwlive/1216/1/index.m3u8',
+                pic: 'https://cdn1.diygod.me/wxwlive/1216/1/poster.png'
             },
             danmaku: {
                 id: '8810755617f77d00',
                 api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
-                addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1216/1/danmaku.json']
+                addition: ['https://cdn1.diygod.me/wxwlive/1216/1/danmaku.json']
             }
         });
         var dp8 = new DPlayer({
@@ -61,14 +61,14 @@ $(function () {
             loop: true,
             screenshot: true,
             video: {
-                url: 'https://dplayer.b0.upaiyun.com/wxwlive/1216/2/index.m3u8',
-                pic: 'https://dplayer.b0.upaiyun.com/wxwlive/1216/1/poster.png'
+                url: 'https://cdn1.diygod.me/wxwlive/1216/2/index.m3u8',
+                pic: 'https://cdn1.diygod.me/wxwlive/1216/1/poster.png'
             },
             danmaku: {
                 id: 'f9e80f1d90cd12f5',
                 api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
-                addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1216/2/danmaku.json']
+                addition: ['https://cdn1.diygod.me/wxwlive/1216/2/danmaku.json']
             }
         });
         window.dplayers || (window.dplayers = []);

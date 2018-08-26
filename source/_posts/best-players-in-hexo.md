@@ -28,23 +28,23 @@ $(function () {
             {
                 title: 'あっちゅ～ま青春!',
                 author: '七森中☆ごらく部',
-                url: 'https://dplayer.b0.upaiyun.com/yuruyuri.mp3',
-                pic: 'https://dplayer.b0.upaiyun.com/yuruyuri.jpg',
-                lrc: 'https://dplayer.b0.upaiyun.com/yuruyuri.lrc'
+                url: 'https://cdn1.diygod.me/yuruyuri.mp3',
+                pic: 'https://cdn1.diygod.me/yuruyuri.jpg',
+                lrc: 'https://cdn1.diygod.me/yuruyuri.lrc'
             },
             {
                 title: 'secret base~君がくれたもの~',
                 author: '茅野愛衣',
-                url: 'https://dplayer.b0.upaiyun.com/secretbase.mp3',
-                pic: 'https://dplayer.b0.upaiyun.com/secretbase.jpg',
-                lrc: 'https://dplayer.b0.upaiyun.com/secretbase.lrc'
+                url: 'https://cdn1.diygod.me/secretbase.mp3',
+                pic: 'https://cdn1.diygod.me/secretbase.jpg',
+                lrc: 'https://cdn1.diygod.me/secretbase.lrc'
             },
             {
                 title: '回レ！雪月花',
                 author: '小倉唯',
-                url: 'https://dplayer.b0.upaiyun.com/snowmoonflowers.mp3',
-                pic: 'https://dplayer.b0.upaiyun.com/snowmoonflowers.jpg',
-                lrc: 'https://dplayer.b0.upaiyun.com/snowmoonflowers.lrc'
+                url: 'https://cdn1.diygod.me/snowmoonflowers.mp3',
+                pic: 'https://cdn1.diygod.me/snowmoonflowers.jpg',
+                lrc: 'https://cdn1.diygod.me/snowmoonflowers.lrc'
             }
         ]
     });
@@ -71,9 +71,9 @@ $(function () {
     var dp = new DPlayer({
         container: document.getElementById('dplayer1'),
         video:{
-            url: 'https://dplayer.b0.upaiyun.com/hikarunara.mp4',
-            pic: 'https://dplayer.b0.upaiyun.com/hikarunara.png',
-            thumbnails: 'https://dplayer.b0.upaiyun.com/hikarunara_thumbnails.jpg'
+            url: 'https://cdn1.diygod.me/hikarunara.mp4',
+            pic: 'https://cdn1.diygod.me/hikarunara.png',
+            thumbnails: 'https://cdn1.diygod.me/hikarunara_thumbnails.jpg'
         },
         danmaku:{
             id: 'diygodme1',

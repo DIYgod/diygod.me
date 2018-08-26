@@ -8,7 +8,7 @@ tags:
 permalink: 2847
 ---
 
-![](https://dplayer.b0.upaiyun.com/wxwlive/1102/poster.png)
+![](https://cdn1.diygod.me/wxwlive/1102/poster.png)
 
 本次弹幕总计 11156 条、弹幕文件 1.2 MB。
 
@@ -37,15 +37,15 @@ $(function () {
             loop: true,
             screenshot: true,
             video: {
-                url: 'https://dplayer.b0.upaiyun.com/wxwlive/1102/index.m3u8',
-                pic: 'https://dplayer.b0.upaiyun.com/wxwlive/1102/poster.png'
+                url: 'https://cdn1.diygod.me/wxwlive/1102/index.m3u8',
+                pic: 'https://cdn1.diygod.me/wxwlive/1102/poster.png'
             },
             danmaku: {
                 id: 'f171a0b104c1fd55',
                 api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 maximum: 3000,
-                addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1102/danmaku.json']
+                addition: ['https://cdn1.diygod.me/wxwlive/1102/danmaku.json']
             }
         });
         window.dplayers || (window.dplayers = []);

@@ -65,8 +65,8 @@ Demo：
         screenshot: false,
         preload: 'none',
         video: {
-            url: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.mp4',
-            pic: 'https://dplayer.b0.upaiyun.com/若能绽放光芒.png'
+            url: 'https://cdn1.diygod.me/若能绽放光芒.mp4',
+            pic: 'https://cdn1.diygod.me/若能绽放光芒.png'
         },
         danmaku: {
             id: '9E2E3368B56CDBB4',

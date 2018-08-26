@@ -100,15 +100,15 @@ $(function () {
             loop: true,
             screenshot: true,
             video: {
-                url: 'https://dplayer.b0.upaiyun.com/wxwlive/1019/index.m3u8',
-                pic: 'https://dplayer.b0.upaiyun.com/wxwlive/1019/poster.png'
+                url: 'https://cdn1.diygod.me/wxwlive/1019/index.m3u8',
+                pic: 'https://cdn1.diygod.me/wxwlive/1019/poster.png'
             },
             danmaku: {
                 id: '02d53ea190dc8583',
                 api: 'https://dplayer.prprpr.me/',
                 token: 'tokendemo',
                 maximum: 3000,
-                addition: ['https://dplayer.b0.upaiyun.com/wxwlive/1019/danmaku.json']
+                addition: ['https://cdn1.diygod.me/wxwlive/1019/danmaku.json']
             }
         });
         window.dplayers || (window.dplayers = []);
