@@ -30,9 +30,9 @@
     "coffee-script": "^1.10.0",
     "cross-env": "5.2.0",
     "exports-loader": "0.7.0",
-    "file-loader": "1.1.11",
+    "file-loader": "2.0.0",
     "git-revision-webpack-plugin": "3.0.3",
-    "webpack": "4.16.5",
+    "webpack": "4.17.1",
     "webpack-cli": "3.1.0"
   },
   "dependencies": {
@@ -42,7 +42,7 @@
     "dplayer": "1.24.0",
     "fancybox": "3.0.1",
     "fastclick": "1.0.6",
-    "gsap": "2.0.1",
+    "gsap": "2.0.2",
     "headroom.js": "0.9.4",
     "jquery-pjax": "2.0.1",
     "lazyload": "2.0.0-beta.2",
