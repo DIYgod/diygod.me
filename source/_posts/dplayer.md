@@ -70,7 +70,7 @@ Demo：
         },
         danmaku: {
             id: '9E2E3368B56CDBB4',
-            api: 'https://dplayer.prprpr.me/',
+            api: 'https://api.diygod.me/dplayer/',
             token: 'tokendemo',
             maximum: 3000
         }
