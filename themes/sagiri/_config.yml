@@ -412,6 +412,10 @@ disqus:
   enable: true
   shortname: diygod-me
   count: false
+  api: https://disqus.skk.moe/disqus/
+  apikey: h403RnxQYBk2VylgLZwxodAtYOEL9bzgfhpcc8AZEU0EXn9cEWUoTwrgL3VB5tvj
+  admin: DIYgod
+  adminLabel: 服务生
 
 # Hypercomments
 #hypercomments_id:
