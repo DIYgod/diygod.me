@@ -638,6 +638,25 @@ chokidar@^2.0.0:
   optionalDependencies:
     fsevents "^1.1.2"
 
+chokidar@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-2.0.4.tgz#356ff4e2b0e8e43e322d18a372460bbcf3accd26"
+  dependencies:
+    anymatch "^2.0.0"
+    async-each "^1.0.0"
+    braces "^2.3.0"
+    glob-parent "^3.1.0"
+    inherits "^2.0.1"
+    is-binary-path "^1.0.0"
+    is-glob "^4.0.0"
+    lodash.debounce "^4.0.8"
+    normalize-path "^2.1.1"
+    path-is-absolute "^1.0.0"
+    readdirp "^2.0.0"
+    upath "^1.0.5"
+  optionalDependencies:
+    fsevents "^1.2.2"
+
 chownr@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
@@ -1543,7 +1562,7 @@ fsevents@^1.0.0:
     nan "^2.3.0"
     node-pre-gyp "^0.6.39"
 
-fsevents@^1.1.2:
+fsevents@^1.1.2, fsevents@^1.2.2:
   version "1.2.4"
   resolved "https://registry.npmjs.org/fsevents/-/fsevents-1.2.4.tgz#f41dcb1af2582af3692da36fc55cbd8e1041c426"
   dependencies:
@@ -1759,7 +1778,7 @@ got@^5.0.0:
     unzip-response "^1.0.2"
     url-parse-lax "^1.0.0"
 
-graceful-fs@^4.0.0, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.4:
+graceful-fs@^4.0.0, graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.3, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -1945,9 +1964,13 @@ hawk@~6.0.2:
     hoek "4.x.x"
     sntp "2.x.x"
 
-he@1.1.x, he@^1.0.0:
+he@1.1.x:
   version "1.1.1"
   resolved "https://registry.npmjs.org/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
+
+he@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
 
 hexo-all-minifier@0.5.2:
   version "0.5.2"
@@ -2009,14 +2032,14 @@ hexo-front-matter@^0.2.2:
   dependencies:
     js-yaml "^3.6.1"
 
-hexo-fs@0.2.3:
-  version "0.2.3"
-  resolved "https://registry.npmjs.org/hexo-fs/-/hexo-fs-0.2.3.tgz#c3a81b46e457dfafc56d87c78ef114104f4a3e41"
+hexo-fs@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-1.0.0.tgz#bf0a7bee6d3a5e1105bb544ffbbc83bb3e345787"
   dependencies:
-    bluebird "^3.4.0"
-    chokidar "^1.5.2"
+    bluebird "^3.5.1"
+    chokidar "^2.0.4"
     escape-string-regexp "^1.0.5"
-    graceful-fs "^4.1.4"
+    graceful-fs "^4.1.11"
 
 hexo-fs@^0.2.0, hexo-fs@^0.2.2:
   version "0.2.2"
@@ -2182,7 +2205,7 @@ hexo-util@^0.6.2, hexo-util@^0.6.3:
 
 hexo-wordcount@3.0.2:
   version "3.0.2"
-  resolved "https://registry.npmjs.org/hexo-wordcount/-/hexo-wordcount-3.0.2.tgz#dbe15ba56913f0bce490b94f84c042629ebe672d"
+  resolved "https://registry.yarnpkg.com/hexo-wordcount/-/hexo-wordcount-3.0.2.tgz#dbe15ba56913f0bce490b94f84c042629ebe672d"
   dependencies:
     html-to-text "^2.1.3"
     numeral "^1.5.3"
@@ -2271,7 +2294,7 @@ html-minifier@^3.5.8:
 
 html-to-text@^2.1.3:
   version "2.1.3"
-  resolved "https://registry.npmjs.org/html-to-text/-/html-to-text-2.1.3.tgz#e50dbe4e4079912dbedcde05d278388edb8eea91"
+  resolved "https://registry.yarnpkg.com/html-to-text/-/html-to-text-2.1.3.tgz#e50dbe4e4079912dbedcde05d278388edb8eea91"
   dependencies:
     he "^1.0.0"
     htmlparser "^1.7.7"
@@ -2292,7 +2315,7 @@ htmlparser2@^3.9.1:
 
 htmlparser@^1.7.7:
   version "1.7.7"
-  resolved "https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.7.tgz#19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e"
+  resolved "https://registry.yarnpkg.com/htmlparser/-/htmlparser-1.7.7.tgz#19e7b3997ff6fbac99ae5a7d2766489efe7e2d0e"
 
 http-errors@~1.6.2:
   version "1.6.2"
@@ -3001,6 +3024,10 @@ lodash.clonedeep@^4.3.2:
   version "4.5.0"
   resolved "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+
 lodash.defaults@^4.0.1:
   version "4.2.0"
   resolved "https://registry.npmjs.org/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
@@ -3195,7 +3222,7 @@ marked@^0.3.9:
 
 match-words@^0.1.0:
   version "0.1.1"
-  resolved "https://registry.npmjs.org/match-words/-/match-words-0.1.1.tgz#dcd3119e74a6a67be4304ca5cf926580e8e1a7af"
+  resolved "https://registry.yarnpkg.com/match-words/-/match-words-0.1.1.tgz#dcd3119e74a6a67be4304ca5cf926580e8e1a7af"
   dependencies:
     word-regex "^0.1.0"
 
@@ -3631,7 +3658,7 @@ number-is-nan@^1.0.0:
 
 numeral@^1.5.3:
   version "1.5.6"
-  resolved "https://registry.npmjs.org/numeral/-/numeral-1.5.6.tgz#3831db968451b9cf6aff9bf95925f1ef8e37b33f"
+  resolved "http://registry.npmjs.org/numeral/-/numeral-1.5.6.tgz#3831db968451b9cf6aff9bf95925f1ef8e37b33f"
 
 nunjucks@^2.3.0:
   version "2.5.2"
@@ -5182,15 +5209,15 @@ uid-number@^0.0.6:
   resolved "https://registry.npmjs.org/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
 
 underscore.string@^3.2.3:
-  version "3.3.4"
-  resolved "https://registry.npmjs.org/underscore.string/-/underscore.string-3.3.4.tgz#2c2a3f9f83e64762fdc45e6ceac65142864213db"
+  version "3.3.5"
+  resolved "https://registry.yarnpkg.com/underscore.string/-/underscore.string-3.3.5.tgz#fc2ad255b8bd309e239cbc5816fd23a9b7ea4023"
   dependencies:
     sprintf-js "^1.0.3"
     util-deprecate "^1.0.2"
 
 underscore@^1.8.3:
   version "1.9.1"
-  resolved "https://registry.npmjs.org/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
 
 union-value@^1.0.0:
   version "1.0.0"
@@ -5227,7 +5254,7 @@ unzip-response@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/unzip-response/-/unzip-response-1.0.2.tgz#b984f0877fc0a89c2c773cc1ef7b5b232b5b06fe"
 
-upath@^1.0.0:
+upath@^1.0.0, upath@^1.0.5:
   version "1.1.0"
   resolved "https://registry.npmjs.org/upath/-/upath-1.1.0.tgz#35256597e46a581db4793d0ce47fa9aebfc9fabd"
 
@@ -5417,11 +5444,11 @@ with@^5.0.0:
 
 word-regex@^0.1.0:
   version "0.1.2"
-  resolved "https://registry.npmjs.org/word-regex/-/word-regex-0.1.2.tgz#a3bc7f2d222ce4a93c246c3ef69458f61f511639"
+  resolved "https://registry.yarnpkg.com/word-regex/-/word-regex-0.1.2.tgz#a3bc7f2d222ce4a93c246c3ef69458f61f511639"
 
 wordcount@^1.1.1:
   version "1.1.1"
-  resolved "https://registry.npmjs.org/wordcount/-/wordcount-1.1.1.tgz#e72da7833904d870a154c9ef47ed5f3e7997cf57"
+  resolved "https://registry.yarnpkg.com/wordcount/-/wordcount-1.1.1.tgz#e72da7833904d870a154c9ef47ed5f3e7997cf57"
   dependencies:
     match-words "^0.1.0"
 
