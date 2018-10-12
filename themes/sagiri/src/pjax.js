@@ -48,5 +48,5 @@ $(document).on('pjax:end', function () {
     }
 
     window.DISQUS = null;
-    window.onload();
+    window.onload && window.onload();
 });
