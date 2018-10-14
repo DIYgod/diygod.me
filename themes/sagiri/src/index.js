@@ -1,6 +1,7 @@
 window.FastClick = require('fastclick');
 require('lazyload');
 
+localStorage.setItem('disqusjs_mode', 'disqus');
 if (window.disqusjs) {
   require('disqusjs');
 }
@@ -10,7 +11,7 @@ window.addEventListener('load', () => {
 });
 setTimeout(() => {
   if (!loaded) {
-    window.onload();
+    window.onload && window.onload();
     window.onload = null;
   }
 }, 2000);
