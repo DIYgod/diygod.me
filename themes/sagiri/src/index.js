@@ -1,21 +1,7 @@
 window.FastClick = require('fastclick');
 require('lazyload');
 
-localStorage.setItem('disqusjs_mode', 'disqus');
-if (window.disqusjs) {
-  require('disqusjs');
-}
-let loaded = false;
-window.addEventListener('load', () => {
-  loaded = true;
-});
-setTimeout(() => {
-  if (!loaded) {
-    window.onload && window.onload();
-    window.onload = null;
-  }
-}, 2000);
-
+require('./disqusjs');
 window.notie = require('corner-notie');
 window.APlayer = require('aplayer');
 window.DPlayer = require('dplayer');

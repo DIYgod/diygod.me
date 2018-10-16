@@ -48,6 +48,5 @@ $(document).on('pjax:end', function () {
     }
 
     window.DISQUS = null;
-    require('disqusjs');
-    window.onload && window.onload();
+    window.disqusjs.load();
 });

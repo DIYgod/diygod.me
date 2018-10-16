@@ -3,8 +3,8 @@
 
     {% if page.comments %}
       <script type="text/javascript">
-        var disqusjs = [];
-        disqusjs.config = {
+        window.disqusjs = window.disqusjs || {};
+        window.disqusjs.config = {
           shortname: '{{ theme.disqus.shortname }}',
           identifier: '{{ page.path }}',
           url: '{{ page.permalink }}',
