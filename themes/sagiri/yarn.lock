@@ -1583,9 +1583,9 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-disqusjs@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-0.2.4.tgz#7e7b6ad567ef9f51cd026504c574310bc8026130"
+disqusjs@^0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-0.2.5.tgz#c2e0872928362a0d4ef67ccd0d9f8d9632382fd6"
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/preset-env" "^7.1.0"

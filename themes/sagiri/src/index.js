@@ -1,7 +1,7 @@
 window.FastClick = require('fastclick');
 require('lazyload');
 
-require('./disqusjs');
+require('disqusjs');
 window.notie = require('corner-notie');
 window.APlayer = require('aplayer');
 window.DPlayer = require('dplayer');
