@@ -78,9 +78,6 @@
 <link href="{{ social_share_uri }}" rel="stylesheet" type="text/css" />
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
-{% if is_post() and config.generator_amp %}
-  <link rel="amphtml" href="{{ config.url }}{{ config.root }}{{ page.path }}amp/index.html">
-{% endif %}
 {% if theme.favicon.apple_touch_icon %}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
 {% endif %}
@@ -174,10 +171,10 @@
   };
 </script>
 {% set js_vendors = {} %}
-{% set js_vendors.jquery      = 'jquery/index.js?v=2.1.3' %}
+{% set js_vendors.jquery      = true %}
+{% set js_vendors.disqusjs    = true %}
 {% for name, internal in js_vendors %}
-  {% set internal_script = url_for(theme.vendors._internal) + '/' + internal %}
-    <script type="text/javascript" src="{{ theme.vendors[name] | default(internal_script) }}"></script>
+  <script type="text/javascript" src="{{ theme.vendors[name] }}"></script>
 {% endfor %}
 
 {# Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 #}

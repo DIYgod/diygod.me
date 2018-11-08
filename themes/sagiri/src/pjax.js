@@ -46,7 +46,4 @@ $(document).on('pjax:end', function () {
       ga('set', 'location', window.location.href);
       ga('send', 'pageview');
     }
-
-    window.DISQUS = null;
-    window.disqusjs.load();
 });
