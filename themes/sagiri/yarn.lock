@@ -1944,10 +1944,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-disqusjs@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-1.0.6.tgz#c1174d653bb8d56aeb0bbb568fc297beb309ab94"
-  integrity sha512-1cPvYUAnsMzSHsmOLvBK2BfQDOIfvrBJd5p5X/JcV75yaBnPis30ZqOaBZYpXqaaosGdOeEQGdb/irfdc9pGGA==
+disqusjs@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/disqusjs/-/disqusjs-1.0.8.tgz#50b2ebd5916156b0e52231e35bb2100dc2545327"
+  integrity sha512-fChO9/3wYX9xIMAhjfC9C3JZYl9m8lE6uxxoE29BtXKfbbJNFe395ynu40b9n0lTAPSuA8Uq9zDVX4wwlK1J8g==
   dependencies:
     "@babel/core" "^7.1.2"
     "@babel/preset-env" "^7.1.0"
