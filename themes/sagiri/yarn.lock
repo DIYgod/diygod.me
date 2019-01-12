@@ -3321,10 +3321,10 @@ leancloud-realtime@^4.2.0:
     uuid "^3.0.0"
     ws "^5.2.1"
 
-leancloud-storage@3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-3.11.0.tgz#743d92e92c5a244bdce34399000f346cbba19516"
-  integrity sha512-boTN6Trff2qRnWmYJblwUQPpo/msFYLVVtCHGczg0PVvBfFnTsoWXqMPz+kAONPlTe6CqcUb1a3C9qnNRV+rQA==
+leancloud-storage@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-3.11.1.tgz#af27874e19f934647ed9a86a8a19507bd6f649e7"
+  integrity sha512-gFENGL7IJImv5yeurMp9+xnDMKP0U++P4qOSAUOjzFY1IyHUWsYHnsMpL9uxqG88Nen5qdnl/LfKitpeCY5egA==
   dependencies:
     debug "^3.1.0"
     es6-promise "4.2.3"
