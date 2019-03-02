@@ -34,7 +34,9 @@ function leancloud () {
             var time = item.get('time');
             var element = document.getElementById(url);
 
-            $(element).find(COUNT_CONTAINER_REF).text(time);
+            if (!$(element).find(COUNT_CONTAINER_REF).text()) {
+              $(element).find(COUNT_CONTAINER_REF).text(time);
+            }
           }
           for (var i = 0; i < entries.length; i++) {
             var url = entries[i];

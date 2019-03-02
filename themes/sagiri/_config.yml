@@ -852,7 +852,7 @@ css: css
 js: js
 images: images
 
-header_bg: /images/header-sagiri.jpg
+header_bg: /images/header-darling4.jpg
 
 card:
   avatar: /images/card.jpg
@@ -889,4 +889,4 @@ online_api: wss://api.diygod.me/online/
 description: <span>写代码是热爱，</span><span>写到世界充满爱！</span>
 
 # Theme version
-version: 0.0.37
+version: 0.0.38
