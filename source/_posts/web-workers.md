@@ -1,7 +1,7 @@
 ---
 title: Web Workers 初体验
 date: 2018-01-30 22:24:15
-categories: 分享境
+categories: 创作集
 ---
 [这个视频](https://www.bilibili.com/video/av18682336/)有 15+MB 的 BAS 弹幕脚本需要解析，这会导致页面卡死 7 秒左右的时间，期间 UI 被冻结，体验很糟糕，如果使用 Web Workers 进行优化，把解析放入 Web Workers 执行，就可以避免 UI 线程阻塞造成的页面冻结。
 
