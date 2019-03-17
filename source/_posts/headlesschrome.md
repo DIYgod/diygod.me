@@ -11,9 +11,9 @@ tags: 创作集
 
 <!--more-->
 
-## Jest + Puppeteer
+## 编写测试脚本
 
-模拟用户操作就需要用到无头浏览器
+模拟用户操作就需要用到无头浏览器，我采用了 Jest + Puppeteer 的组合
 
 Jest 是一个测试框架，Puppeteer 是用来控制 Chrome 或 Chromium
 
@@ -70,7 +70,7 @@ launch: {
 
 ![](/images/headlesschrome2.jpg)
 
-## browserless/chrome
+## Chrome as a service
 
 刚才使用了本地的 Chrome，会依赖本地环境，而且想作为自动化测试跑在测试机上也是不行的
 
