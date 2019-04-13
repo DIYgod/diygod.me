@@ -54,8 +54,6 @@ $(function () {
 </script>
 {% endraw %}
 
-&nbsp;
-
 # [hexo-tag-dplayer](https://github.com/MoePlayer/hexo-tag-dplayer)
 
 ```sh

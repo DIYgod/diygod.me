@@ -27,8 +27,6 @@ $(function () {
 </script>
 {% endraw %}
 
-&nbsp;
-
 听了几年网易云音乐积累的音乐，女声、日语为主（也可能会有一些奇奇怪怪的歌曲
 同步自：[DIYgod喜欢的音乐 - 网易云音乐](http://music.163.com/#/playlist?id=35798529)
 自豪地使用 [Meting](https://github.com/metowolf/Meting) 和 [APlayer](https://github.com/MoePlayer/APlayer) 构建
