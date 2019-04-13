@@ -3,6 +3,27 @@ title: 《青春猪头少年不会梦到兔女郎学姐》圣地巡礼
 date: 2019-04-12 01:33:37
 categories: 日记本
 ---
+{% raw %}
+<div class="aplayer" id="aplayer-mai"></div>
+<script>
+$(function () {
+    $.ajax({
+        url: 'https://api.i-meto.com/meting/api?server=netease&type=song&id=1313052943',
+        success: function (list) {
+            var ap = new APlayer({
+                element: document.getElementById('aplayer-mai'),
+                showlrc: 3,
+                theme: '#8d7561',
+                music: JSON.parse(list)[0]
+            });
+            window.aplayers || (window.aplayers = []);
+            window.aplayers.push(ap);
+        }
+    })
+})
+</script>
+{% endraw %}
+
 之前去日本玩了几天，最后一天没什么事了，初雪说我们去看兔女郎吧
 
 4月7日，清晨 11 点半，我们便早早地起床坐上了前往湘南的 JR，开始了这次《青春猪头少年不会梦到兔女郎学姐》 江之岛 ~ 镰仓高校前 ~ 七里滨 ~ 藤泽车站 的圣地巡礼之旅
