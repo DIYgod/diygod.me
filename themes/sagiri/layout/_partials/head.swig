@@ -79,7 +79,7 @@
 
 <link href="{{ url_for(theme.css) }}/main.css?v={{ theme.version }}" rel="stylesheet" type="text/css" />
 {% if theme.favicon.apple_touch_icon %}
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ url_for(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for(theme.favicon.apple_touch_icon) }}?v={{ theme.version }}">
 {% endif %}
 {% if theme.favicon.narmal %}
   <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for(theme.favicon.narmal) }}?v={{ theme.version }}">
