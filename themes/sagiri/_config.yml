@@ -20,13 +20,13 @@ override: false
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
   visibilitychange: true
-  narmal: /images/favicon.ico
-  hidden: /images/failure.ico
+  narmal: /images/icon/favicon.ico
+  hidden: /images/icon/failure.ico
   show_text: (/≧▽≦/)咦！又好了！
   hide_text: (●—●)喔哟，崩溃啦！
-  apple_touch_icon: /images/DIYgod-180x180.jpg
-  safari_pinned_tab: /images/DIYgod.jpg
-  #android_manifest: /images/manifest.json
+  apple_touch_icon: /images/icon/apple-touch-icon.png
+  safari_pinned_tab: /images/icon/safari-pinned-tab.svg
+  android_manifest: /images/icon/site.webmanifest
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
@@ -308,7 +308,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#da532c"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -889,4 +889,4 @@ online_api: wss://api.diygod.me/online/
 description: <span>写代码是热爱，</span><span>写到世界充满爱！</span>
 
 # Theme version
-version: 0.0.43
+version: 0.0.44
