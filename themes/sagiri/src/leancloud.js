@@ -2,7 +2,11 @@ let AV;
 
 if (window.CONFIG.leancloud.enable) {
   AV = require('leancloud-storage');
-  AV.initialize(window.CONFIG.leancloud.appID, window.CONFIG.leancloud.appKey);
+  AV.init({
+    appId: window.CONFIG.leancloud.appID,
+    appKey: window.CONFIG.leancloud.appKey,
+    serverURLs: 'https://avoscloud.com',
+  });
 }
 
 function leancloud () {

@@ -218,9 +218,10 @@
                  <i class="fa fa-eye"></i>
                </span>
                {% if theme.post_meta.item_text %}
-                 <span class="post-meta-item-text">{{__('post.visitors')}}</span>
+                 <span class="post-meta-item-text">被</span>
                {% endif %}
-                 <span class="leancloud-visitors-count"></span>
+                 <span class="leancloud-visitors-count">多少</span>
+                 <span class="post-meta-item-text">人看爆</span>
              </span>
           {% endif %}
 
