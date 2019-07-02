@@ -61,6 +61,11 @@
             {% endif %}
           </div>
 
+          <details class="views-top-wrap">
+            <summary class="views-top-name">看爆 Top10</summary>
+            <ul class="views-top"></ul>
+          </details>
+
           {% if theme.rss %}
             <div class="feed-link motion-element">
               {% if theme.emailfeed %}

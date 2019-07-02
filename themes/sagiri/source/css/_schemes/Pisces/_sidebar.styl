@@ -76,7 +76,7 @@
 .sidebar a {
   color: $black-light;
 
-  &:hover { color: $black-deep; }
+  &:hover { color: $link-hover-color; }
 }
 
 .site-state-item {
@@ -207,4 +207,32 @@
     background: url('../images/scroll.png');
     transition: all .5s ease-in-out;
     opacity: 1;
+}
+
+.views-top-name {
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.views-top {
+  padding: 0;
+  font-size: 12px;
+
+  a {
+    color: #ab3300;
+  }
+}
+
+.views-top-title {
+  max-width: 200px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.views-top-time {
+  float: right;
 }

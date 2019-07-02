@@ -1,5 +1,4 @@
 let AV;
-
 if (window.CONFIG.leancloud.enable) {
   AV = require('leancloud-storage');
   AV.init({
@@ -7,6 +6,7 @@ if (window.CONFIG.leancloud.enable) {
     appKey: window.CONFIG.leancloud.appKey,
     serverURLs: 'https://avoscloud.com',
   });
+  window.AV = AV;
 }
 
 function leancloud () {
@@ -105,12 +105,29 @@ function leancloud () {
         })
     }
 
+    function showTop (Counter) {
+      var query = new AV.Query(Counter);
+      query.descending("time");
+      query.limit(10);
+      query.find().then((results) => {
+        let tpl = '';
+        results.forEach((item) => {
+          tpl += `<li><a href="${item.attributes.url}"><span class="views-top-title">${item.attributes.title}</span><span class="views-top-time">${item.attributes.time}次看爆</span></a></li>`;
+        })
+        $('.views-top').html(tpl);
+      }, function (error) { }
+      );
+    }
+
     $(function () {
       var Counter = AV.Object.extend("Counter");
       if ($('.leancloud_visitors').length == 1) {
         addCount(Counter);
       } else if ($('.post-title-link').length > 1) {
         showTime(Counter);
+      }
+      if ($('.views-top').length) {
+        showTop(Counter);
       }
     });
   }
