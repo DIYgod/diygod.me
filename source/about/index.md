@@ -9,7 +9,7 @@ type: "about"
 
 人气网红 | 前端小萌新 | bilibili | 有猫 | 开源
 
-抓住我： [GitHub](https://github.com/DIYgod) | [Twitter](https://twitter.com/DIYgod) | [QQ 群](https://getrbq.com) | [Telegram chanel](https://t.me/awesomeDIYgod) | [更多](https://www.anotherhome.net/3163)
+抓住我： [GitHub](https://github.com/DIYgod) | [Twitter](https://twitter.com/DIYgod) | [QQ 群](https://wj.qq.com/s2/3318631/2970) | [Telegram chanel](https://t.me/awesomeDIYgod) | [更多](https://www.anotherhome.net/3163)
 
 &nbsp;
 
