@@ -308,7 +308,7 @@ post_copyright:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($black-deep).
-android_chrome_color: "#ffffff"
+android_chrome_color: "#da532c"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
