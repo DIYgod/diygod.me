@@ -1,6 +1,10 @@
 body {
   background: #efefef;
   cursor: url('../images/cursor.ico'), auto;
+
+  +mobile() {
+    background: #78797a;
+  }
 }
 
 .header {
@@ -137,6 +141,7 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
+  background: #efefef;
 }
 
 a {
