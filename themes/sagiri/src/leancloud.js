@@ -4,7 +4,7 @@ if (window.CONFIG.leancloud.enable) {
   AV.init({
     appId: window.CONFIG.leancloud.appID,
     appKey: window.CONFIG.leancloud.appKey,
-    serverURLs: 'https://avoscloud.com',
+    serverURLs: 'https://leancloud.diygod.me',
   });
   window.AV = AV;
 }
