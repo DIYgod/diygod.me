@@ -2318,13 +2318,12 @@ hexo-generator-category@^0.1.3:
     hexo-pagination "0.0.2"
     object-assign "^2.0.0"
 
-hexo-generator-feed@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-1.2.2.tgz#9516d1596509b157f4d044fb49b2bae398b82ba7"
-  integrity sha512-4jcvVhFgpEFRJ7A+KhBSfWoQaewRBjcVWEO4OmBgnvaZOm6XwK+b5ZXx/8BpujCLHbjXWzglXhiT7qFFS/nvzw==
+hexo-generator-feed@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-feed/-/hexo-generator-feed-2.0.0.tgz#339a1483e50630096ad51602c6c4981f66cedc21"
+  integrity sha512-HlbIgKSZF+gopgmzgHd7kTxzGEDydqe7iQ7TZ6u1ojOUU9fkG+XYmE8AYklsXeol3xnSDO1FZ8ZPaAmT2o3B6A==
   dependencies:
     nunjucks "^3.0.0"
-    object-assign "^4.1.1"
 
 hexo-generator-index@^0.2.0:
   version "0.2.1"
@@ -3807,18 +3806,7 @@ nunjucks@^2.3.0:
     chokidar "^1.6.0"
     yargs "^3.32.0"
 
-nunjucks@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/nunjucks/-/nunjucks-3.0.1.tgz#4de74a3e550baf6fa3370323f3d1c7c2a86bdc4d"
-  integrity sha1-TedKPlULr2+jNwMj89HHwqhr3E0=
-  dependencies:
-    a-sync-waterfall "^1.0.0"
-    asap "^2.0.3"
-    yargs "^3.32.0"
-  optionalDependencies:
-    chokidar "^1.6.0"
-
-nunjucks@^3.1.3:
+nunjucks@^3.0.0, nunjucks@^3.1.3:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   integrity sha512-YS/qEQ6N7qCnUdm6EoYRBfJUdWNT0PpKbbRnogV2XyXbBm2STIP1O6yrdZHgwMVK7fIYUx7i8+yatEixnXSB1w==
@@ -3839,7 +3827,7 @@ object-assign@^2.0.0:
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-2.1.1.tgz#43c36e5d569ff8e4816c4efa8be02d26967c18aa"
   integrity sha1-Q8NuXVaf+OSBbE76i+AtJpZ8GKo=
 
-object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
