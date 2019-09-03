@@ -2398,10 +2398,10 @@ hexo-renderer-marked@^2.0.0:
     marked "^0.7.0"
     strip-indent "^3.0.0"
 
-hexo-renderer-stylus@^0.3.1:
-  version "0.3.3"
-  resolved "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-0.3.3.tgz#c54ea27e1fd8e3c8a9a7a84cfba8ad354122ca7f"
-  integrity sha1-xU6ifh/Y48ipp6hM+6itNUEiyn8=
+hexo-renderer-stylus@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-1.0.0.tgz#efb26ffbdac6b7420bf405020bbdacb245582c8c"
+  integrity sha512-QyRXpmPu41zBDbV/9bwqVQsiN9TT25VNvaN6liS4Mn+5FHqJg2DtrLBu63VdACCKBHLwFs9FDzMaf0NTar7J0Q==
   dependencies:
     nib "^1.1.2"
     stylus "^0.54.5"
