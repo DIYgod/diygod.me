@@ -86,10 +86,10 @@ submenu:
     RSSHub: https://docs.rsshub.app/
     DPlayer: http://dplayer.js.org/
     APlayer: https://aplayer.js.org/
-    Oneindex: https://pan.prprpr.me/
     TT RSS: https://rss.diygod.me/
     监控: https://status.diygod.me/
     NAS: https://nas.diygod.me:2222/
+    Sentry: https://sentry.diygod.me/
 
 # Enable/Disable menu icons.
 menu_icons:
