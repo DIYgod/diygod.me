@@ -26,7 +26,7 @@ favicon:
   hide_text: (●—●)喔哟，崩溃啦！
   apple_touch_icon: /apple-touch-icon.png
   safari_pinned_tab: /safari-pinned-tab.svg
-  android_manifest: /site.webmanifest
+  android_manifest: /manifest.json
   #ms_browserconfig: /images/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
