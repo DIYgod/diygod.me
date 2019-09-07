@@ -2189,13 +2189,12 @@ hexo-generator-feed@2.0.0:
   dependencies:
     nunjucks "^3.0.0"
 
-hexo-generator-index@^0.2.0:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/hexo-generator-index/-/hexo-generator-index-0.2.1.tgz#9042229fcac79aaf700575da19332bf3f7ee5c5d"
-  integrity sha1-kEIin8rHmq9wBXXaGTMr8/fuXF0=
+hexo-generator-index@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
+  integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
   dependencies:
-    hexo-pagination "0.0.2"
-    object-assign "^4.0.1"
+    hexo-pagination "1.0.0"
 
 hexo-generator-searchdb@1.0.8:
   version "1.0.8"
