@@ -2838,10 +2838,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.0"
 
-headroom.js@0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.10.0.tgz#8b1543bae0ccdcca1d7b38df8286788c03a2786a"
-  integrity sha512-CqcESzx9iprChWvSafTwYhNSaFEREk735HxpwlkJD6PkFTzXVbxHgDSsFx7HFurqCpAsLkXdhTpuz09lUha7YA==
+headroom.js@0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/headroom.js/-/headroom.js-0.10.2.tgz#0575f9237b64386024fb802ae97156930bef1206"
+  integrity sha512-Xw6rg0xzBXaMK6Y46CFsYsHpXE+RHkYBS1vmYCqIM713st3RQvFJJHpoXpg+RV1j6ygBy6vgeQRJeQpPBa0ADg==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
