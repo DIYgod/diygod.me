@@ -48,7 +48,7 @@
             {% if theme.social %}
               {% for name, link in theme.social %}
                 <span class="links-of-author-item">
-                  <a href="{{ link.split('||')[0] | trim }}" target="_blank" title="{{ name }}" data-balloon="{{ name }}" data-balloon-pos="up">
+                  <a href="{{ trim(link.split('||')[0]) }}" target="_blank" title="{{ name }}" data-balloon="{{ name }}" data-balloon-pos="up">
                     {% if theme.social_icons.enable %}
                       {{ link.split('||')[1] }}{#
                   #}{% endif %}{#
@@ -86,7 +86,7 @@
             {% if config.archive_dir != '/' and site.posts.length > 0 %}
               <div class="site-state-item site-state-posts">
               {% if theme.menu.archives %}
-                <a href="{{ url_for(theme.menu.archives).split('||')[0] | trim }}">
+                <a href="{{ trim(url_for(theme.menu.archives).split('||')[0]) }}">
               {% else %}
                 <a href="{{ url_for(config.archive_dir) }}">
               {% endif %}
