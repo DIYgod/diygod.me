@@ -1910,10 +1910,10 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-searchdb@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.1.0.tgz#6598c6b24356d695da5e73a65be0fb059c59a92a"
-  integrity sha512-6Bdwq40zJYuW/DpS4O294ES2O8yS81DscroJ43QHBS2NVbs0jpeiSyiFTN931Ogz7KFdlRejQK9ZT7cc3VQp5g==
+hexo-generator-searchdb@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.2.0.tgz#ebf1ec38be78d447d4ae7b7f358d312473a7a90b"
+  integrity sha512-/3R5cH7McZlNgkesGzdCJXAnabf8lJvWCojcRM3jTs/P+bpiKqiKanZjINSjMHoXW+05S2ccI1bJnWDS6Z3zgA==
   dependencies:
     nunjucks "^3.2.0"
 
