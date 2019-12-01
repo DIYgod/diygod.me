@@ -1130,10 +1130,10 @@ balanced-match@^1.0.0:
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
-balloon-css@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/balloon-css/-/balloon-css-1.0.3.tgz#496ccb131b642e89cd8cfc4378c68dc6d0a5e2c2"
-  integrity sha512-683Qvn+KaHpEOdyB1PZgyOLf3IXL5HFxUfpbayIGRevmjiyoOTAhPcK2+zpWfZ1sKf83pl7mQdQI9ddkKA1f8A==
+balloon-css@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/balloon-css/-/balloon-css-1.0.4.tgz#fbef7890bd89aa61c474df734c3923a97ebf43d8"
+  integrity sha512-sq9vMyTN8dVYPvoS0rTSxlfYq2tPNM9E2t30CHJlRDUQibD6PtMVHjTbbpj3yRZvMPFev31lggAOLG2cxmwJ7w==
 
 balloon-css@^0.5.0:
   version "0.5.0"
