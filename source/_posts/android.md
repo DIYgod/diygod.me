@@ -5,7 +5,7 @@ tags: 分享境
 ---
 最近把用了两年的 iPhone X 换成了 Redmi K20 Pro，体验一下 Android 自由香甜的空气
 
-<p><img style="max-width: 300px" src="/images/android1.jpg"></p>
+<p><img style="width: 100%; max-width: 300px" src="/images/android1.jpg"></p>
 <!--more-->
 
 ## 解锁 Bootloader
@@ -74,19 +74,19 @@ Magisk 同样也是开源项目，在 [GitHub](https://github.com/topjohnwu/Magi
 
 前面准备了那么多，终于可以安装 Magisk 模块了，Magisk 模块非常丰富，网上资料也很多，所以这里只介绍一下我使用的几个模块
 
-<p><img style="max-width: 400px" src="/images/android13.png"></p>
+<p><img style="width: 100%; max-width: 400px" src="/images/android13.png"></p>
 
 筑紫A丸：全局替换系统字体，字体名叫筑紫A丸ゴシック，效果就如图所示，很可爱，介绍和下载在[这里](https://mp.weixin.qq.com/s/zGaX15vRE-ZPoHtAiXawhQ)
 
 Google Lens Enabler：欺骗 Google 相册这个设备是一台 Pixel 设备，来开启 Google 智能镜头的功能，然后还有一个重要的额外效果：让 Google 相册拥有无限空间
 
-<p><img style="max-width: 400px" src="/images/android14.jpg"></p>
+<p><img style="width: 100%; max-width: 400px" src="/images/android14.jpg"></p>
 
 Riru - Core：Riru 是一个系列模块，使用 Riru 模块都需要先安装 Riru - Core
 
 Riru - Storage Redirect：存储重定向，几乎所有的 Android 应用都会在我们的手机中储存信息，为此，Android 系统提供了 `/data` 和 `sdcard/Android/data` 这两个目录来进行应用数据文件存放，遗憾的是，很多应用开发者并不会遵从这个规范，这让手机内部储存目录显得极为杂乱且文件管理效率低下，使用 Storage Redirect 能很好地解决上述问题，它将散落于各处的应用私有文件夹重新定位到指定的位置，[这里](https://sr.rikka.app/zh-hans/)有它的官方介绍和文档
 
-<p><img style="max-width: 400px" src="/images/android15.jpg"></p>
+<p><img style="width: 100%; max-width: 400px" src="/images/android15.jpg"></p>
 
 Tai Chi：太极模块，见下一节
 
@@ -102,7 +102,7 @@ Tai Chi：太极模块，见下一节
 
 下面是我使用的几个模块：
 
-<p><img style="max-width: 400px" src="/images/android16.jpg"></p>
+<p><img style="width: 100%; max-width: 400px" src="/images/android16.jpg"></p>
 
 大圣净化和去你大爷的内置浏览器非常香
 
@@ -112,7 +112,7 @@ Redmi K20 Pro 支持 Camera2 API，所以不需要额外折腾就可以安装 Go
 
 国内开发者[阿狗酱](https://weibo.com/u/5213532617)有分享专门为 Redmi K20 Pro 调教的谷歌相机
 
-<p><img style="max-width: 400px" src="/images/android17.jpg"></p>
+<p><img style="width: 100%; max-width: 400px" src="/images/android17.jpg"></p>
 
 得益于 HDR+ 算法，提升非常明显，Google 真的太强了
 
