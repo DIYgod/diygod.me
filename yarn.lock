@@ -1910,13 +1910,6 @@ hexo-generator-index@^1.0.0:
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-searchdb@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-searchdb/-/hexo-generator-searchdb-1.1.0.tgz#6598c6b24356d695da5e73a65be0fb059c59a92a"
-  integrity sha512-6Bdwq40zJYuW/DpS4O294ES2O8yS81DscroJ43QHBS2NVbs0jpeiSyiFTN931Ogz7KFdlRejQK9ZT7cc3VQp5g==
-  dependencies:
-    nunjucks "^3.2.0"
-
 hexo-generator-sitemap@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.0.0.tgz#0d4cc5c44785c1ae15c5898e0c5bff5a9e163957"
@@ -3200,7 +3193,7 @@ numeral@^1.5.3:
   resolved "https://registry.yarnpkg.com/numeral/-/numeral-1.5.6.tgz#3831db968451b9cf6aff9bf95925f1ef8e37b33f"
   integrity sha1-ODHbloRRuc9q/5v5WSXx7443sz8=
 
-nunjucks@^3.0.0, nunjucks@^3.1.3, nunjucks@^3.1.6, nunjucks@^3.2.0:
+nunjucks@^3.0.0, nunjucks@^3.1.3, nunjucks@^3.1.6:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.0.tgz#53e95f43c9555e822e8950008a201b1002d49933"
   integrity sha512-YS/qEQ6N7qCnUdm6EoYRBfJUdWNT0PpKbbRnogV2XyXbBm2STIP1O6yrdZHgwMVK7fIYUx7i8+yatEixnXSB1w==
