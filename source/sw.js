@@ -29,6 +29,12 @@
             maxEntries: maxEntries
         }
     });
+    self.toolbox.router.get('/fonts/(.*)', self.toolbox.cacheFirst, {
+        cache: {
+            name: staticAssetsCacheName,
+            maxEntries: maxEntries
+        }
+    });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /cdn\.jsdelivr\.net/,
         cache: {
@@ -38,13 +44,6 @@
     });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /cdnjs\.loli\.net/,
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /fonts\.loli\.net/,
         cache: {
             name: staticAssetsCacheName,
             maxEntries: maxEntries

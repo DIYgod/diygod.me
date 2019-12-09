@@ -34,8 +34,8 @@ const placeSpans = () => {
 
 const animateLetterIn = (i) => {
   setTimeout(() => {
-    TweenLite.fromTo(animatedSpans[i], 0.4, { opacity: 0, y: 40 }, { opacity: 1, y: 0, ease: Power3.easeOut });
-    TweenLite.fromTo(animatedSpans[i], 0.4, { scale: 0 }, { scale: 1, ease: Back.easeOut });
+    TweenLite.fromTo(animatedSpans[i], 0.4, { opacity: 0, y: 40 }, { opacity: 1, y: 0, ease: gsap.Power3.easeOut });
+    TweenLite.fromTo(animatedSpans[i], 0.4, { scale: 0 }, { scale: 1, ease: gsap.Back.easeOut });
   }, i * 200);
 
   // if (i === textLength - 1) {
@@ -47,7 +47,7 @@ const animateLetterIn = (i) => {
 
 const animateLetterOut = (i) => {
   setTimeout(() => {
-    TweenLite.to(animatedSpans[i], 0.4, { opacity: 0, y: 40, scale: 0, ease: Power3.easeIn });
+    TweenLite.to(animatedSpans[i], 0.4, { opacity: 0, y: 40, scale: 0, ease: gsap.Power3.easeIn });
   }, i * 200);
 
   if (i === textLength - 1) {
@@ -85,8 +85,16 @@ const resize = () => {
   placeSpans();
 }
 
-setTimeout(() => {
-  resize();
-  animateIn();
-  window.addEventListener('resize', resize);
-}, 500);
+if (document.fonts && document.fonts.ready) {
+  document.fonts.ready.then(() => {
+    resize();
+    animateIn();
+    window.addEventListener('resize', resize);
+  });
+} else {
+  setTimeout(() => {
+    resize();
+    animateIn();
+    window.addEventListener('resize', resize);
+  }, 500);
+}
