@@ -35,6 +35,13 @@
             maxEntries: maxEntries
         }
     });
+    self.toolbox.router.get("(.*)/images/(.*)", self.toolbox.cacheFirst, {
+        origin: /cdn\.jsdelivr\.net/,
+        cache: {
+            name: staticImageCacheName,
+            maxEntries: maxEntries
+        }
+    });
     self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
         origin: /cdn\.jsdelivr\.net/,
         cache: {
