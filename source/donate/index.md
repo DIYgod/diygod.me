@@ -27,7 +27,7 @@ date: 2014-02-15 23:11:10
 -   给我们发邮件联系赞助事宜: i#html.love
 
 {% raw %}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script data-ad-client="ca-pub-5433699470727157" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- 博客投喂页展示demo -->
 <ins class="adsbygoogle"
      style="display:block"
