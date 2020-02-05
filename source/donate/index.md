@@ -25,3 +25,17 @@ date: 2014-02-15 23:11:10
 
 -   通过 [Patreon](https://www.patreon.com/DIYgod) 赞助成为 backer
 -   给我们发邮件联系赞助事宜: i#html.love
+
+{% raw %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 博客投喂页展示demo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5433699470727157"
+     data-ad-slot="6239237343"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endraw %}
