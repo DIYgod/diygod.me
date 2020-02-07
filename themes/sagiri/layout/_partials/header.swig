@@ -77,7 +77,7 @@
             {% for letter in config.title %}{#
               #}<span>
                   <svg>
-                    <use xlink:href="#css{{ letter }}"></use>
+                    <use xlink:href="#stroke{{ letter }}"></use>
                   </svg>
                 </span>{#
             #}{% endfor %}
@@ -86,7 +86,7 @@
             {% for letter in config.title %}{#
               #}<span>
                   <svg>
-                    <text id="css{{ letter }}">{{ letter }}</text>
+                    <text id="stroke{{ letter }}">{{ letter }}</text>
                   </svg>
                 </span>{#
             #}{% endfor %}
