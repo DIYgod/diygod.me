@@ -56,11 +56,23 @@
     opacity: 0;
   }
 
-  .animate {
-    transition: 0.3s;
+  .animate svg {
+    fill: #ff8a25;
+    overflow: visible;
+    text-shadow: none;
+    height: 1px;
+    width: 1px;
   }
 
-  .animate:hover {
-    opacity: 0.5;
+  .animate use {
+    stroke: #fff;
+    stroke-width: 13px;
+    stroke-linejoin: round;
+  }
+
+  .animate {
+    transition: 0.3s;
+    position: absolute;
+    top: 0;
   }
 }

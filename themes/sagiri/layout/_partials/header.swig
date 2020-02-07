@@ -73,9 +73,22 @@
       <div class="brand">
         <span class="logo-line-before"><i></i></span>
         <div class="site-title">
+          <div id="animate-stroke" class="animate">
+            {% for letter in config.title %}{#
+              #}<span>
+                  <svg>
+                    <use xlink:href="#css{{ letter }}"></use>
+                  </svg>
+                </span>{#
+            #}{% endfor %}
+          </div>
           <div id="animate" class="animate">
             {% for letter in config.title %}{#
-              #}<span>{{ letter }}</span>{#
+              #}<span>
+                  <svg>
+                    <text id="css{{ letter }}">{{ letter }}</text>
+                  </svg>
+                </span>{#
             #}{% endfor %}
           </div>
           <div id="guide" class="guide">
@@ -103,8 +116,8 @@
   </div>
 </div>
 <div class="site-master" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-master-avatar" itemprop="image" src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}" alt="{{ theme.author }}" />
-    <h2 class="site-master-description" itemprop="description">
+    <img class="site-master-avatar scaleup" itemprop="image" src="{{ url_for( theme.avatar | default(theme.images + '/avatar.gif') ) }}" alt="{{ theme.author }}" />
+    <h2 class="site-master-description scaleup" itemprop="description">
         {{ theme.description }}
     </h2>
 </div>
