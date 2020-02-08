@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "aplayer": "1.10.1",
-    "balloon-css": "1.0.4",
     "corner-notie": "1.2.1",
     "disqusjs": "^1.2.5",
     "dplayer": "1.25.0",

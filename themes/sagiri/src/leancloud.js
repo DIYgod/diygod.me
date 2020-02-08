@@ -126,8 +126,14 @@ function leancloud () {
       } else if ($('.post-title-link').length > 1) {
         showTime(Counter);
       }
-      if ($('.views-top').length) {
-        showTop(Counter);
+      if ($('.views-top-wrap').length) {
+        let viewsInited = false;
+        $('.views-top-wrap').on('toggle', (event) => {
+          if (!viewsInited && $('.views-top-wrap')[0].open) {
+            showTop(Counter);
+            viewsInited = true;
+          }
+        });
       }
     });
   }

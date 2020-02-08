@@ -80,7 +80,7 @@
           <span class="post-time">
             {% if theme.post_meta.created_at %}
               <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
+                <i class="far fa-calendar"></i>
               </span>
               {% if theme.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __('post.posted') }}</span>
@@ -112,7 +112,7 @@
                   <span class="post-meta-divider">•</span>
                 {% endif %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
+                  <i class="far fa-file-word"></i>
                 </span>
                 {% if theme.post_wordcount.item_text %}
                   <span class="post-meta-item-text">{{ __('post.wordcount') }}</span>
@@ -215,7 +215,7 @@
              <span id="{{ url_for(post.path) }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
                <span class="post-meta-divider">•</span>
                <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
+                 <i class="far fa-eye"></i>
                </span>
                {% if theme.post_meta.item_text %}
                  <span class="post-meta-item-text">被</span>

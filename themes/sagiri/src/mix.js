@@ -39,3 +39,11 @@ if (navigator.userAgent.match(/mobile/i)) {
     }
   })
 }
+
+$('.des-of-author-title').click(function () {
+  $('.des-of-author-title.active').removeClass('active');
+  $('.des-of-author-des.active').removeClass('active');
+  const index = $(this).data('index');
+  $(this).addClass('active');
+  $(`.des-of-author-des[data-index="${index}"]`).addClass('active');
+});

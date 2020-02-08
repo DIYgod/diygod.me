@@ -8,7 +8,7 @@
         <li class="menu-item menu-item-{{ itemName | replace(' ', '-') }}">
           <a href="{{ url_for(trim(path.split('||')[0])) }}" rel="section"{% if path.split('||')[2] %} target="_blank"{% endif %}>
             {% if theme.menu_icons.enable %}
-              <i class="menu-item-icon fa fa-fw fa-{{ trim(path.split('||')[1]) | default('question-circle') }}"></i> <br />
+              <i class="menu-item-icon {{ trim(path.split('||')[1]) }}"></i> <br />
             {% endif %}
             {{ __('menu.' + name) | replace('menu.', '') }}
           </a>
@@ -44,7 +44,7 @@
       <li class="menu-item search">
           <form class="search-form">
             <input name="keyword" type="text" class="search-input" placeholder="站内搜索">
-            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+            <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
           </form>
       </li>
       <li class="menu-item online"><span id="online-count">?</span>人在线</li>

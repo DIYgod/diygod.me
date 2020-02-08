@@ -3,6 +3,9 @@ title: 优雅地下载我的B站投币视频
 date: 2019-06-02 16:51:16
 categories: 创作集
 ---
+
+下载B站视频很简单，you-get 一行命令的事，但我已经懒到命令都不想输了，如果投币之后 NAS 可以自己去下载就好了<!--more-->
+
 {% raw %}
 <style>
 twitter-widget {
@@ -12,10 +15,6 @@ twitter-widget {
 <blockquote class="twitter-tweet" data-cards="hidden" data-lang="zh-cn"><p lang="zh" dir="ltr">B站收藏夹一堆失效视频，想做一个收藏后自动下载的小工具🤔<br><br>RSS+IFTTT+Webhooks+ffmpeg?</p><a href="https://twitter.com/DIYgod/status/1131898671111450625?ref_src=twsrc%5Etfw">&mdash; DIYgod (@DIYgod) 2019年5月24日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {% endraw %}
-
-&nbsp;
-
-下载B站视频很简单，you-get 一行命令的事，但我已经懒到命令都不想输了，如果投币之后 NAS 可以自己去下载就好了<!--more-->
 
 ## 设想
 

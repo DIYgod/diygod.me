@@ -47,8 +47,8 @@
           <div class="links-of-author motion-element">
             {% if theme.social %}
               {% for name, link in theme.social %}
-                <span class="links-of-author-item">
-                  <a href="{{ trim(link.split('||')[0]) }}" target="_blank" title="{{ name }}" data-balloon="{{ name }}" data-balloon-pos="up">
+                <span class="links-of-author-item scaleup">
+                  <a href="{{ trim(link.split('||')[0]) }}" target="_blank" title="{{ name }}">
                     {% if theme.social_icons.enable %}
                       {{ link.split('||')[1] }}{#
                   #}{% endif %}{#
@@ -61,21 +61,43 @@
             {% endif %}
           </div>
 
+          <div class="des-of-author">
+              <div class="des-of-author-nav">
+                {% for title, des in theme.card.items %}
+                  {% if loop.index === 1 %}
+                    <div class="des-of-author-title active" data-index="{{ loop.index }}">{{ title }}</div>
+                  {% else %}
+                    <div class="des-of-author-title" data-index="{{ loop.index }}">{{ title }}</div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="des-of-author-panel">
+                {% for title, des in theme.card.items %}
+                  {% if loop.index === 1 %}
+                    <div class="des-of-author-des active" data-index="{{ loop.index }}">{{ des }}</div>
+                  {% else %}
+                    <div class="des-of-author-des" data-index="{{ loop.index }}">{{ des }}</div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+          </div>
+
           <details class="views-top-wrap">
-            <summary class="views-top-name">看爆 Top10</summary>
+            <summary class="views-top-name scaleup">看爆 Top10</summary>
             <ul class="views-top"></ul>
           </details>
 
+          {#
           {% if theme.rss %}
             <div class="feed-link motion-element">
               {% if theme.emailfeed %}
               <a class="feed-email" href="{{ theme.emailfeed }}" rel="alternate" target="_blank">
-                <i class="fa fa-envelope"></i>
+                <i class="fas fa-envelope"></i>
                 <span>Email 订阅</span>
               </a>
               {% endif %}
               <a class="feed-rss" href="{{ url_for(theme.rss) }}" rel="alternate" target="_blank">
-                <i class="fa fa-rss"></i>
+                <i class="fas fa-rss"></i>
                 <span>RSS 订阅</span>
               </a>
             </div>
@@ -106,7 +128,6 @@
                 {% if hasCategoriesPage %}</a>{% endif %}
               </div>
             {% endif %}
-            {#
             {% if site.tags.length > 0 %}
               {% set tagsPageQuery = site.pages.find({type: 'tags'}, {lean: true}) %}
               {% set hasTagsPage = tagsPageQuery.length > 0 %}
@@ -117,7 +138,6 @@
                 {% if hasTagsPage %}</a>{% endif %}
               </div>
             {% endif %}
-            #}
 
           </nav>
 
@@ -128,7 +148,7 @@
                 <img src="{{ url_for(theme.images) }}/cc-{{ theme.creative_commons }}.png" alt="Creative Commons" />
               </a>
             </div>
-          {% endif %}
+          {% endif %}#}
 
           {# Blogroll #}
           {#
