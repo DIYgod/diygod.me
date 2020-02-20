@@ -108,7 +108,7 @@ function leancloud () {
     function showTop (Counter) {
       var query = new AV.Query(Counter);
       query.descending("time");
-      query.limit(10);
+      query.limit(5);
       query.find().then((results) => {
         let tpl = '';
         results.forEach((item) => {
