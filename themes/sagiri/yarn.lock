@@ -2916,10 +2916,10 @@ graceful-fs@^4.1.15:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-gsap@3.2.2:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.2.2.tgz#f8364c3c146602dd648ca62811afb69e6868b524"
-  integrity sha512-NGZkzIMHSpUvC+cVdlMk2Dwwou0tJTIitMoNe4LICgHDgOnwoOcklXlyF3E1sX21TVk0FeSNNMs8x7G+Ee8Hig==
+gsap@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.2.3.tgz#79dd1948d8520b1bb971d0a8e76419747df3fb92"
+  integrity sha512-YpcblPJtE2JP7HhNTrEIGgmHxYRHWZfrkkxnxvN1BWKQ5UEmSH7w3Ak6m00nOj7JS22AajNCn7Vnzqvcs66nog==
 
 gulp-autoprefixer@^7.0.0:
   version "7.0.1"
