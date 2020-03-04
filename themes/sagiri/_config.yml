@@ -70,7 +70,7 @@ menu:
   实验室: javascript:; || fas fa-magic
   归档: /archives/ || fas fa-archive
   后宫: /friends/ || fas fa-mars-stroke
-  留言板: /message/ || fas fa-comment-dots
+  # 留言板: /message/ || fas fa-comment-dots
   关于我: /about/ || fas fa-heartbeat
 
 submenu:

@@ -12,7 +12,7 @@ Hi，我是 DIYgod，一个可爱的人，一个纯粹的人，一个没有脱�
 | ----| ---- |
 | 一句话 | 写代码是热爱，写到世界充满爱！ |
 | 生日 | 1995/06/09 |
-| 性格 | 线上岁纳京子，线下阿卡林 |
+| 特征 | 胆小、反应迟钝、记忆力差，线上岁纳京子，线下阿卡林 |
 | 装备 | MacBook Pro (15-inch, 2018)、Redmi K20 Pro、小米手表Color、PlayStation 4、Nintendo Switch、iPad 6 + Apple Pencil、AirPods Pro |
 | 工作 | 当前：bilibili HTML5 播放器 & 开源作者 理想：全职开源作者 |
 | 最喜欢的作品 | 四月是你的谎言、摇曳百合、青春猪头少年不会梦到兔女郎学姐、鬼灭之刃、DARLING in the FRANXX、Re：从零开始的异世界生活 |
