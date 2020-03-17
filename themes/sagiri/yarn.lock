@@ -725,33 +725,33 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@leancloud/adapters-superagent@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@leancloud/adapters-superagent/-/adapters-superagent-1.0.0.tgz#cf9a584f880e32fe1b3469d0610268318e20efd5"
-  integrity sha512-udN4DhMBpz4JBHbwU1H2QanvmZebJa/VHXzQRO+HqCHooJ3JvhOe+xke/dUZLeBpjhkCa5nySN/fAZxJPa6GUw==
+"@leancloud/adapters-superagent@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@leancloud/adapters-superagent/-/adapters-superagent-1.0.1.tgz#388c4be55676e53d71af77446806d7bcf5264621"
+  integrity sha512-zR9d1XNSxgNFd0n9qXPAR+Y6bCZhafr21VmJ5FdIYgtxNP+lQcByd4VjgBnRDGZ4MT2vIhOKWD4xhY+OJoT+XA==
   dependencies:
     superagent "^5.2.2"
 
-"@leancloud/runtime-adapters-browser@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-browser/-/runtime-adapters-browser-1.0.0.tgz#4bfe7e866dd02cfbfcf455705ac2ee7c891c9c67"
-  integrity sha512-FRmek3h+Qfq5+d7rY6OUS0v6ogAzpHZ+oqp0d++3NYbQ+nXzDyd7bld5VswK2nJsKmsvFC5KMcs6eaiCQoIc2Q==
+"@leancloud/runtime-adapters-browser@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-browser/-/runtime-adapters-browser-1.0.1.tgz#73649f79e5d1e96c20438ae8f3a64aec46b16acc"
+  integrity sha512-1lFaNGmntYUdFsGvzjMa4AL9JHdMi5g0SwwRSPKSDnTLa8g4/xDfO2T832CU3WssvCX9wE9uKuaSAGOrpP3cQA==
   dependencies:
-    "@leancloud/adapters-superagent" "^1.0.0"
+    "@leancloud/adapters-superagent" "^1.0.1"
 
-"@leancloud/runtime-adapters-node@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-node/-/runtime-adapters-node-1.0.0.tgz#d7b749e73d9d386bc59c0a1ddf27e2a058397aba"
-  integrity sha512-dIqfYkSdCW5qs/T4pwjMXQl7utdSBD0bQvUKm9Ry67kscQOZxLE8Pnqg/fGMSUOiiHDWqZpK6/sX0ZVfZjBpAw==
+"@leancloud/runtime-adapters-node@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-node/-/runtime-adapters-node-1.0.1.tgz#be300043cb21733c9e34f2d2226e75a4230415cc"
+  integrity sha512-zscoAqVLFgun07P9mnKOu0w6pIO9gegxzwRYpz7Y9FjM+xZM8XfELEsfZe1u0mvxhD1rJlij3nzfuwoRlhhUTw==
   dependencies:
-    "@leancloud/adapters-superagent" "^1.0.0"
+    "@leancloud/adapters-superagent" "^1.0.1"
     localstorage-memory "^1.0.2"
     ws "^5.2.2"
 
-"@leancloud/runtime-adapters-weapp@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-weapp/-/runtime-adapters-weapp-1.0.1.tgz#5873702e419257f53b0f497aefb159f6640ce898"
-  integrity sha512-StD0pprZyZWkqXKf6Gp4plIK9EcO0jDnG2H0a9JEhpYBqc9DMkIPCB9JnhVcUXmbfmwA1GFBHoFJ4hISn/Xfdw==
+"@leancloud/runtime-adapters-weapp@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@leancloud/runtime-adapters-weapp/-/runtime-adapters-weapp-1.0.2.tgz#e886b091e838e0ce905e780a3dfa550994bb44c7"
+  integrity sha512-zj6AfOBe7Ej05Kxj0TxH8r1add/r9xGIvuwl4n2KfvAq4IWT3cOn0X/4/Z/Uz2Dqg8g6o2ffytZYrnxBdHuZNg==
   dependencies:
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
@@ -1744,7 +1744,7 @@ colour@~0.7.1:
   resolved "https://registry.npmjs.org/colour/-/colour-0.7.1.tgz#9cb169917ec5d12c0736d3e8685746df1cadf778"
   integrity sha1-nLFpkX7F0SwHNtPoaFdG3xyt93g=
 
-combined-stream@^1.0.6, combined-stream@^1.0.8:
+combined-stream@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
   integrity sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==
@@ -2519,7 +2519,7 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
   integrity sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
 
-fast-safe-stringify@^2.0.6, fast-safe-stringify@^2.0.7:
+fast-safe-stringify@^2.0.7:
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/fast-safe-stringify/-/fast-safe-stringify-2.0.7.tgz#124aa885899261f68aedb42a7c080de9da608743"
   integrity sha512-Utm6CdzT+6xsDk2m8S6uL8VHxNwI6Jub+e9NYTcAms28T84pTa25GJQV9j0CY0N1rM8hK4x6grpF2BQf+2qwVA==
@@ -2679,15 +2679,6 @@ for-own@^1.0.0:
   integrity sha1-xjMy9BXO3EsE2/5wz4NklMU8tEs=
   dependencies:
     for-in "^1.0.1"
-
-form-data@^2.3.3:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-2.5.0.tgz#094ec359dc4b55e7d62e0db4acd76e89fe874d37"
-  integrity sha512-WXieX3G/8side6VIqx44ablyULoGruSde5PNTxoUyo5CeyAMX6nVWUd0rgist/EuX655cjhUhTo1Fo3tRYqbcA==
-  dependencies:
-    asynckit "^0.4.0"
-    combined-stream "^1.0.6"
-    mime-types "^2.1.12"
 
 form-data@^3.0.0:
   version "3.0.0"
@@ -3676,12 +3667,15 @@ leancloud-realtime-plugin-live-query@^1.2.0:
   resolved "https://registry.yarnpkg.com/leancloud-realtime-plugin-live-query/-/leancloud-realtime-plugin-live-query-1.2.0.tgz#1e07da1b5b99e44cddbc3b052234422f278c4ab9"
   integrity sha512-eJooIH8/FyUoozr3Eeby2DpDnmX39m1bfxfxlYPuojkio+i/DLwPD+aTHnRDH6QXJcT6tNTt85RcxVR/Txg98Q==
 
-leancloud-realtime@^5.0.0-beta.3:
-  version "5.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/leancloud-realtime/-/leancloud-realtime-5.0.0-beta.3.tgz#5940655ba278e4ccaf68dee84fedbc057231d752"
-  integrity sha512-BnCo/aVm7UbdFI7KoGKkYIf8XJXtpggDYlxMH2cy+3151wyZ+GB1Ynw3L3SKpAAe12zBJLOiWF6Nf6BrqgK10w==
+leancloud-realtime@^5.0.0-rc.1:
+  version "5.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/leancloud-realtime/-/leancloud-realtime-5.0.0-rc.1.tgz#0c8f5aad80e30f89df6855ff1aff00a5e92d7658"
+  integrity sha512-U00kLZfuCtXEfzvAeLhtwl7QcV/h0nFSosO/34b0IE31FxEFqHh8wCstthpHJBZhvn6lR3nSTstgKaoYD1EEEQ==
   dependencies:
     "@babel/runtime" "^7.7.4"
+    "@leancloud/runtime-adapters-browser" "^1.0.1"
+    "@leancloud/runtime-adapters-node" "^1.0.1"
+    "@leancloud/runtime-adapters-weapp" "^1.0.2"
     base64-arraybuffer "^0.1.5"
     debug "^3.1.0"
     eventemitter3 "^3.0.0"
@@ -3689,22 +3683,20 @@ leancloud-realtime@^5.0.0-beta.3:
     lodash "^4.17.10"
     promise-timeout "^1.3.0"
     protobufjs "^5.0.1"
-    superagent "^5.1.0"
     uuid "^3.0.0"
-    ws "^7.2.1"
 
-leancloud-storage@4.3.1:
-  version "4.3.1"
-  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.3.1.tgz#7f2edfcaad052f275c08be2040d73bb4444166ad"
-  integrity sha512-qm5oRyuoiSuJ3AJpaPWGkOqqzCtRJ39B6y5Sk6ttDUVlKaY0h7EgdF+xLe17OnUL4a+BaT2ZkDUAVlWAkZio3A==
+leancloud-storage@4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.4.0.tgz#0ca0434776c20ec3371fe5565f4e7361dcd5b116"
+  integrity sha512-W99j6XqJjI41a0oPjiUCWoL/TKDAgyvPoJvlnLcaCCrm1+RbML7EZQPvLxogzBJb1J/zQKtbDPtiZOBWXc3lLA==
   dependencies:
-    "@leancloud/runtime-adapters-browser" "^1.0.0"
-    "@leancloud/runtime-adapters-node" "^1.0.0"
-    "@leancloud/runtime-adapters-weapp" "^1.0.1"
+    "@leancloud/runtime-adapters-browser" "^1.0.1"
+    "@leancloud/runtime-adapters-node" "^1.0.1"
+    "@leancloud/runtime-adapters-weapp" "^1.0.2"
     debug "^3.1.0"
     es6-promise "4.2.3"
     eventemitter3 "^2.0.3"
-    leancloud-realtime "^5.0.0-beta.3"
+    leancloud-realtime "^5.0.0-rc.1"
     leancloud-realtime-plugin-live-query "^1.2.0"
     md5 "^2.0.0"
     promise-timeout "^1.3.0"
@@ -4885,7 +4877,7 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@^6.7.0, qs@^6.9.1:
+qs@^6.9.1:
   version "6.9.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.1.tgz#20082c65cb78223635ab1a9eaca8875a29bf8ec9"
   integrity sha512-Cxm7/SS/y/Z3MHWSxXb8lIFqgqBowP5JMlTUFyJN88y0SGQhVmZnqFK/PeuMX9LzUyWsqqhNxIyg0jlzq946yA==
@@ -5274,7 +5266,7 @@ semver@7.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
 
-semver@^6.1.1, semver@^6.3.0:
+semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
@@ -5651,23 +5643,6 @@ strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
-
-superagent@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/superagent/-/superagent-5.1.0.tgz#9ce4f38bee64d65a56166423b573222fa1b8f041"
-  integrity sha512-7V6JVx5N+eTL1MMqRBX0v0bG04UjrjAvvZJTF/VDH/SH2GjSLqlrcYepFlpTrXpm37aSY6h3GGVWGxXl/98TKA==
-  dependencies:
-    component-emitter "^1.3.0"
-    cookiejar "^2.1.2"
-    debug "^4.1.1"
-    fast-safe-stringify "^2.0.6"
-    form-data "^2.3.3"
-    formidable "^1.2.1"
-    methods "^1.1.2"
-    mime "^2.4.4"
-    qs "^6.7.0"
-    readable-stream "^3.4.0"
-    semver "^6.1.1"
 
 superagent@^5.2.2:
   version "5.2.2"
@@ -6327,11 +6302,6 @@ ws@^6.0.0:
   integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
   dependencies:
     async-limiter "~1.0.0"
-
-ws@^7.2.1:
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.2.tgz#36df62f68f0d1a6ec66d3f880a02476f3a81f24f"
-  integrity sha512-2qj/tYkDPDSVf7JiHanwEBwkhxi7DchFewIsSnR33MQtG3O/BPAJjqs4g6XEuayuRqIExSQMHZlmyDLbuSrXYw==
 
 xtend@^4.0.0, xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"
