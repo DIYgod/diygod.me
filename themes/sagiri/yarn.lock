@@ -732,6 +732,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@leancloud/adapter-types@^1.0.1":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@leancloud/adapter-types/-/adapter-types-1.0.2.tgz#1cac623f71b73c1224e6415633a3deb54aaa102e"
+  integrity sha512-ohfYsFZ0u+qa2i+/JFL5e712yVoP7L3RY904alCGE51wAne6Rfjp6uRNrrW83N+WpCD66FvrQuvb3Q/cHmOdvQ==
+
 "@leancloud/adapters-superagent@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@leancloud/adapters-superagent/-/adapters-superagent-1.0.1.tgz#388c4be55676e53d71af77446806d7bcf5264621"
@@ -1231,6 +1236,14 @@ babel-plugin-dynamic-import-node@^2.3.0:
   integrity sha512-o6qFkpeQEBxcqt0XYlWzAVxNCSCZdUgcR8IRlhD/8DylxjjO4foPcvTW0GGKa/cVt3rvxZ7o5ippJ+/0nvLhlQ==
   dependencies:
     object.assign "^4.1.0"
+
+babel-runtime@^6.26.0:
+  version "6.26.0"
+  resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 bach@^1.0.0:
   version "1.2.0"
@@ -1889,6 +1902,11 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.3"
     semver "7.0.0"
 
+core-js@^2.4.0:
+  version "2.6.11"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
+  integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
+
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -2277,11 +2295,6 @@ es6-iterator@^2.0.1, es6-iterator@~2.0.3:
     d "1"
     es5-ext "^0.10.35"
     es6-symbol "^3.1.1"
-
-es6-promise@4.2.3:
-  version "4.2.3"
-  resolved "https://registry.npmjs.org/es6-promise/-/es6-promise-4.2.3.tgz#29454b8db21b73fbef1df070c35dc09b7fd606c4"
-  integrity sha512-vLf5iali3jKqlJoo6SryDwe3nxCmiueNjbjLWDIpNbAcKnQXAsAdZk+pM17nSYp3AQMbTmAQVCQSeDLfA87SNA==
 
 es6-symbol@^3.1.1, es6-symbol@~3.1.1:
   version "3.1.1"
@@ -3683,16 +3696,17 @@ leancloud-realtime@^5.0.0-rc.1:
     protobufjs "^5.0.1"
     uuid "^3.0.0"
 
-leancloud-storage@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.5.0.tgz#bb5277ad978ebc84e21a57029bcbb5b804022570"
-  integrity sha512-rYewdAo/KstLmXQXDFnPgpxqEb9f8KrQzEPfkLOOvZhUPmgwnxRZb7E1yFvpiMhNBg5BNnWqSkp9pLp7E/2e0Q==
+leancloud-storage@4.5.1:
+  version "4.5.1"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.5.1.tgz#cd899035cde1cd596312e6cf54955ed9fb2a11f0"
+  integrity sha512-X8XjS8wS4lbG21nIPttBnADTSz7MsvzTYFFjwdg9AVHgWirUMFhUbhhgl3SowRGaUXoeihNc2mWIMYcSsEs/ew==
   dependencies:
+    "@leancloud/adapter-types" "^1.0.1"
     "@leancloud/runtime-adapters-browser" "^1.0.1"
     "@leancloud/runtime-adapters-node" "^1.0.1"
     "@leancloud/runtime-adapters-weapp" "^1.0.2"
+    babel-runtime "^6.26.0"
     debug "^3.1.0"
-    es6-promise "4.2.3"
     eventemitter3 "^2.0.3"
     leancloud-realtime "^5.0.0-rc.1"
     leancloud-realtime-plugin-live-query "^1.2.0"
@@ -4993,6 +5007,11 @@ regenerate@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/regenerate/-/regenerate-1.4.0.tgz#4a856ec4b56e4077c557589cae85e7a4c8869a11"
   integrity sha512-1G6jJVDWrt0rK99kBjvEtziZNCICAuvIPkSiUFIQxVP06RCVpq3dmDo2oi6ABpYaDYaTRr67BEhL8r1wgEZZKg==
+
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
 
 regenerator-runtime@^0.13.4:
   version "0.13.4"
