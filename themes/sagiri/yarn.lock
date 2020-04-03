@@ -3737,10 +3737,10 @@ leancloud-realtime@^5.0.0-rc.2:
     protobufjs "^5.0.1"
     uuid "^3.0.0"
 
-leancloud-storage@4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.5.2.tgz#31a05e82ee2d28d256e53be6c535c7207cb034f2"
-  integrity sha512-gF4qRkMbCzMIWVDgtybvztOl6qosCogkLjxtow8lIQNzd9aUgjmM7k8o6qDakKK8We54MVeHWrdbyIX2vCiT1w==
+leancloud-storage@4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.5.3.tgz#2d90ef4816537be918f62140a79d7a3c06f9a9a5"
+  integrity sha512-00x/MlmpNkCsAt24SfkpEnyKnAtqC0gvBBO2NjgewWWTfskEjsgDkDK2LAwE4QCspx86mv5694/GLYmgJqGAfg==
   dependencies:
     "@leancloud/adapter-types" "^1.0.2"
     "@leancloud/platform-adapters-browser" "^1.0.2"
