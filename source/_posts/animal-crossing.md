@@ -492,7 +492,7 @@ Rememme 家的企鹅达好可爱
 
 ![](/images/ac12-25.jpg)
 
-## 第十三天 3月31日 大月亮!!!
+## 第十三天 3月31日 收获了大月亮
 
 ![](/images/ac13-1.jpg)
 
@@ -513,6 +513,322 @@ Rememme 家的企鹅达好可爱
 月亮是奶猫拿到的图纸，需要 1 个大星星和 15 个小星星，又找 Mitt 要了一个大星星才做出来，太不容易了，云朵地板是从欧皇 16.7 家的骆驼买到的，终于吸到了欧气
 
 ![](/images/ac13-11.jpg) ![](/images/ac13-12.jpg)
+
+## 第十四天 4月1日 复活节和樱花季来啦
+
+![](/images/ac14-1.jpg) ![](/images/ac14-2.jpg) ![](/images/ac14-3.jpg) ![](/images/ac14-4.jpg) ![](/images/ac14-5.jpg)
+
+4 月来临，复活节和樱花季都到了，岛上开满了好看的樱花 🌸
+
+吕游送来了小礼物
+
+![](/images/ac14-6.jpg)
+
+遇到了幸运兔蹦蹦，他告诉我岛上藏了 6 种复活节彩蛋，可以用彩蛋做家具
+
+![](/images/ac14-10.jpg) ![](/images/ac14-11.jpg) ![](/images/ac14-12.jpg)
+
+都被我找到啦，飞天蛋、地面蛋、叶子蛋、岩石蛋、森林蛋、鱼儿蛋
+
+![](/images/ac14-7.jpg) ![](/images/ac14-9.jpg) ![](/images/ac14-13.jpg) ![](/images/ac14-15.jpg) ![](/images/ac14-32.jpg) ![](/images/ac14-34.jpg)
+
+岛上还有好多樱花花瓣可以抓
+
+![](/images/ac14-19.jpg) ![](/images/ac14-20.jpg)
+
+岛上搬来了一只小鹿汤姆
+
+![](/images/ac14-21.jpg)
+
+去眠家里玩发现了一只蟑螂，踩死踩死
+
+![](/images/ac14-28.jpg) ![](/images/ac14-29.jpg) ![](/images/ac14-31.jpg)
+
+## 第十五天 4月2日 高价卖掉了大头菜，发财啦
+
+![](/images/ac15-1.jpg) ![](/images/ac15-2.jpg)
+
+西施惠真好看（花痴脸）
+
+解锁了小岛评价系统，西施惠告诉我现在还是最低等级一星，提升等级要增加居民数量
+
+![](/images/ac15-3.jpg) ![](/images/ac15-4.jpg)
+
+群友贴贴家大头菜涨到了 573，赶紧背上满仓大头菜去贴贴家卖，卖掉了 573 * 4000 = 2292000 铃钱，算来下净赚 (573 - 95) * 4000 = 1912000 铃钱！发财啦！！
+
+![](/images/ac15-8.jpg) ![](/images/ac15-9.jpg) ![](/images/ac15-10.jpg) ![](/images/ac15-11.jpg)
+
+大肆购物、给朋友送礼物
+
+![](/images/ac15-12.jpg) ![](/images/ac15-15.jpg) ![](/images/ac15-16.jpg) ![](/images/ac15-17.jpg)
+
+斥巨资升级房子
+
+![](/images/ac15-18.jpg) ![](/images/ac15-19.jpg) ![](/images/ac15-20.jpg)
+
+斥巨资建桥
+
+![](/images/ac15-21.jpg) ![](/images/ac15-23.jpg) ![](/images/ac15-27.jpg) ![](/images/ac15-28.jpg)
+
+啊，有钱真好
+
+![](/images/ac15-13.jpg) ![](/images/ac15-14.jpg)
+
+## 第十六天 4月3日 无题
+
+周五啦，周末愉快哦！
+
+![](/images/ac16-3.jpg) ![](/images/ac16-4.jpg) ![](/images/ac16-5.jpg)
+
+继续还今天的房贷，房贷就像一个无底洞
+
+![](/images/ac16-6.jpg) ![](/images/ac16-8.jpg) ![](/images/ac16-9.jpg)
+
+昨天的桥建好了，今天再建一个
+
+![](/images/ac16-10.jpg) ![](/images/ac16-11.jpg)
+
+发小表示很高兴，“是的呢”
+
+![](/images/ac16-13.jpg) ![](/images/ac16-14.jpg)
+
+最喜欢的阿妹跟我说想搬走，我好难过，还是把她留下来了
+
+![](/images/ac16-15.jpg) ![](/images/ac16-16.jpg)
+
+确定这是泡澡桶么？怎么看都是铁锅炖自己吧
+
+![](/images/ac16-17.jpg)
+
+跟 Mitt 小可爱互换礼物
+
+![](/images/ac16-18.jpg) ![](/images/ac16-29.jpg)
+
+有新朋友来岛上玩，兔非和栗噔噔
+
+![](/images/ac16-19.jpg) ![](/images/ac16-20.jpg) ![](/images/ac16-21.jpg) ![](/images/ac16-1.jpg) ![](/images/ac16-2.jpg)
+
+这两天攒了好多复活节家具
+
+![](/images/ac16-27.jpg) ![](/images/ac16-31.jpg)
+
+还在朋友家摸到了目前见过的最贵的奢侈品钢琴，虽然昨天发了财但这么贵还是很舍不得
+
+![](/images/ac16-28.jpg)
+
+## 第十七天 4月4日 无题
+
+![](/images/ac17-1.jpg) ![](/images/ac17-2.jpg)
+
+周末愉快！
+
+把一个房间改成了乐器房
+
+![](/images/ac17-12.jpg)
+
+今天裁缝店有卖很酷的盔甲
+
+![](/images/ac17-4.jpg)
+
+抓到了一只粉粉的蟑螂
+
+![](/images/ac17-5.jpg)
+
+发现这个复活节挂钟整点报时时候会弹出一个可爱的小鸡，然后叽叽叽叽
+
+![](/images/ac17-6.jpg)
+
+复活节家具越来越多了，都快摆不下了
+
+![](/images/ac17-13.jpg)
+
+日常跟朋友互送礼物
+
+![](/images/ac17-14.jpg) ![](/images/ac17-15.jpg) ![](/images/ac17-16.jpg)
+
+猫头鹰妹妹终于来我家了
+
+![](/images/ac17-7.jpg)
+
+偷看西施惠，西施惠在嗅嗅
+
+![](/images/ac17-8.jpg)
+
+昨天的桥建好了，但今天还是不要还房贷和建桥了，等明天再梭哈大头菜
+
+![](/images/ac17-10.jpg)
+
+圈了一块地，好再邀请其他小动物过来定居
+
+![](/images/ac17-9.jpg)
+
+在无人岛遇到一只埃及艳后，emmm，怪怪的，还是不要邀请了
+
+![](/images/ac17-11.jpg)
+
+## 第十八天 4月5日 充满希望的大头菜日
+
+![](/images/ac18-1.jpg)
+
+今天是充满希望的大头菜日！ 这次继续梭哈，买了 3 背包，花了 92 * 4000 * 3 = 1104000 铃元，投资这么大，一定要卖个好价格
+
+![](/images/ac18-2.jpg) ![](/images/ac18-3.jpg) ![](/images/ac18-4.jpg)
+
+到商店买了一套护士姐姐装
+
+![](/images/ac18-5.jpg) ![](/images/ac18-6.jpg)
+
+到无人岛瞎逛，遇到了一个金钱岛，还抓到了皇蛾、鳄龟
+
+![](/images/ac18-7.jpg) ![](/images/ac18-8.jpg) ![](/images/ac18-9.jpg) ![](/images/ac18-10.jpg)
+
+做了一个好看的贝壳门，放在机场门口
+
+![](/images/ac18-11.jpg)
+
+## 第十九天 4月6日 新岛民小鹿布鹿斯
+
+![](/images/ac19-1.jpg) ![](/images/ac19-2.jpg)
+
+小岛来了一只叫布鹿斯的小鹿，去拜访一下吧
+
+布鹿斯也太街头了，吓到我了，不要这样啊啊啊，你走你快走
+
+![](/images/ac19-5.jpg)
+
+新朋友 ch 来岛上玩，ch 刚移居，衣服也太丑了，送她几件好康的吧
+
+![](/images/ac19-3.jpg) ![](/images/ac19-6.jpg)
+
+还有一个新朋友五花肉
+
+![](/images/ac19-16.jpg)
+
+买新衣服
+
+![](/images/ac19-25.jpg) ![](/images/ac19-26.jpg) ![](/images/ac19-27.jpg)
+
+今天小岛也来了流星
+
+![](/images/ac19-11.jpg)
+
+再装扮一下乐器室
+
+![](/images/ac19-12.jpg)
+
+找粗粗要了一个比萨斜塔嘻嘻
+
+![](/images/ac19-28.jpg) ![](/images/ac19-29.jpg)
+
+露营地来了一只叫西瓜皮的鼠鼠，好可爱
+
+![](/images/ac19-7.jpg)
+
+西瓜皮拉着我玩了 3 把猜纸牌，都输了...
+
+![](/images/ac19-8.jpg) ![](/images/ac19-9.jpg) ![](/images/ac19-10.jpg)
+
+西瓜皮好可爱，想拉她来我岛上定居，但...哼，诸多借口
+
+![](/images/ac19-14.jpg) ![](/images/ac19-15.jpg) ![](/images/ac19-24.jpg)
+
+不要西瓜皮了，我要去找其他小动物
+
+![](/images/ac19-17.jpg) ![](/images/ac19-18.jpg) ![](/images/ac19-19.jpg) ![](/images/ac19-20.jpg) ![](/images/ac19-21.jpg)
+
+感觉都不太对胃口
+
+又遇到了一只鼠鼠，嗯！就她了！
+
+![](/images/ac19-22.jpg) ![](/images/ac19-23.jpg)
+
+## 第二十天 4月7日 新岛民丸子、这次真的暴富了！
+
+![](/images/ac20-1.jpg) ![](/images/ac20-2.jpg)
+
+昨天邀请的丸子来啦
+
+![](/images/ac20-3.jpg)
+
+中午听说 Mitt 家大头菜 607，赶紧跑去倾销大头菜，把 3 背包的大头菜都卖了，净赚了 (607 - 92) * 4000 * 3 = 6180000，这次真的暴富了！钱都装不下了
+
+![](/images/ac20-5.jpg) ![](/images/ac20-29.jpg) ![](/images/ac20-7.jpg) ![](/images/ac20-10.jpg)
+
+给大功臣 Mitt 寄一台我岛上最贵的奢侈品钢琴表示感谢
+
+![](/images/ac20-8.jpg) ![](/images/ac20-9.jpg)
+
+今天也收到了很多礼物
+
+![](/images/ac20-11.jpg)
+
+岛上又来了流星
+
+![](/images/ac20-12.jpg)
+
+晚上 Mitt 和小霖过来玩
+
+![](/images/ac20-14.jpg)
+
+趁小霖不注意跟 Mitt 睡觉被小霖抓到了
+
+![](/images/ac20-13.jpg)
+
+又趁 Mitt 不注意跟小霖睡觉被 Mitt 抓到了
+
+![](/images/ac20-16.jpg) ![](/images/ac20-15.jpg)
+
+暴富了又可以扩建房子了
+
+![](/images/ac20-17.jpg) ![](/images/ac20-18.jpg)
+
+西施惠收到了一封信，突然发现这封信是 kk 写的，狸克马上给 kk 打了电话，明天 kk 要来小岛开演唱会了！
+
+![](/images/ac20-19.jpg) ![](/images/ac20-20.jpg) ![](/images/ac20-21.jpg) ![](/images/ac20-22.jpg) ![](/images/ac20-23.jpg) ![](/images/ac20-24.jpg) ![](/images/ac20-25.jpg) ![](/images/ac20-26.jpg)
+
+期待明天的演唱会
+
+![](/images/ac20-27.jpg) ![](/images/ac20-28.jpg)
+
+## 第二十一天 4月8日 K.K.演唱会
+
+![](/images/ac21-1.jpg) ![](/images/ac21-2.jpg) ![](/images/ac21-3.jpg)
+
+K.K.来开演唱会啦！是一首主题曲《大家集合吧》，好听好听
+
+![](/images/ac21-4.jpg) ![](/images/ac21-5.jpg) ![](/images/ac21-6.jpg) ![](/images/ac21-8.jpg)
+
+演唱会象征着小岛生活暂告一段落了，进入了一个新阶段
+
+![](/images/ac21-11.jpg) ![](/images/ac21-12.jpg)
+
+狸克允许了改造小岛地形，感觉要进行一个很大的工程
+
+![](/images/ac21-9.jpg) ![](/images/ac21-10.jpg)
+
+房子也扩建好了，多了一个超级大的二楼
+
+![](/images/ac21-13.jpg) ![](/images/ac21-14.jpg)
+
+继续还房贷，还可以扩建一个地下室出来
+
+![](/images/ac21-15.jpg) ![](/images/ac21-16.jpg)
+
+日常买衣服
+
+![](/images/ac21-17.jpg)
+
+今天好多小动物来广场唱歌，大概是受 K.K. 传染
+
+![](/images/ac21-18.jpg) ![](/images/ac21-19.jpg) ![](/images/ac21-22.jpg)
+
+丸子和耳光好像都对这个化石很感兴趣
+
+![](/images/ac21-20.jpg) ![](/images/ac21-21.jpg)
+
+晚上去五花肉的岛上玩
+
+![](/images/ac21-23.jpg) ![](/images/ac21-24.jpg) ![](/images/ac21-25.jpg) ![](/images/ac21-26.jpg)  ![](/images/ac21-27.jpg)
 
 {% raw %}
 <style>
