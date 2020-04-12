@@ -830,6 +830,56 @@ K.K.来开演唱会啦！是一首主题曲《大家集合吧》，好听好听
 
 ![](/images/ac21-23.jpg) ![](/images/ac21-24.jpg) ![](/images/ac21-25.jpg) ![](/images/ac21-26.jpg)  ![](/images/ac21-27.jpg)
 
+## 第二十二天 4月9日 我做国王了
+
+![](/images/ac22-1.jpg) ![](/images/ac22-2.jpg) ![](/images/ac22-3.jpg)
+
+今天扩建完成了地下室，已经没法继续扩建了，还有点怀念有房贷还的日子
+
+![](/images/ac22-4.jpg)
+
+诶这不是吕游么，你又来了
+
+![](/images/ac22-5.jpg) ![](/images/ac22-6.jpg)
+
+世界那么大，汤姆想去看看，说实话，汤姆刚来的时候并不喜欢怎么他，但过了这么久我已经有感情了，还是舍不得，不许走
+
+![](/images/ac22-8.jpg) ![](/images/ac22-9.jpg) ![](/images/ac22-10.jpg)
+
+布鹿斯家里更奇怪了，不知道布鹿斯打算什么时候去其他地方看看
+
+![](/images/ac22-11.jpg)
+
+阿妹还是可爱
+
+![](/images/ac22-12.jpg)
+
+汤姆开始彩虹屁了，嘻嘻
+
+![](/images/ac22-14.jpg) ![](/images/ac22-13.jpg)
+
+五花肉给我送了好多东西啊
+
+![](/images/ac22-7.jpg) ![](/images/ac22-15.jpg)
+
+居然是国王服和王冠！我做国王了哈哈
+
+![](/images/ac22-16.jpg)
+
+## 第二十三天 4月10日 蓝色饭团
+
+![](/images/ac23-1.jpg)
+
+今天是周六，K.K.又来岛上唱歌了
+
+![](/images/ac23-2.jpg)
+
+今天心情有点不好，点了一首忧郁的歌，K.K.选了《蓝色饭团》
+
+![](/images/ac23-5.jpg) ![](/images/ac23-3.jpg) ![](/images/ac23-4.jpg)
+
+超级好听，完整视频在[这里](https://www.bilibili.com/video/BV1ce41147u5/)
+
 {% raw %}
 <style>
 h2 {
