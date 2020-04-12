@@ -880,6 +880,66 @@ K.K.来开演唱会啦！是一首主题曲《大家集合吧》，好听好听
 
 超级好听，完整视频在[这里](https://www.bilibili.com/video/BV1ce41147u5/)
 
+## 第二十四天 4月11日 钓鱼大赛
+
+![](/images/ac24-1.jpg) ![](/images/ac24-2.jpg) ![](/images/ac24-3.jpg) ![](/images/ac24-4.jpg) ![](/images/ac24-5.jpg)
+
+今天有钓鱼大赛哎，还有，可爱的耳光生日快乐！
+
+钓鱼大赛的主办人叫俞司延，名字真不错
+
+![](/images/ac24-6.jpg) ![](/images/ac24-7.jpg) ![](/images/ac24-8.jpg)
+
+我试了一下，不用鱼饵 3 分钟最多可以钓上来 5 条
+
+![](/images/ac24-9.jpg) ![](/images/ac24-10.jpg)
+
+如果是多人一起钓还有额外的团队点数奖励，所以约了好多人一起钓
+
+一轮结束后大家在排队领点数
+
+![](/images/ac24-11.jpg)
+
+跟朋友们钓了一天鱼，领了好多奖励，很开心， 6 点钓鱼大赛圆满结束
+
+![](/images/ac24-12.jpg)
+
+晚上 kookxiang 来我岛上玩，一起在我家里演奏乐器
+
+![](/images/ac24-13.jpg)
+
+## 第二十五天 4月12日 复活节、大头菜日
+
+![](/images/ac25-1.jpg) ![](/images/ac25-2.jpg)
+
+承包这个笑容
+
+![](/images/ac25-3.jpg)
+
+今天是大头菜日，早上一起床就跑去 Aaron 家收购便宜的大头菜，这次一共买了 90 * 4000 * 4 = 1440000 铃钱的大头菜
+
+![](/images/ac25-4.jpg) ![](/images/ac25-5.jpg) ![](/images/ac25-6.jpg)  ![](/images/ac25-14.jpg)
+
+Aaron 家布置得太精致了，偷拍下来回去学一学
+
+![](/images/ac25-7.jpg) ![](/images/ac25-8.jpg) ![](/images/ac25-9.jpg) ![](/images/ac25-10.jpg) ![](/images/ac25-11.jpg) ![](/images/ac25-12.jpg) ![](/images/ac25-13.jpg)
+
+收到了昨天钓鱼大赛赢得的银奖杯
+
+![](/images/ac25-15.jpg)
+
+这个复活节不倒翁还挺好玩的
+
+![](/images/ac25-16.jpg)
+
+发现离蹦蹦比较远的时候蹦蹦会叹气，很沮丧的样子，走近之后又会很开心地蹦蹦跳跳，感觉好可怜，我再也不嫌他烦了
+
+![](/images/ac25-17.jpg) ![](/images/ac25-18.jpg)
+
+原来布鹿斯也发现了，但是不要当着蹦蹦的面说啊喂！蹦蹦就在你后面啊！快不要再说了！
+
+![](/images/ac25-20.jpg) ![](/images/ac25-21.jpg)
+
 {% raw %}
 <style>
 h2 {
