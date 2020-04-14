@@ -2896,10 +2896,10 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "https://registry.npmjs.org/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
-git-revision-webpack-plugin@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/git-revision-webpack-plugin/-/git-revision-webpack-plugin-3.0.4.tgz#ed1eaad094d6956d3299381050a5a50f662550bd"
-  integrity sha512-ym4Zkl32HtTRZVVgl1KoE+sWtgeFyDjN3vaBQfn8cCv1btAX7rdDY9tgpv4Zi+yxq150pp+pUkGH9L1lRpZOUg==
+git-revision-webpack-plugin@3.0.5:
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/git-revision-webpack-plugin/-/git-revision-webpack-plugin-3.0.5.tgz#3139212b842736f02cdbdb12e7ffdda625d526ec"
+  integrity sha512-brU3arqIcWknz7hyyklW/zWjmqQQhJPyFLs5Z/covbNdwAhZYfhr7xEtoluoz9ozJ+Sdho8bRZLjdb/oNFwwxw==
 
 glob-parent@^3.1.0:
   version "3.1.0"
