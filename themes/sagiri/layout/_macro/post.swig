@@ -246,7 +246,7 @@
     {### POST BODY ###}
     {#################}
     <div class="post-body{% if theme.han %} han-init-context{% endif %}{% if post.direction && post.direction.toLowerCase() === 'rtl' %} rtl{% endif %}" itemprop="articleBody">
-
+      {% if not is_index and toc(page.content).length > 1 %}<div class="post-toc-content"><div class="post-toc-title">文章目录</div>{{ toc(page.content, { "class": "nav", list_number: false }) }}</div>{% endif %}
       {# Gallery support #}
       {% if post.photos and post.photos.length %}
         <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">

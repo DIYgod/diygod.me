@@ -5,6 +5,28 @@
   }
 }
 
+.post-body .post-toc-content {
+  display: none;
+  border: 2px dashed #ddd;
+  padding: 7px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  +mobile() {
+    display: block;
+  }
+
+  .nav {
+    padding-left: 30px;
+    margin: 7px 0 0;
+  }
+
+  .post-toc-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
 .post-body .fancybox img {
   display: block !important;
   margin: 0 auto;

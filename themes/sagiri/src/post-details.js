@@ -79,7 +79,7 @@ function postDetails () {
     });
 
     // TOC item animation navigate & prevent #item selector in adress bar.
-    $('.post-toc a').on('click', function (e) {
+    $('.post-toc-content a').on('click', function (e) {
       e.preventDefault();
       var targetSelector = NexT.utils.escapeSelector(this.getAttribute('href'));
       var offset = $(targetSelector).offset().top;
