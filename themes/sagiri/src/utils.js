@@ -315,7 +315,7 @@ $(document).ready(function () {
       updateSidebarHeightTimer && clearTimeout(updateSidebarHeightTimer);
 
       updateSidebarHeightTimer = setTimeout(function () {
-        var sidebarWrapperHeight = document.body.clientHeight - 104;
+        var sidebarWrapperHeight = document.body.clientHeight - 164;
 
         updateSidebarHeight(sidebarWrapperHeight);
       }, 0);
@@ -323,13 +323,13 @@ $(document).ready(function () {
 
     // Initialize Sidebar & TOC Width.
     var scrollbarWidth = NexT.utils.getScrollbarWidth();
-      if ($('.sidebar-panel').height() > (document.body.clientHeight - 104)) {
+      if ($('.sidebar-panel').height() > (document.body.clientHeight - 164)) {
         $('.site-overview').css('width', 'calc(100% + ' + scrollbarWidth + 'px)');
       }
     $('.post-toc').css('width', 'calc(100% + ' + scrollbarWidth + 'px)');
 
     // Initialize Sidebar & TOC Height.
-    updateSidebarHeight(document.body.clientHeight - 104);
+    updateSidebarHeight(document.body.clientHeight - 164);
   }
 
   function updateSidebarHeight (height) {
