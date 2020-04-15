@@ -12,6 +12,26 @@ categories: 日记本
 
 <!--more-->
 
+{% raw %}
+<div class="aplayer" id="aplayer-ac"></div>
+<script>
+$(function () {
+    $.ajax({
+        url: 'https://api.i-meto.com/meting/api?server=netease&type=song&id=1433983480',
+        success: function (list) {
+            var ap = new APlayer({
+                element: document.getElementById('aplayer-ac'),
+                theme: '#89caa2',
+                music: JSON.parse(list)[0]
+            });
+            window.aplayers || (window.aplayers = []);
+            window.aplayers.push(ap);
+        }
+    })
+})
+</script>
+{% endraw %}
+
 ## 第一天 3月19日 上岛第一天，DIY对这里的生活绝对有很大的帮助
 
 今天是上岛第一天！
