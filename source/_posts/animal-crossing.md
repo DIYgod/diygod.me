@@ -1020,6 +1020,34 @@ Jemair 送了好看的银河系地板
 
 ![](/images/ac27-8.jpg) ![](/images/ac27-10.jpg) ![](/images/ac27-9.jpg)
 
+## 第二十八天 4月15日 黑色玫瑰
+
+![](/images/ac28-1.jpg) ![](/images/ac28-2.jpg)
+
+杂交出来了珍贵的黑色玫瑰
+
+![](/images/ac28-3.jpg)
+
+龙克斯来了
+
+![](/images/ac28-4.jpg)
+
+抓了五花肉在岛上打黑工，没有工资，五花肉带了一身护士装过来浇花、拔杂草，嘿嘿
+
+![](/images/ac28-9.jpg) ![](/images/ac28-15.jpg) ![](/images/ac28-12.jpg)
+
+## 第二十九天 4月16日 蔡徐坤吊带装
+
+![](/images/ac29-1.jpg)
+
+昨天委托龙克斯做的螳螂模型到了
+
+![](/images/ac29-2.jpg)
+
+在商店里看到了蔡徐坤吊带装
+
+![](/images/ac29-3.jpg)
+
 {% raw %}
 <style>
 h2 {
