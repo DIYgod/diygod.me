@@ -46,4 +46,6 @@ $(document).on('pjax:end', function () {
       ga('set', 'location', window.location.href);
       ga('send', 'pageview');
     }
+
+    $('.site-overview, .post-toc').css('max-height', document.body.clientHeight - 164);
 });
