@@ -1048,6 +1048,54 @@ Jemair 送了好看的银河系地板
 
 ![](/images/ac29-3.jpg)
 
+## 第三十天 4月17日 雷雨天气
+
+![](/images/ac30-1.jpg) ![](/images/ac30-2.jpg)
+
+收到了 Mitt 非常用心的礼物
+
+![](/images/ac30-3.jpg) ![](/images/ac30-5.jpg)
+
+Winfred 来之不易的礼物
+
+![](/images/ac30-4.jpg) ![](/images/ac30-6.jpg)
+
+尝试搭配了几套衣服，但是一般般
+
+![](/images/ac30-7.jpg) ![](/images/ac30-8.jpg) ![](/images/ac30-9.jpg)
+
+Mitt 岛上来了雷雨天气，冒着坠机危险坐飞机去看
+
+![](/images/ac30-11.jpg) ![](/images/ac30-12.jpg)
+
+回家之后尔光教了我“不好意思”
+
+![](/images/ac30-13.jpg)
+
+## 第三十天 4月17日 K.K.偶像
+
+![](/images/ac31-2.jpg) ![](/images/ac31-3.jpg)
+
+收到了 Mitt 的黄金手杖，跟我这一身国王套装很配
+
+![](/images/ac31-4.jpg) ![](/images/ac31-8.jpg)
+
+还有 Tyzual 的火箭衣柜、Aaron 的宇航员头盔、Mitt 的超级英雄衣服、Mitt 的黄金弹弓，拥有了第一个金色道具
+
+![](/images/ac31-5.jpg) ![](/images/ac31-6.jpg) ![](/images/ac31-7.jpg) ![](/images/ac31-14.jpg) ![](/images/ac31-15.jpg)
+
+商店在卖恐怖的骨骼标本
+
+![](/images/ac31-9.jpg)
+
+搭配了几套好看的衣服
+
+![](/images/ac31-10.jpg) ![](/images/ac31-11.jpg) ![](/images/ac31-12.jpg)
+
+今天是周六，K.K.来岛上了，叫 Mitt 过来一起听了上次从 Aaron 岛上听到的心心念的《K.K.偶像》，完整视频在[这里](https://www.bilibili.com/video/BV1vA411b7ip)
+
+![](/images/ac31-13.jpg)
+
 {% raw %}
 <style>
 h2 {
