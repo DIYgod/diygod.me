@@ -1160,6 +1160,88 @@ Mitt 岛上来了雷雨天气，冒着坠机危险坐飞机去看
 
 ![](/images/ac33-17.jpg)
 
+## 第三十四天 4月21日 新岛民松鼠小敏
+
+![](/images/ac34-1.jpg)
+
+露营地来了新朋友
+
+![](/images/ac34-2.jpg)
+
+大商店在建啦
+
+![](/images/ac34-3.jpg) ![](/images/ac34-4.jpg)
+
+今天的商店
+
+![](/images/ac34-5.jpg)
+
+吕游你又来了
+
+![](/images/ac34-6.jpg)
+
+露营地来了一只叫小敏的可爱松鼠，邀请了小敏来岛上定居
+
+![](/images/ac34-11.jpg) ![](/images/ac34-31.jpg) ![](/images/ac34-32.jpg)
+
+去无人岛上招募新岛民，遇到了好多小动物，最后一个都没邀请，还是小敏最可爱
+
+![](/images/ac34-12.jpg) ![](/images/ac34-13.jpg) ![](/images/ac34-14.jpg) ![](/images/ac34-29.jpg) ![](/images/ac34-30.jpg)
+
+今天是金牛座了，沙滩捡到了金牛座的星星
+
+![](/images/ac34-7.jpg)
+
+Wayne 岛上的戴维教了我黄金墙的做法，还拜访了凶巴巴的古烈，听 Wayne 说古烈来岛上之前是混社会的，难怪
+
+![](/images/ac34-8.jpg) ![](/images/ac34-9.jpg)
+
+Mitt 送的超酷的太空梭
+
+![](/images/ac34-10.jpg)
+
+钓到了皇带鱼
+
+![](/images/ac34-15.jpg)
+
+去五花肉岛上玩，五花肉有超级多的衣服，我最喜欢的还是蔡徐坤套装
+
+![](/images/ac34-16.jpg) ![](/images/ac34-17.jpg) ![](/images/ac34-18.jpg) ![](/images/ac34-19.jpg) ![](/images/ac34-20.jpg) ![](/images/ac34-23.jpg) ![](/images/ac34-24.jpg) ![](/images/ac34-25.jpg) ![](/images/ac34-26.jpg) ![](/images/ac34-27.jpg) ![](/images/ac34-28.jpg)
+
+## 第三十五天 4月22日 大商店开业啦
+
+![](/images/ac35-1.jpg)
+
+![](/images/ac35-2.jpg) ![](/images/ac35-3.jpg)
+
+大商店开业啦，外表也变得更气派了，参加庆祝仪式
+
+![](/images/ac35-12.jpg)
+
+进去看看吧，里面宽敞了好多好多
+
+![](/images/ac35-6.jpg)
+
+豆狸和粒狸终于穿上了新衣服
+
+![](/images/ac35-7.jpg)
+
+卖的东西也多了，每天多一个很贵的高级商品，还有高级工具卖
+
+![](/images/ac35-5.jpg)
+
+汤姆也好喜欢新商店
+
+![](/images/ac35-8.jpg) ![](/images/ac35-9.jpg)
+
+小敏搬到岛上来啦，今天真是好事不断
+
+![](/images/ac35-11.jpg)
+
+服装店有卖超酷的飞行员套装
+
+![](/images/ac35-10.jpg)
+
 {% raw %}
 <style>
 h2 {
