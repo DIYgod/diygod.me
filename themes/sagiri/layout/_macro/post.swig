@@ -410,7 +410,6 @@
     </footer>
     {% if not is_index %}
       <div class="post-footer-kkl">
-        <div class="post-footer-kkl-title">广告：</div>
         <a href="https://datayi.cn/w/1R378m7R"><img class="no-fancybox" src="/images/kkl.png"></a>
       </div>
     {% endif %}
