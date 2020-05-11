@@ -17,7 +17,7 @@ $(function () {
                 theme: '#ad7a86',
                 listmaxheight: '280px',
                 mode: 'random',
-                music: JSON.parse(list)
+                music: list
             });
             window.aplayers || (window.aplayers = []);
             window.aplayers.push(ap);

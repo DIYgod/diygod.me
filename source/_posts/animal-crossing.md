@@ -22,7 +22,7 @@ $(function () {
             var ap = new APlayer({
                 element: document.getElementById('aplayer-ac'),
                 theme: '#89caa2',
-                music: JSON.parse(list)[0]
+                music: list[0]
             });
             window.aplayers || (window.aplayers = []);
             window.aplayers.push(ap);

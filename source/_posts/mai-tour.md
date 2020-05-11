@@ -14,7 +14,7 @@ $(function () {
                 element: document.getElementById('aplayer-mai'),
                 showlrc: 3,
                 theme: '#8d7561',
-                music: JSON.parse(list)[0]
+                music: list[0]
             });
             window.aplayers || (window.aplayers = []);
             window.aplayers.push(ap);

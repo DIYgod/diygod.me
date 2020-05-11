@@ -9,6 +9,6 @@ const apFixed = new APlayer({
 $.ajax({
   url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=35798529',
   success: function (list) {
-    apFixed.list.add(JSON.parse(list));
+    apFixed.list.add(list);
   }
 });

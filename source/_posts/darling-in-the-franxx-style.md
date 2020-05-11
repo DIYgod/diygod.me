@@ -15,7 +15,7 @@ $(function () {
                 showlrc: 3,
                 theme: '#ad7a86',
                 mode: 'random',
-                music: JSON.parse(list)[0]
+                music: list[0]
             });
             window.aplayers || (window.aplayers = []);
             window.aplayers.push(ap);
