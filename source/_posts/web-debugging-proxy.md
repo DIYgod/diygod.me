@@ -118,7 +118,38 @@ m.bilibili.com/video/ resCookies://`{
 
 （3）模拟 CDN 请求超时，用来调试 CDN 拉流超时，没有 LightProxy 的时候只能小心翼翼地控制 Chrome Network Throttling，太小了会导致请求失败，太大了超时又不够长
 
-相信大家已经对 LightProxy / whistle 的用法有了自己的理解
+**Node.js 规则**
+
+LightProxy 还有一个很酷的功能，使用 Node.js 书写规则，以下是官方的一个 demo，我暂时还没有这个功能的使用场景，但就是感觉很酷
+
+```
+github.com/alibaba/lightproxy scriptfile://`
+
+exports.handleRequest = async (ctx, next) => {
+   // do sth
+   // ctx.fullUrl 可以获取请求url
+   // ctx.headers 可以获取请求头
+   // ctx.options 里面包含一些特殊的请求头字段，分别可以获取一些额外信息，如请设置的规则等
+   // ctx.method 获取和设置请求方法
+   // const reqBody = await ctx.getReqBody(); 获取请求body的Buffer数据，如果没有数据返回null
+   // const reqText = await ctx.getReqText();  获取请求body的文本，如果没有返回''
+   // const formData = await ctx.getReqForm(); 获取表单对象，如果不是表单，返回空对象{}
+   // ctx.req.body = String| Buffer | Stream | null，修改请求的内容
+   // next方法可以设置next({ host, port });
+   // 只有执行next方法后才可以把正常的请求发送出去
+   const { statusCode, headers } = await next(); 
+   // do sth
+   // const resBody = yield ctx.getResBody();
+   // const resText = yield ctx.getResText();
+   // ctx.status = 404; 修改响应状态码
+   // ctx.set(headers); 批量修改响应头
+   // ctx.set('x-test', 'abc'); 修改响应头
+   // ctx.body = String| Buffer | Stream | null; 修改响应内容
+   ctx.body = 'test';
+ };`
+```
+
+从以上例子中相信大家已经对 LightProxy / whistle 的用法有了自己的理解
 
 &nbsp;
 
