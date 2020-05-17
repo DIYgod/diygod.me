@@ -6,9 +6,9 @@ tags:
 
 前端经常需要一些特殊的调试环境，这时有一个科学的 Web 调试代理工具（以下称代理工具）显得尤其重要<!--more-->
 
-我用的第一个代理工具是 [Charles]([https://www.charlesproxy.com/](https://www.charlesproxy.com/)，功能多但缺点也很明显，笨重、配置麻烦，爬
+我用的第一个代理工具是 [Charles](https://www.charlesproxy.com/)，功能多但缺点也很明显，笨重、配置麻烦，爬
 
-后来换到了 [Zan Proxy]([https://github.com/youzan/zan-proxy](https://github.com/youzan/zan-proxy)
+后来换到了 [Zan Proxy](https://github.com/youzan/zan-proxy)
 
 Zan Proxy 是一个 Node.js 编写的代理工具，跟大杂烩 Charles 不一样，专注于 Web 调试，轻量、配置方便，虽然功能很简单，但对我来说够用了
 
@@ -20,11 +20,11 @@ Zan Proxy 是一个 Node.js 编写的代理工具，跟大杂烩 Charles 不一�
 
 &nbsp;
 
-[LightProxy]([https://github.com/alibaba/lightproxy](https://github.com/alibaba/lightproxy) 适时地出现在了我的视野
+[LightProxy](https://github.com/alibaba/lightproxy) 适时地出现在了我的视野
 
 ![](/images/web-debugging3.png)
 
-LightProxy 是一款基于 [whistle]([https://github.com/avwo/whistle](https://github.com/avwo/whistle) 的本地代理抓包软件（~~其实直接用 whistle 也差不多~~
+LightProxy 是一款基于 [whistle](https://github.com/avwo/whistle) 的本地代理抓包软件（~~其实直接用 whistle 也差不多~~
 
 下面通过一些我自己使用的规则来介绍它
 
