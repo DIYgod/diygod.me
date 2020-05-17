@@ -124,7 +124,7 @@ m.bilibili.com/video/ resCookies://`{
 
 最后还有一个值得一提的事情是，用了这些调试代理工具之后魔法上网怎么办？
 
-调试和魔法上网用的是不同的代理，我是一个面向 Google 编程的人，代理一直切来切去太麻烦，我的做法是使用 Surge 分流，新建一个 LightProxy 代理，然后编辑 Surge 规则，只把需要调试的请求分给 LightProxy
+调试和魔法上网用的是不同的代理，我是一个面向 Google 编程的人，代理一直切来切去太麻烦，我的做法是系统代理交给 Surge 接管，利用 Surge 分流，新建一个 LightProxy 代理，然后编辑 Surge 规则，只把需要调试的请求分给 LightProxy
 
 ![](/images/web-debugging5.png)
 
