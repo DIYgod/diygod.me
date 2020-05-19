@@ -205,6 +205,21 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/sy-3.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>粘土人 鬼灭之刃 我妻善逸</p>
+        <p><strong>状态：</strong>已预定</p>
+        <p><strong>角色：</strong>我妻善逸</p>
+        <p><strong>作品：</strong>鬼灭之刃</p>
+        <p><strong>出荷：</strong>2020年10月</p>
+        <p><strong>制作：</strong>GSC</p>
+        <p><strong>价格：</strong>335元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=1&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10022329">会员购</a> <a href="https://www.hpoi.net/hobby/56666">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/mdz-2.png">
     </div>
     <div class="gk-desc">
@@ -246,6 +261,21 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>GSC</p>
         <p><strong>价格：</strong>265元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=1&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10004068">会员购</a> <a href="https://www.hpoi.net/hobby/42737">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/gmzr-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>鬼灭之刃 睡觉造型扭蛋</p>
+        <p><strong>状态：</strong>已入手</p>
+        <p><strong>角色：</strong>富冈义勇 嘴平伊之助 灶门炭治郎 灶门祢豆子 我妻善逸</p>
+        <p><strong>作品：</strong>鬼灭之刃</p>
+        <p><strong>出荷：</strong>2020年1月</p>
+        <p><strong>制作：</strong>Stand Stones</p>
+        <p><strong>价格：</strong>74元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/neul/index.html?activeType=0&page=box_detail&noTitleBar=1&itemsId=10018481">会员购</a> <a href="https://www.hpoi.net/hobby/59546">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">
