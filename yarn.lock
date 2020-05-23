@@ -1917,10 +1917,10 @@ hexo-front-matter@^1.0.0:
   dependencies:
     js-yaml "^3.13.1"
 
-hexo-fs@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.0.1.tgz#deb2ec363010f13ab538cf55c977f850ee2f3db5"
-  integrity sha512-RaQP4a83Y0OgSWsyB4nmzmsPKj8Vj73nkNF7lnU0OTmandHdmbMCGGXEU933PyG7L6cpFQofadbnPTr90++1Ag==
+hexo-fs@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-fs/-/hexo-fs-3.1.0.tgz#2052ff72c68cda2c577a87aa0ea7980ae503fa99"
+  integrity sha512-SfoDH7zlU9Iop+bAfEONXezbNIkpVX1QqjNCBYpapilZR+xVOCfTEdlNixanrKBbLGPb2fXqrdDBFgrKuiVGQQ==
   dependencies:
     bluebird "^3.5.1"
     chokidar "^3.0.0"
