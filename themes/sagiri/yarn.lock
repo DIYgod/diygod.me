@@ -812,45 +812,50 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@leancloud/adapter-types@^1.0.1", "@leancloud/adapter-types@^1.0.2":
+"@leancloud/adapter-types@^1.0.1":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@leancloud/adapter-types/-/adapter-types-1.0.2.tgz#1cac623f71b73c1224e6415633a3deb54aaa102e"
   integrity sha512-ohfYsFZ0u+qa2i+/JFL5e712yVoP7L3RY904alCGE51wAne6Rfjp6uRNrrW83N+WpCD66FvrQuvb3Q/cHmOdvQ==
 
-"@leancloud/adapters-superagent@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@leancloud/adapters-superagent/-/adapters-superagent-1.0.2.tgz#15ac9cdc0390762bb2a2c1a5557c7311dcda6bc6"
-  integrity sha512-v31bccbrKAV9Nw1UTduUtO1WwgnPH7OFWKsljTM+CR6hPD5wAACKKfm1hAGYwDBKlvUYCWir71jpHyZuly8qmw==
+"@leancloud/adapter-types@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@leancloud/adapter-types/-/adapter-types-3.0.0.tgz#71c5e8e37065bea4914650848b55a6262d658577"
+  integrity sha512-/1l2PWJ6pXizHphBorMN7B0d2YjmxZJf1s+bitvLALt7wBid5qbGpHqGGKE/yRdNlCKwl9FbXG1x5wUFZfQwHQ==
+
+"@leancloud/adapters-superagent@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@leancloud/adapters-superagent/-/adapters-superagent-1.0.4.tgz#05d4d5a67a50fddf51e80ea775aac9457414a10b"
+  integrity sha512-B8WndkFVoCRXJVZVV8FgSq2SQaSy2vDPwf2s20uKoUtCxe1Je/XuDnPd0Ujdr1Kt46a2w+uivxxuMPlW6JSOnQ==
   dependencies:
-    "@leancloud/adapter-types" "^1.0.2"
+    "@leancloud/adapter-types" "^3.0.0"
     "@types/superagent" "^4.1.7"
     superagent "^5.2.2"
 
-"@leancloud/platform-adapters-browser@^1.0.1", "@leancloud/platform-adapters-browser@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-browser/-/platform-adapters-browser-1.0.2.tgz#c26e020451c12917db81b74e80758024e7cde9bc"
-  integrity sha512-XoOfBs+oWF5G2J2OSdqJiHbXmaVRpugtbytkB6C5AoNWINS/HdJ/kflE5XoyoFJYNnbD7SuTyU3FgOeox4JAvQ==
+"@leancloud/platform-adapters-browser@^1.0.1", "@leancloud/platform-adapters-browser@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-browser/-/platform-adapters-browser-1.1.0.tgz#bc6f114752c985e9651ef197747699b365251a86"
+  integrity sha512-XOCSOH4fiMxU0ykEwMpkxNLllLtZCfoH0y/NrWXpi/P2hmAJQchrPNbRcv2bUVevaoNiRG5HXZZAHzPxxYICUA==
   dependencies:
-    "@leancloud/adapter-types" "^1.0.2"
-    "@leancloud/adapters-superagent" "^1.0.2"
+    "@leancloud/adapter-types" "^3.0.0"
+    "@leancloud/adapters-superagent" "^1.0.4"
 
-"@leancloud/platform-adapters-node@^1.0.1", "@leancloud/platform-adapters-node@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-node/-/platform-adapters-node-1.0.2.tgz#256d8095d1063cf02d50ddfabc70133a28ab066f"
-  integrity sha512-6ehKvEdrKbzDp9B+wZpnbVxbUOlicA1Nzj8hlbbdI5Ymxbjn4/Fvup4BBInSVgHlJTJqKnI40COR94kqco7eSg==
+"@leancloud/platform-adapters-node@^1.0.1", "@leancloud/platform-adapters-node@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-node/-/platform-adapters-node-1.1.0.tgz#2368537335ce88a507969970c8759268cf434b28"
+  integrity sha512-ewVJxTdgeSny9iUQ5jGwOaZpoHvWFTocInbpRCFfZjTCeY1LrgUsxHPdNXqMXRSfvI7kSeA0W3YFfnhu0g5s8g==
   dependencies:
-    "@leancloud/adapter-types" "^1.0.2"
-    "@leancloud/adapters-superagent" "^1.0.2"
+    "@leancloud/adapter-types" "^3.0.0"
+    "@leancloud/adapters-superagent" "^1.0.4"
     "@types/ws" "^7.2.2"
     localstorage-memory "^1.0.2"
     ws "^5.2.2"
 
-"@leancloud/platform-adapters-weapp@^1.0.2", "@leancloud/platform-adapters-weapp@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-weapp/-/platform-adapters-weapp-1.0.3.tgz#2c4175b6440a3d56051ae43836bc956a030cd7a1"
-  integrity sha512-mze+rDTfJTi9IWICuUFVCuvyLOiAYw/JlF2wZwBUfEyG8rZPAOf/0f9UrMRrtvQXLf+3083NZtcjIer3NtCnZg==
+"@leancloud/platform-adapters-weapp@^1.0.2", "@leancloud/platform-adapters-weapp@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@leancloud/platform-adapters-weapp/-/platform-adapters-weapp-1.2.0.tgz#1cd4d5fc52bb8a83264dfa00f85fe67dc999f6cc"
+  integrity sha512-U5v/4yVfKzkw7ZaWaIgwLWHuC/2FXyXxSQCupPkn0Rvmk3nJbj8PbquZZiVL0FA6Qe+u5INAbJ+WSCdasgDA5g==
   dependencies:
-    "@leancloud/adapter-types" "^1.0.2"
+    "@leancloud/adapter-types" "^3.0.0"
     event-target-shim "^5.0.1"
     miniprogram-api-typings "^2.10.2"
 
@@ -3729,15 +3734,15 @@ leancloud-realtime@^5.0.0-rc.2:
     protobufjs "^5.0.1"
     uuid "^3.0.0"
 
-leancloud-storage@4.5.3:
-  version "4.5.3"
-  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.5.3.tgz#2d90ef4816537be918f62140a79d7a3c06f9a9a5"
-  integrity sha512-00x/MlmpNkCsAt24SfkpEnyKnAtqC0gvBBO2NjgewWWTfskEjsgDkDK2LAwE4QCspx86mv5694/GLYmgJqGAfg==
+leancloud-storage@4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/leancloud-storage/-/leancloud-storage-4.6.0.tgz#3e47573f18ff33f92642632565d21f20a58f5d06"
+  integrity sha512-udRCKZ6wnMY9qB/5da31AHH6g1nPAmpY4T6cWBvrNtcMUYh/SzwoG9P+JCTY/cOTSCB6t5FUPPhWHaWYauHeNg==
   dependencies:
-    "@leancloud/adapter-types" "^1.0.2"
-    "@leancloud/platform-adapters-browser" "^1.0.2"
-    "@leancloud/platform-adapters-node" "^1.0.2"
-    "@leancloud/platform-adapters-weapp" "^1.0.3"
+    "@leancloud/adapter-types" "^3.0.0"
+    "@leancloud/platform-adapters-browser" "^1.1.0"
+    "@leancloud/platform-adapters-node" "^1.1.0"
+    "@leancloud/platform-adapters-weapp" "^1.2.0"
     babel-runtime "^6.26.0"
     debug "^3.1.0"
     eventemitter3 "^2.0.3"
