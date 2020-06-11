@@ -2009,10 +2009,10 @@ domain-browser@^1.1.1:
   resolved "https://registry.npmjs.org/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
   integrity sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
 
-dplayer@1.25.1:
-  version "1.25.1"
-  resolved "https://registry.yarnpkg.com/dplayer/-/dplayer-1.25.1.tgz#7b9929e55c7070eb8796414659afc323f0a73ed0"
-  integrity sha512-nSjtVuCcHIHHVDCuuSIs/46gXvyIo/sh7omqdoLUX54OTBSiMF0ygY3n9T6yoZc5cmb39YJJTqBLz2xoIsCJ+g==
+dplayer@1.26.0:
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/dplayer/-/dplayer-1.26.0.tgz#d366200b1962bd09e91226066f2aadea6f35c71b"
+  integrity sha512-uOE0w/WdlX7N9d0ppIEcAYrcnUjY52TMX+MBL4lj9Mj+JMljVuaEc5w88HkZp5Q11VqvN/jxnM8ktx2Dr7/MgA==
   dependencies:
     axios "0.19.2"
     balloon-css "^1.0.3"
