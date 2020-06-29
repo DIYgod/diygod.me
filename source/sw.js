@@ -1,131 +1,190 @@
-"use strict";
-(function() {
-    var cacheVersion = "20180330";
-    var staticImageCacheName = "image" + cacheVersion;
-    var staticAssetsCacheName = "assets" + cacheVersion;
-    var contentCacheName = "content" + cacheVersion;
-    var vendorCacheName = "vendor" + cacheVersion;
-    var maxEntries = 100;
-    self.importScripts("lib/sw-toolbox/sw-toolbox.js");
-    self.toolbox.options.debug = false;
-    self.toolbox.options.networkTimeoutSeconds = 3;
+importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.3/workbox/workbox-sw.js');
 
-    self.toolbox.router.get("/images/(.*)", self.toolbox.cacheFirst, {
-        cache: {
-            name: staticImageCacheName,
-            maxEntries: maxEntries
-        }
-    });
+workbox.setConfig({
+    modulePathPrefix: 'https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.3/workbox/'
+});
 
-    self.toolbox.router.get('/js/(.*)', self.toolbox.cacheFirst, {
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get('/css/(.*)', self.toolbox.cacheFirst, {
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get('/fonts/(.*)', self.toolbox.cacheFirst, {
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("(.*)/images/(.*)", self.toolbox.cacheFirst, {
-        origin: /cdn\.jsdelivr\.net/,
-        cache: {
-            name: staticImageCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /cdn\.jsdelivr\.net/,
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /cdnjs\.loli\.net/,
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /gstatic\.loli\.net/,
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /cdn\.bootcss\.com/,
-        cache: {
-            name: staticAssetsCacheName,
-            maxEntries: maxEntries
-        }
-    });
+const { core, precaching, routing, strategies, expiration, cacheableResponse, backgroundSync } = workbox;
+const { CacheFirst, NetworkFirst, NetworkOnly, StaleWhileRevalidate } = strategies;
+const { ExpirationPlugin } = expiration;
+const { CacheableResponsePlugin } = cacheableResponse;
 
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /a\.disquscdn\.com/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /c\.disquscdn\.com/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /uploads\.disquscdn\.com/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /media\.disquscdn\.com/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.cacheFirst, {
-        origin: /referrer\.disqus\.com/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    self.toolbox.router.get("/(.*)", self.toolbox.networkOnly, {
-        origin: /(www\.google-analytics\.com|ssl\.google-analytics\.com)/,
-        cache: {
-            name: vendorCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    
-    self.toolbox.router.get('/*', self.toolbox.networkFirst, {
-        cache: {
-            name: contentCacheName,
-            maxEntries: maxEntries
-        }
-    });
-    
-    self.addEventListener("install", function(event) {
-        return event.waitUntil(self.skipWaiting())
-    });
-    self.addEventListener("activate", function(event) {
-        return event.waitUntil(self.clients.claim())
+const cacheSuffixVersion = '-200629',
+    // precacheCacheName = core.cacheNames.precache,
+    // runtimeCacheName = core.cacheNames.runtime,
+    maxEntries = 100;
+
+self.addEventListener('activate', (event) => {
+    event.waitUntil(
+        caches.keys().then((keys) => {
+            return Promise.all(keys.map((key) => {
+                if (!key.includes(cacheSuffixVersion)) return caches.delete(key);
+            }));
+        })
+    );
+});
+
+
+core.setCacheNameDetails({
+    prefix: 'hidiygod',
+    suffix: cacheSuffixVersion
+});
+
+core.skipWaiting();
+core.clientsClaim();
+precaching.cleanupOutdatedCaches();
+
+/*
+ * Precache
+ * - Static Assets
+ */
+precaching.precacheAndRoute(
+    [
+        { url: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', revision: null },
+    ],
+);
+
+/*
+ * Cache File From jsDelivr
+ * cdn.jsdelivr.net | shadow.elemecdn.com
+ *
+ * Method: CacheFirst
+ * cacheName: static-immutable
+ * cacheTime: 30d
+ */
+
+// cdn.jsdelivr.net - cors enabled
+routing.registerRoute(
+    /.*cdn\.jsdelivr\.net/,
+    new CacheFirst({
+        cacheName: 'static-immutable' + cacheSuffixVersion,
+        fetchOptions: {
+            mode: 'cors',
+            credentials: 'omit'
+        },
+        plugins: [
+            new ExpirationPlugin({
+                maxAgeSeconds: 30 * 24 * 60 * 60,
+                purgeOnQuotaError: true
+            })
+        ]
     })
-}
-)();
+);
+
+/*
+ * Google Analytics Async - No Cache
+ *
+ * Mathod: networkOnly
+ */
+
+routing.registerRoute(
+    /.*\.google-analytics\.com/,
+    new NetworkOnly({
+        plugins: [
+            new backgroundSync.BackgroundSyncPlugin('Optical_Collect', {
+                maxRetentionTime: 12 * 60 // Retry for max of 12 Hours (specified in minutes)
+            }),
+        ]
+    })
+);
+
+
+/*
+ * API - No Cache
+ *
+ * Method: networkOnly
+ */
+routing.registerRoute(
+    new RegExp('https://api\.i-meto\.com'),
+    new NetworkFirst({
+        cacheName: 'api' + cacheSuffixVersion,
+        fetchOptions: {
+            mode: 'cors',
+            credentials: 'omit'
+        },
+        networkTimeoutSeconds: 3
+    })
+);
+
+routing.registerRoute(
+    new RegExp('https://leancloud\.diygod\.me'),
+    new NetworkFirst({
+        cacheName: 'api' + cacheSuffixVersion,
+        fetchOptions: {
+            mode: 'cors',
+            credentials: 'omit'
+        },
+        networkTimeoutSeconds: 3
+    })
+);
+
+routing.registerRoute(
+    new RegExp('https://disqus\.diygod\.me'),
+    new NetworkFirst({
+        cacheName: 'api' + cacheSuffixVersion,
+        fetchOptions: {
+            mode: 'cors',
+            credentials: 'omit'
+        },
+        networkTimeoutSeconds: 3
+    })
+);
+
+/*
+ * Disqus Related - No cache
+ * disqus.com
+ * *.disquscdn.com
+ *
+ * Method: NetworkOnly
+ */
+routing.registerRoute(
+    new RegExp('^https://(.*)disqus\.com'),
+    new NetworkOnly()
+);
+
+routing.registerRoute(
+    new RegExp('^https://(.*)disquscdn\.com(.*)'),
+    new NetworkOnly()
+);
+
+/*
+ * Others img
+ * Method: staleWhileRevalidate
+ * cacheName: img-cache
+ */
+routing.registerRoute(
+    // Cache image files
+    /.*\.(?:png|jpg|jpeg|svg|gif|webp)/,
+    new StaleWhileRevalidate()
+);
+
+/*
+ * Static Assets
+ * Method: staleWhileRevalidate
+ * cacheName: static-assets-cache
+ */
+routing.registerRoute(
+    // Cache CSS files
+    /.*\.(css|js)/,
+    // Use cache but update in the background ASAP
+    new StaleWhileRevalidate()
+);
+
+/*
+ * sw.js - Revalidate every time
+ * staleWhileRevalidate
+ */
+routing.registerRoute(
+    '/js/sw.js',
+    new StaleWhileRevalidate()
+);
+
+/*
+ * Default - Serve as it is
+ * networkFirst
+ */
+routing.setDefaultHandler(
+    new NetworkFirst({
+        networkTimeoutSeconds: 3
+    })
+);
