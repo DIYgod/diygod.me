@@ -100,3 +100,11 @@ js_minifier:
 
 image_minifier:
   enable: false
+
+filter_crossorigin:
+  - name: img
+    crossorigin: true
+    domains:
+      - cdn.jsdelivr.net
+    attrs:
+      - src
