@@ -52,6 +52,21 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/2233-3.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>哔哩哔哩十一周年 2233私服出游Ver. 手办</p>
+        <p><strong>状态：</strong>已预订</p>
+        <p><strong>角色：</strong>2233</p>
+        <p><strong>作品：</strong>哔哩哔哩</p>
+        <p><strong>出荷：</strong>2020年10月</p>
+        <p><strong>制作：</strong>APEX</p>
+        <p><strong>价格：</strong>1100元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsId=10023586&loadingShow=1&noTitleBar=1&shopId=2233">会员购</a> <a href="https://www.hpoi.net/hobby/59969">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/mdz-1.png">
     </div>
     <div class="gk-desc">
@@ -86,7 +101,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>ARTFX J 鬼灭之刃 灶门炭治郎</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>灶门炭治郎</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年4月</p>
@@ -224,7 +239,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>黏土人 鬼灭之刃 灶门祢豆子</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>灶门祢豆子</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年8月</p>
