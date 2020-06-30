@@ -96,14 +96,7 @@ routing.registerRoute(
  */
 routing.registerRoute(
     new RegExp('https://api\.i-meto\.com'),
-    new NetworkFirst({
-        cacheName: 'api' + cacheSuffixVersion,
-        fetchOptions: {
-            mode: 'cors',
-            credentials: 'omit'
-        },
-        networkTimeoutSeconds: 3
-    })
+    new NetworkOnly()
 );
 
 routing.registerRoute(
