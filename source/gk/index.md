@@ -37,6 +37,21 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/ai.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>绊爱 Hello World 金发Ver. 手办</p>
+        <p><strong>状态：</strong>已预订</p>
+        <p><strong>角色：</strong>绊爱</p>
+        <p><strong>作品：</strong>虚拟 YouTuber</p>
+        <p><strong>出荷：</strong>2021年6月</p>
+        <p><strong>制作：</strong>Stronger</p>
+        <p><strong>价格：</strong>849元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?noTitleBar=1&loadingShow=1#itemsId=10024378">会员购</a> <a href="https://www.hpoi.net/hobby/60122">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/02-1.png">
     </div>
     <div class="gk-desc">
