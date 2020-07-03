@@ -71,7 +71,7 @@ menu:
   归档: /archives/ || fas fa-archive
   后宫: /friends/ || fas fa-mars-stroke
   # 留言板: /message/ || fas fa-comment-dots
-  手办展: /gk/ || fas fa-child
+  手办柜: /gk/ || fas fa-child
   关于我: /about/ || fas fa-heartbeat
 
 submenu:
