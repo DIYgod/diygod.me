@@ -37,7 +37,7 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
-        <img src="/images/gk/ai.png">
+        <img src="/images/gk/ai-1.png">
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>绊爱 Hello World 金发Ver. 手办</p>
@@ -63,6 +63,21 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>Aniplex</p>
         <p><strong>价格：</strong>1264元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=2&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008556">会员购</a> <a href="https://www.hpoi.net/hobby/42076">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/mrx-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>新世纪福音战士 惣流·明日香·兰格雷 RE 哥特洛丽塔Ver. 手办</p>
+        <p><strong>状态：</strong>已预定</p>
+        <p><strong>角色：</strong>明日香</p>
+        <p><strong>作品：</strong>新世纪福音战士</p>
+        <p><strong>出荷：</strong>2020年7月</p>
+        <p><strong>制作：</strong>寿屋</p>
+        <p><strong>价格：</strong>623元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsId=10018240&loadingShow=1&noTitleBar=1&shopId=2233">会员购</a> <a href="https://www.hpoi.net/hobby/54782">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">
