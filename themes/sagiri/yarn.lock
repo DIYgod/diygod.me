@@ -2514,10 +2514,10 @@ graceful-fs@^4.1.15:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
 
-gsap@3.3.4:
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.3.4.tgz#759b9ecba1d21ad243f0d09900f29c4773b8cb32"
-  integrity sha512-qqrPsuh1eNN+Qtvux8f+UExXtd5N+TFhqyPlUX5PBwwDdig9CUxi50dYzUpSKkOczOmmiLMBiwoywPok1iOlDw==
+gsap@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.4.0.tgz#b1cec510b0dd30cbb115fb2bece37a3b86c9327d"
+  integrity sha512-b/GJjLIl9X5bPrlQ6ek7KV6ZPKP2HsKXr7HcuTEQe4725SkCTialLHnrhglxZISIg+zCRrQXawexRUeKZz5CjQ==
 
 gzip-size@^5.0.0:
   version "5.1.1"
