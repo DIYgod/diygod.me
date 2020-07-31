@@ -97,6 +97,21 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/lm-3.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>TAITO Re:从零开始的异世界生活 雷姆 睡衣Ver. 景品手办 异色版</p>
+        <p><strong>状态：</strong>已预订</p>
+        <p><strong>角色：</strong>雷姆</p>
+        <p><strong>作品：</strong>Re：从零开始的异世界生活</p>
+        <p><strong>出荷：</strong>2020年10月</p>
+        <p><strong>制作：</strong>TAITO</p>
+        <p><strong>价格：</strong>89元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1#itemsId=10025039&noReffer=true&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/60411">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/mdz-1.png">
     </div>
     <div class="gk-desc">
