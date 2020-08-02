@@ -191,7 +191,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>哪吒之魔童降世 魔童哪吒</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>哪吒</p>
         <p><strong>作品：</strong>哪吒之魔童降世</p>
         <p><strong>出荷：</strong>2020年6月</p>
