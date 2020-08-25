@@ -2000,12 +2000,13 @@ hexo-generator-feed@3.0.0:
     hexo-util "^2.1.0"
     nunjucks "^3.0.0"
 
-hexo-generator-index@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-1.0.0.tgz#8c9f157dcfa0af4f8417f77a4eb5b3831f69a719"
-  integrity sha512-L25MdZ7e5ar/F8lIW+zBNNlA4f5A8CBUOYi1IQZCgL3wPVW+AWn66RSM5UVBAbiw5yxDeTHdk0sJYXbhSBaOFQ==
+hexo-generator-index@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-2.0.0.tgz#15e71f4d28ee9d2172e2d77e8d1dba04882edc8f"
+  integrity sha512-q/29Vj9BZs0dwBcF+s9IT8ymS4aYZsDwBEYDnh96C8tsX+KPY5v6TzCdttz58BchifaJpP/l9mi6u9rZuYqA0g==
   dependencies:
     hexo-pagination "1.0.0"
+    timsort "^0.3.0"
 
 hexo-generator-sitemap@2.1.0:
   version "2.1.0"
@@ -4414,6 +4415,11 @@ timed-out@^4.0.0, timed-out@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/timed-out/-/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
   integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
+
+timsort@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
+  integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
 tiny-emitter@^2.0.0:
   version "2.1.0"
