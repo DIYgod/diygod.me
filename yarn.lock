@@ -2050,10 +2050,10 @@ hexo-renderer-ejs@^1.0.0:
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-marked@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.0.0.tgz#4c9c5ff7d2e7887057891b2db9df9c39187e1fe5"
-  integrity sha512-7d2kW9N/86I1eNRE6quD5jd7GcwE3xspbswOc7UxQqBoJ/52VZrYCH6fxGTnuhFU5MOnRgilZso2dqkujwsnYQ==
+hexo-renderer-marked@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.1.0.tgz#ff9c27c13bd2b2fad8bc689c50cdcae08fa3b6c7"
+  integrity sha512-IehIoXFNs2iRnP5v4/8QRRgqZ139Sj6w++YzrYVIVVZ2FTiXMGjxHjpCyy5QW8EADGapK3YUFSWyo5kWGmDQSg==
   dependencies:
     hexo-util "^2.1.0"
     marked "^1.0.0"
