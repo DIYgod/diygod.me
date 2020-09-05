@@ -2061,10 +2061,10 @@ hexo-renderer-marked@^3.1.0:
     hexo-util "^2.1.0"
     marked "^1.0.0"
 
-hexo-renderer-stylus@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.0.tgz#fbc89a06d33f5eecd5b120759d4af247fde0315d"
-  integrity sha512-pn411nLqlmd9oq2oEPZ7AfYrCUmAVUxJ/QnE0fpoTFbLARVHOkJaKr6GlcWmKs2jdYIu8xa7yB7cEFo406k8DA==
+hexo-renderer-stylus@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.1.tgz#c65566e97e9058a52e46c82b0c45cf561f4b94cb"
+  integrity sha512-1S4AG8RtzWqVrqKIYv2AJ4UYms5SHDjkdYS7IiGwgUejL24agbTktpAbnH2cG1JWZ15SRqYN0UGB9aAoSAgvEA==
   dependencies:
     nib "^1.1.2"
     stylus "^0.54.8"
