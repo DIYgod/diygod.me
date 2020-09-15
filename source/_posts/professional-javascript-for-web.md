@@ -5,7 +5,7 @@ categories:
   - 创作集
 date: 2015-08-19 00:29:33
 tags:
-permalink: 2073
+permalink: /2073
 ---
 
 莎士比亚曾经说过：“好记性不如烂笔头。”

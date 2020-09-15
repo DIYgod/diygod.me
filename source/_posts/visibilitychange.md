@@ -5,7 +5,7 @@ categories:
   - 分享境
 date: 2015-11-12 16:51:34
 tags:
-permalink: 2153
+permalink: /2153
 ---
 
 ![](/images/titlehide.png)

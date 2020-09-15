@@ -5,7 +5,7 @@ categories:
   - 创作集
 date: 2015-05-24 11:48:44
 tags:
-permalink: 2024
+permalink: /2024
 ---
 
 任务4（最终挑战）已经发布，任务deadline是6月10日至6月30日。

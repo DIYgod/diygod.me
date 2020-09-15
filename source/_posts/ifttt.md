@@ -5,7 +5,7 @@ categories:
   - 分享境
 date: 2015-11-08 14:19:15
 tags:
-permalink: 2125
+permalink: /2125
 ---
 
 ### 什么是IFTTT

@@ -5,7 +5,7 @@ categories:
   - 创作集
 date: 2015-02-16 21:04:12
 tags:
-permalink: 1764
+permalink: /1764
 ---
 
 **<span style="font-size: 14pt;">1 系列说明</span>**

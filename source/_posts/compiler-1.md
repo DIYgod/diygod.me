@@ -5,7 +5,7 @@ categories:
   - 创作集
 date: 2015-02-05 16:27:28
 tags:
-permalink: 1754
+permalink: /1754
 ---
 
 [GitHub地址](https://github.com/DIYgod/Compiler) [各阶段源码](http://www.anotherhome.net/file/compiler/) [各阶段说明集合](http://www.anotherhome.net/1751)
