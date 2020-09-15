@@ -35,7 +35,6 @@ Hi，我是 DIYgod，一个可爱的人，一个纯粹的人，一个没有脱�
     <div class="work-title">DPlayer <a href="https://dplayer.js.org/"><i class="fas fa-link"></i></a><a href="https://github.com/MoePlayer/DPlayer"><i class="fab fa-github"></i></a></div>
     <div class="work-desc">一个可爱的 HTML5 弹幕视频播放器<img src="https://img.shields.io/github/stars/MoePlayer/DPlayer?style=social&color=4c1"></div>
 </div>
-</div>
 <div class="work">
     <div class="work-title">APlayer <a href="https://aplayer.js.org/"><i class="fas fa-link"></i></a><a href="https://github.com/MoePlayer/APlayer"><i class="fab fa-github"></i></a></div>
     <div class="work-desc">一个好看的 HTML5 音乐播放器<img src="https://img.shields.io/github/stars/MoePlayer/APlayer?style=social&color=4c1"></div>
