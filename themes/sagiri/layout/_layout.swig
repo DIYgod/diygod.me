@@ -40,7 +40,9 @@
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-image"></div>
+      <div class="footer-image">
+        <img src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/footer.png">
+      </div>
       <div class="footer-inner">
         {% include '_partials/footer.swig' %}
         {% include '_third-party/analytics/analytics-with-widget.swig' %}
@@ -50,7 +52,7 @@
 
     {% if not theme.sidebar.b2t %}
       <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
+        <img src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/scroll.png">
         {% if theme.sidebar.scrollpercent %}
           <span id="scrollpercent"><span>0</span>%</span>
         {% endif %}
