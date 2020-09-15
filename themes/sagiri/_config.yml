@@ -209,7 +209,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/DIYgod.jpg
+avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/DIYgod-avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -864,7 +864,7 @@ images: images
 header_bg: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/header-gyx.png
 
 card:
-  avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/card.jpg
+  avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/card-avatar.jpg
   name: <span style="opacity:.2;">网红</span>DIYgod
   description: 你能抓到我么？
   items:
