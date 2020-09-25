@@ -77,12 +77,11 @@ menu:
 submenu:
   实验室:
     RSSHub: https://docs.rsshub.app/
+    RSSHub Radar: https://chrome.google.com/webstore/detail/rsshub-radar/kefjpfngnndepjbopdmoebkipbgkggaa
     DPlayer: http://dplayer.js.org/
     APlayer: https://aplayer.js.org/
-    TT RSS: https://rss.diygod.me/
+    Miniflux: https://miniflux.diygod.me/
     监控: https://status.diygod.me/
-    NAS: https://nas.diygod.me:2222/
-    Sentry: https://sentry.diygod.me/
 
 # Enable/Disable menu icons.
 menu_icons:

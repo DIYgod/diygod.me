@@ -116,7 +116,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>ARTFX J 鬼灭之刃 灶门祢豆子</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>灶门祢豆子</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年5月</p>
@@ -131,7 +131,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>ARTFX J 鬼灭之刃 我妻善逸</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>我妻善逸</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年6月</p>
@@ -213,6 +213,36 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>FuRyu</p>
         <p><strong>价格：</strong>173元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=4&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008485">会员购</a> <a href="https://www.hpoi.net/hobby/41751">手办维基</a> <a href="https://www.hpoi.net/hobby/41752">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/hdr-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>ALTER 鬼灭之刃 蝴蝶忍 手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>蝴蝶忍</p>
+        <p><strong>作品：</strong>鬼灭之刃</p>
+        <p><strong>出荷：</strong>2021年9月</p>
+        <p><strong>制作：</strong>ALTER</p>
+        <p><strong>价格：</strong>999元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1&shopId=2233#noReffer=true&itemsId=10028514&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/55869">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/hh-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>Max Factory POP UP PARADE 为美好的世界献上祝福！红传说 惠惠 手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>惠惠</p>
+        <p><strong>作品：</strong>为美好的世界献上祝福！</p>
+        <p><strong>出荷：</strong>2020年11月</p>
+        <p><strong>制作：</strong>Max Factory</p>
+        <p><strong>价格：</strong>219元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1&shopId=2233#itemsId=10025736&noReffer=true&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/57423">手办维基</a></p>
     </div>
 </div>
 
