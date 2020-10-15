@@ -83,6 +83,7 @@ submenu:
     NAS: https://nas.diygod.me/
     Jellyfin: https://jellyfin.diygod.me/
     Miniflux: https://miniflux.diygod.me/
+    Huginn: https://huginn.diygod.me/
     监控: https://status.diygod.me/
 
 # Enable/Disable menu icons.
