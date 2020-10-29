@@ -11,7 +11,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>哔哩哔哩十周年 纯白之爱 2233纪念手办</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已预订</p>
         <p><strong>角色：</strong>2233</p>
         <p><strong>作品：</strong>哔哩哔哩</p>
         <p><strong>出荷：</strong>2020年9月</p>
@@ -71,7 +71,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>新世纪福音战士 惣流·明日香·兰格雷 RE 哥特洛丽塔Ver. 手办</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>明日香</p>
         <p><strong>作品：</strong>新世纪福音战士</p>
         <p><strong>出荷：</strong>2020年7月</p>
@@ -161,7 +161,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>超级景品 鬼灭之刃 我妻善逸</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>我妻善逸</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年6月</p>
@@ -284,7 +284,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>Lulumecu Re：从零开始的异世界生活 雷姆</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已预订</p>
         <p><strong>角色：</strong>雷姆</p>
         <p><strong>作品：</strong>Re：从零开始的异世界生活</p>
         <p><strong>出荷：</strong>2020年6月</p>
@@ -299,7 +299,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>粘土人 鬼灭之刃 我妻善逸</p>
-        <p><strong>状态：</strong>已预定</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>我妻善逸</p>
         <p><strong>作品：</strong>鬼灭之刃</p>
         <p><strong>出荷：</strong>2020年10月</p>
