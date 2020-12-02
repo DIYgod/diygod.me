@@ -13,7 +13,7 @@ Hi，我是 DIYgod，一个可爱的人，一个纯粹的人，一个没有脱�
 | 一句话 | 写代码是热爱，写到世界充满爱！ |
 | 生日 | 1995/06/09 |
 | 特征 | 胆小、反应迟钝、记忆力差，线上岁纳京子，线下阿卡林 |
-| 装备 | MacBook Pro (15-inch, 2018)、小米10 Pro、小米手表Color、PlayStation 4、Nintendo Switch、iPad 6 + Apple Pencil、AirPods Pro |
+| 装备 | MacBook Pro (15-inch, 2018)、小米10 Pro、OPPO Watch、PlayStation 4、Nintendo Switch、iPad 6 + Apple Pencil、AirPods Pro |
 | 工作 | 当前：bilibili HTML5 播放器 & 开源作者 即将：赴英读研 |
 | 最喜欢的作品 | 为美好的世界献上祝福！、四月是你的谎言、摇曳百合、鬼灭之刃、辉夜大小姐想让我告白、青春猪头少年不会梦到兔女郎学姐、DARLING in the FRANXX、Re：从零开始的异世界生活、埃罗芒阿老师 |
 | 最喜欢的女孩子 | 岁纳京子、惠惠、02、宫园薰、阿库娅、樱岛麻衣、雷姆、和泉纱雾、灶门祢豆子、英梨梨、土间埋、山田妖精、明日香、托尔 |
