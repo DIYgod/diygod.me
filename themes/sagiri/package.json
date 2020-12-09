@@ -46,7 +46,7 @@
     "gsap": "3.5.1",
     "jquery-pjax": "2.0.1",
     "lazyload": "2.0.0-rc.2",
-    "leancloud-storage": "4.8.1",
+    "leancloud-storage": "4.8.2",
     "nprogress": "0.2.0",
     "social-share.js": "1.0.16",
     "velocity-animate": "1.5.2",
