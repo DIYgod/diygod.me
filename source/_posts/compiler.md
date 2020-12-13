@@ -5,7 +5,7 @@ categories:
   - 创作集
 date: 2015-02-01 22:58:26
 tags:
-permalink: /1751
+permalink: 1751/
 ---
 
 <span style="font-size: 8pt;">_图灵生机器，机器生汇编，汇编生 C，C 生万物

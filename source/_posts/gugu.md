@@ -5,7 +5,7 @@ categories:
   - 闲言语
 date: 2017-07-02 22:46:40
 tags:
-permalink: /2978
+permalink: 2978/
 ---
 
 最近跟我表白的人太多了，所以我买了一个[咕咕机](http://www.memobird.cn)，现在访问 [让咕咕机再次伟大](/make-gugu-great-again) 就可以很方便地写小纸条跟我表白了。<!--more-->

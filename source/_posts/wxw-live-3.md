@@ -5,7 +5,7 @@ categories:
   - 分享境
 date: 2016-12-16 02:10:44
 tags:
-permalink: /2889
+permalink: 2889/
 ---
 
 ![](https://cdn1.diygod.me/wxwlive/1216/1/poster.png)

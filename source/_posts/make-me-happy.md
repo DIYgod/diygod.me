@@ -5,7 +5,7 @@ categories:
   - 闲言语
 date: 2016-03-22 01:07:54
 tags:
-permalink: /2505
+permalink: 2505/
 ---
 
 ![](/images/happything.png)

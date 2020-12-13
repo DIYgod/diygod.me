@@ -5,7 +5,7 @@ categories:
   - 分享境
 date: 2017-03-02 22:31:04
 tags:
-permalink: /2939
+permalink: 2939/
 ---
 
 酸奶是我家新招的猫女仆，她有一个博客：[https://suannai.cat](https://suannai.cat/)
