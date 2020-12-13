@@ -5,7 +5,6 @@ categories:
   - 创作集
 date: 2016-11-02 13:41:01
 tags:
-permalink: /2837
 ---
 
 使用 RSS 订阅喜欢的微博博主（比如我）吧~

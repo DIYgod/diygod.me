@@ -5,7 +5,6 @@ categories:
   - 分享境
 date: 2014-11-30 00:15:59
 tags:
-permalink: /1666
 ---
 
 <span style="font-size: 8pt;">_马伯庸《寂静之城》未删节版本全文

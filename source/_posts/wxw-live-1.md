@@ -5,7 +5,6 @@ categories:
   - 分享境
 date: 2016-10-20 20:15:18
 tags:
-permalink: /2805
 ---
 
 以下为10月19日[微小微](http://weibo.com/u/2025479687)在[一直播](http://m.yizhibo.com/l/n6VHhuJoCbMf41Nx.html)的直播回放（迷妹脸，弹幕也成功扒下来转成 [DPlayer](https://github.com/DIYgod/DPlayer) 可以识别的格式啦。

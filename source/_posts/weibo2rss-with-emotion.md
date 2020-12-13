@@ -5,7 +5,6 @@ categories:
   - 创作集
 date: 2017-02-09 01:05:40
 tags:
-permalink: /2920
 ---
 
 ![](/images/weibo-negative.png)
