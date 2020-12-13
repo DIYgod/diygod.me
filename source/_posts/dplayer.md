@@ -5,6 +5,7 @@ categories:
   - 创作集
 date: 2016-08-20 00:47:07
 tags:
+permalink: /2648
 ---
 
 <link href="https://cdn.bootcss.com/dplayer/1.16.0/DPlayer.min.css" rel="stylesheet">

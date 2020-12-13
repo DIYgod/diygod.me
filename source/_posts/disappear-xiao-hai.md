@@ -5,6 +5,7 @@ categories:
   - 分享境
 date: 2014-11-26 12:37:58
 tags:
+permalink: /1655
 ---
 
 <span style="font-size: 8pt;">_一盏一盏的灯，灭了。四面八方的光源，消失了。我们生活的五光十色的世界，变成了一片黑色。

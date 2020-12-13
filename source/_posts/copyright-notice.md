@@ -5,6 +5,7 @@ categories:
   - 分享境
 date: 2015-12-26 20:49:52
 tags:
+permalink: /2298
 ---
 
 ### 什么鬼？

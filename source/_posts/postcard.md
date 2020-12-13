@@ -5,6 +5,7 @@ categories:
   - 事件簿
 date: 2016-03-17 00:57:42
 tags:
+permalink: /2449
 ---
 
 ![](/images/postcard2.jpg)

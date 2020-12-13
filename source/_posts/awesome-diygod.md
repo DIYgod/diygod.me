@@ -5,6 +5,7 @@ categories:
   - 闲言语
 date: 2017-08-14 01:00:59
 tags:
+permalink: /3163
 ---
 
 <span style="font-size: 10pt;">_嘘~ 你们看，我发现了什么？这里有一只落单的 DIYgod，我们可以尝试捕捉它，一只 DIYgod 可以为我们提供好几天的能量，它们富含大量的蛋白质，不过 DIYgod 可不好对付。我们慢慢从后面接近它，小心别发出任何声音。_</span>
