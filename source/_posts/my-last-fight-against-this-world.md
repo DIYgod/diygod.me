@@ -1,7 +1,7 @@
 ---
 title: 我与这个世界的最后一次抗争
 date: 2020-08-02 14:57:31
-tags:
+categories: 闲言语
 ---
 {% raw %}
 <div class="aplayer" id="aplayer-lf"></div>

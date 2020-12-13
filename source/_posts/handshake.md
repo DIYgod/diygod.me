@@ -1,7 +1,7 @@
 ---
 title: 一份特别的开源项目赞助
 date: 2020-02-20 17:30:28
-tags:
+categories: 日记本
 ---
 
 ![](/images/handshake1.jpg)

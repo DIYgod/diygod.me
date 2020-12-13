@@ -1,7 +1,7 @@
 ---
 title: 我家 Android 初养成
 date: 2019-11-24 02:13:22
-tags: 分享境
+categories: 分享境
 ---
 最近把用了两年的 iPhone X 换成了 Redmi K20 Pro，体验一下 Android 自由香甜的空气
 
