@@ -1819,10 +1819,10 @@ hexo-wordcount@3.0.2:
     numeral "^1.5.3"
     wordcount "^1.1.1"
 
-hexo@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.2.0.tgz#cf8b2e3df3ba29805a17d96145ad41b38432a8e5"
-  integrity sha512-lX4OqpZv+AGANHHyxmlXdlU5hDiJyPDqEBdRwtIo5BLp86RsCi/xlTtkdVV0fRi1uRjtLc9vwXf7LVjAd/l45g==
+hexo@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.3.0.tgz#477362f13b676d7d79ecb353418ff830eb27761c"
+  integrity sha512-Q8JPpXYDemyIzRIjRx3555HALvnOqIeCj4NnW6T8aiZpi9hgZxTnpFDY2fBPdKIPNc5GvP4mL/705znxAM8kcA==
   dependencies:
     abbrev "^1.1.1"
     archy "^1.0.0"
