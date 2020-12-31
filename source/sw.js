@@ -100,6 +100,11 @@ routing.registerRoute(
 );
 
 routing.registerRoute(
+    new RegExp('https://ip\.diygod\.me'),
+    new NetworkOnly()
+);
+
+routing.registerRoute(
     new RegExp('https://leancloud\.diygod\.me'),
     new NetworkFirst({
         cacheName: 'api' + cacheSuffixVersion,

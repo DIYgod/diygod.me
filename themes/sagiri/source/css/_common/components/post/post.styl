@@ -66,6 +66,34 @@
   if hexo-config('motion.transition.coll_header') { .collection-title { opacity: 0; } }
 }
 
+.post-body .post-warning {
+  background-color: #fdf6ec;
+  color: #e6a23c;
+  display: inline-block;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+// twitter
+.post-body .twitter-tweet {
+  margin: auto;
+  width: 50% !important;
+  display: inline-flex !important;
+
+  +mobile() {
+    width: 100% !important;
+    display: flex !important;
+  }
+
+  iframe {
+    width: auto !important;
+    padding: 0 5px;
+  }
+}
+
 @import "post-expand";
 @import "post-collapse";
 @import "post-type";
