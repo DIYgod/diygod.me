@@ -1614,13 +1614,11 @@ execa@^5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-exports-loader@1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-1.1.1.tgz#88c9a6877ee6a5519d7c41a016bdd99148421e69"
-  integrity sha512-CmyhIR2sJ3KOfVsHjsR0Yvo+0lhRhRMAevCbB8dhTVLHsZPs0lCQTvRmR9YNvBXDBxUuhmCE2f54KqEjZUaFrg==
+exports-loader@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-2.0.0.tgz#ca7861b86726997bb4e55001888d2af940935979"
+  integrity sha512-k/VFrVEUmotfkk8vZ+njG5NEXpr5Ee+BonV+AYINV2hNo3o+/UB8nEuCUQk2k6IyWIoobmXoTFO0igxrQcMV4Q==
   dependencies:
-    loader-utils "^2.0.0"
-    schema-utils "^3.0.0"
     source-map "^0.6.1"
 
 fancybox@3.0.1:
