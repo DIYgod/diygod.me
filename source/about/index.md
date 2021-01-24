@@ -55,7 +55,6 @@ Hi，我是 DIYgod，一个可爱的人，一个纯粹的人，一个没有脱�
 ✨即时通讯：
 
 - [Telegram 群](https://t.me/prpr233) <img src="https://img.shields.io/badge/dynamic/json?style=social&label=@prpr233%20成员&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dtelegram%26queryKey%3Dprpr233&logo=telegram">
-- QQ py 群: [发起申请](https://wj.qq.com/s2/3318631/2970)
 
 🎡游戏：
 

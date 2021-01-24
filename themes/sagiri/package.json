@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress --display-error-details --colors"
+    "build": "cross-env NODE_ENV=production webpack --config webpack.config.js --progress"
   },
   "repository": {
     "type": "git",

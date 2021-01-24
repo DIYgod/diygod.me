@@ -47,7 +47,6 @@
             <button type="submit" class="search-submit"><i class="fas fa-search"></i></button>
           </form>
       </li>
-      <li class="menu-item online"><span id="online-count">?</span>人在线</li>
     </ul>
   {% endif %}
 

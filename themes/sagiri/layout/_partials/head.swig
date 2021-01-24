@@ -143,7 +143,6 @@
     tabs: {{ theme.tabs.enable }},
     motion: {{ theme.motion | json_encode }},
     since: '{{ theme.footer.since }}',
-    onlineAPI: '{{ theme.online_api }}',
     site: {
       title: '{{ theme.title }}',
       subtitle: '{{ theme.subtitle }}',

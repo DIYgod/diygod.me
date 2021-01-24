@@ -55,11 +55,4 @@ module.exports = {
         }),
     ],
 
-    node: {
-        dgram: 'empty',
-        fs: 'empty',
-        net: 'empty',
-        tls: 'empty',
-    }
-
 };
