@@ -217,6 +217,21 @@ date: 2020-03-04 23:40:42
 </div>
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/c-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>APEX 明日方舟 陈 手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>陈</p>
+        <p><strong>作品：</strong>明日方舟</p>
+        <p><strong>出荷：</strong>2021年8月</p>
+        <p><strong>制作：</strong>APEX</p>
+        <p><strong>价格：</strong>748元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1#goFrom=na&itemsId=10031805&noReffer=true">会员购</a> <a href="https://www.hpoi.net/hobby/61608">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/sy-2.png">
     </div>
     <div class="gk-desc">
