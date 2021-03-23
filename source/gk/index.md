@@ -7,32 +7,32 @@ date: 2020-03-04 23:40:42
 
 <div class="gk-item">
     <div class="gk-img">
+        <img src="/images/gk/mdz-3.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>鬼灭之刃 灶门祢豆子 爆血Ver. 手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>灶门祢豆子</p>
+        <p><strong>作品：</strong>鬼灭之刃</p>
+        <p><strong>出荷：</strong>2022年5月</p>
+        <p><strong>制作：</strong>ANIPLEX+</p>
+        <p><strong>价格：</strong>1100元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1#goFrom=na&itemsId=10035911&noReffer=true">会员购</a> <a href="https://www.hpoi.net/hobby/63813">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
         <img src="/images/gk/2233-1.png">
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>哔哩哔哩十周年 纯白之爱 2233纪念手办</p>
-        <p><strong>状态：</strong>已预订</p>
+        <p><strong>状态：</strong>已出售</p>
         <p><strong>角色：</strong>2233</p>
         <p><strong>作品：</strong>哔哩哔哩</p>
         <p><strong>出荷：</strong>2020年9月</p>
         <p><strong>制作：</strong>GSC</p>
         <p><strong>价格：</strong>1678元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=8&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10011304">会员购</a> <a href="https://www.hpoi.net/hobby/50132">手办维基</a> <a href="https://www.hpoi.net/hobby/50133">手办维基</a></p>
-    </div>
-</div>
-<div class="gk-item">
-    <div class="gk-img">
-        <img src="/images/gk/2233-2.png">
-    </div>
-    <div class="gk-desc">
-        <p><strong>名称：</strong>哔哩哔哩 2233拜年祭2019限定Ver. 手办</p>
-        <p><strong>状态：</strong>已入手</p>
-        <p><strong>角色：</strong>2233</p>
-        <p><strong>作品：</strong>哔哩哔哩</p>
-        <p><strong>出荷：</strong>2020年3月</p>
-        <p><strong>制作：</strong>GSC</p>
-        <p><strong>价格：</strong>1435.6元</p>
-        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=4&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008264">会员购</a> <a href="https://www.hpoi.net/hobby/46415">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">
@@ -63,6 +63,36 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>Aniplex</p>
         <p><strong>价格：</strong>1264元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=2&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008556">会员购</a> <a href="https://www.hpoi.net/hobby/42076">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/2233-2.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>哔哩哔哩 2233拜年祭2019限定Ver. 手办</p>
+        <p><strong>状态：</strong>已入手</p>
+        <p><strong>角色：</strong>2233</p>
+        <p><strong>作品：</strong>哔哩哔哩</p>
+        <p><strong>出荷：</strong>2020年3月</p>
+        <p><strong>制作：</strong>GSC</p>
+        <p><strong>价格：</strong>1435.6元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=4&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008264">会员购</a> <a href="https://www.hpoi.net/hobby/46415">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/cywl-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>VOCALOID 初音未来 2021春节Ver.手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>初音未来</p>
+        <p><strong>作品：</strong>初音未来</p>
+        <p><strong>出荷：</strong>2022年2月</p>
+        <p><strong>制作：</strong>F:NEX</p>
+        <p><strong>价格：</strong>1389元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1#goFrom=na&itemsId=10035244&noReffer=true">会员购</a> <a href="https://www.hpoi.net/hobby/64646">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">
@@ -101,7 +131,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>TAITO Re:从零开始的异世界生活 雷姆 睡衣Ver. 景品手办 异色版</p>
-        <p><strong>状态：</strong>已预订</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>雷姆</p>
         <p><strong>作品：</strong>Re：从零开始的异世界生活</p>
         <p><strong>出荷：</strong>2020年10月</p>
@@ -153,6 +183,36 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>寿屋</p>
         <p><strong>价格：</strong>525元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=1&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10015166">会员购</a> <a href="https://www.hpoi.net/hobby/47431">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/hh-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>Max Factory POP UP PARADE 为美好的世界献上祝福！红传说 惠惠 手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>惠惠</p>
+        <p><strong>作品：</strong>为美好的世界献上祝福！</p>
+        <p><strong>出荷：</strong>2020年11月</p>
+        <p><strong>制作：</strong>Max Factory</p>
+        <p><strong>价格：</strong>219元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1&shopId=2233#itemsId=10025736&noReffer=true&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/57423">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/rbe-1.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>让·巴尔 礼服ver.手办</p>
+        <p><strong>状态：</strong>想要</p>
+        <p><strong>角色：</strong>让·巴尔</p>
+        <p><strong>作品：</strong>碧蓝航线</p>
+        <p><strong>出荷：</strong>2021年8月</p>
+        <p><strong>制作：</strong>双翼社</p>
+        <p><strong>价格：</strong>1150元</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1#goFrom=na&itemsId=10033751&noReffer=true">会员购</a> <a href="https://www.hpoi.net/hobby/57867">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">
@@ -213,36 +273,6 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>FuRyu</p>
         <p><strong>价格：</strong>173元</p>
         <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?itemsVersion=4&shopId=2233&loadingShow=1&noTitleBar=1#itemsId=10008485">会员购</a> <a href="https://www.hpoi.net/hobby/41751">手办维基</a> <a href="https://www.hpoi.net/hobby/41752">手办维基</a></p>
-    </div>
-</div>
-<div class="gk-item">
-    <div class="gk-img">
-        <img src="/images/gk/hdr-1.png">
-    </div>
-    <div class="gk-desc">
-        <p><strong>名称：</strong>ALTER 鬼灭之刃 蝴蝶忍 手办</p>
-        <p><strong>状态：</strong>想要</p>
-        <p><strong>角色：</strong>蝴蝶忍</p>
-        <p><strong>作品：</strong>鬼灭之刃</p>
-        <p><strong>出荷：</strong>2021年9月</p>
-        <p><strong>制作：</strong>ALTER</p>
-        <p><strong>价格：</strong>999元</p>
-        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1&shopId=2233#noReffer=true&itemsId=10028514&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/55869">手办维基</a></p>
-    </div>
-</div>
-<div class="gk-item">
-    <div class="gk-img">
-        <img src="/images/gk/hh-1.png">
-    </div>
-    <div class="gk-desc">
-        <p><strong>名称：</strong>Max Factory POP UP PARADE 为美好的世界献上祝福！红传说 惠惠 手办</p>
-        <p><strong>状态：</strong>想要</p>
-        <p><strong>角色：</strong>惠惠</p>
-        <p><strong>作品：</strong>为美好的世界献上祝福！</p>
-        <p><strong>出荷：</strong>2020年11月</p>
-        <p><strong>制作：</strong>Max Factory</p>
-        <p><strong>价格：</strong>219元</p>
-        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?loadingShow=1&noTitleBar=1&shopId=2233#itemsId=10025736&noReffer=true&goFrom=na">会员购</a> <a href="https://www.hpoi.net/hobby/57423">手办维基</a></p>
     </div>
 </div>
 
