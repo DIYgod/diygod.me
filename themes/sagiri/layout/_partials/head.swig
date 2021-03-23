@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 
-<link rel="preload" href="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/fonts/Candyshop.otf" as="font" type="font/otf" crossorigin="anonymous">
+<link rel="preload" href="https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/fonts/Candyshop.otf" as="font" type="font/otf" crossorigin="anonymous">
 
 {% if theme.pace %}
   {% set pace_css_uri = url_for(theme.vendors._internal + '/pace/'+ theme.pace_theme +'.min.css?v=1.0.2') %}
