@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://diygod.me/message/index.html</loc>
+    <loc>https://diygod.me/manifest.json</loc>
     
     <lastmod>2021-03-29</lastmod>
     
   </url>
   
   <url>
-    <loc>https://diygod.me/manifest.json</loc>
+    <loc>https://diygod.me/message/index.html</loc>
     
     <lastmod>2021-03-29</lastmod>
     
