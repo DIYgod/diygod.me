@@ -591,8 +591,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: Ti5mwFDXXbpWqeWdaydLNfOS-gzGzoHsz
-  app_key: rXpryRyVs5jlk2LAGGI1bfEd
+  app_id: hRDdibVwWhuIGMhhzAMXiFYG-MdYXbMMI
+  app_key: DB8u9iGG8iMTGAGOKz28lIer
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -902,4 +902,4 @@ footer:
 description: 写代码是热爱，写到世界充满爱！
 
 # Theme version
-version: 1.0.0
+version: 1.0.1
