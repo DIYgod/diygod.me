@@ -105,15 +105,8 @@ routing.registerRoute(
 );
 
 routing.registerRoute(
-    new RegExp('https://leancloud\.diygod\.me'),
-    new NetworkFirst({
-        cacheName: 'api' + cacheSuffixVersion,
-        fetchOptions: {
-            mode: 'cors',
-            credentials: 'omit'
-        },
-        networkTimeoutSeconds: 3
-    })
+    new RegExp('https://hrddibvw\.api\.lncldglobal\.com'),
+    new NetworkOnly()
 );
 
 routing.registerRoute(
