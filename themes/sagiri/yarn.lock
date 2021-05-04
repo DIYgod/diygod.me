@@ -1851,10 +1851,10 @@ get-stream@^6.0.0:
   resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-6.0.0.tgz#3e0012cb6827319da2706e601a1583e8629a6718"
   integrity sha512-A1B3Bh1UmL0bidM/YX2NsCOTnGJePL9rO/M+Mw3m9f2gUpfokS0hi5Eah0WSUEWZdZhIZtMjkIYS7mDfOqNHbg==
 
-git-revision-webpack-plugin@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/git-revision-webpack-plugin/-/git-revision-webpack-plugin-4.0.0.tgz#8d390fdbf453001d7ff49af8fb01c0330353eb52"
-  integrity sha512-vQQjs6uueFeRWsePg9yDGaTop3da6NV6gac39mxxZc3hZ5XwNkqat6vFgXbkalvJiGopBvmb+ilkjc8QYtDpVw==
+git-revision-webpack-plugin@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/git-revision-webpack-plugin/-/git-revision-webpack-plugin-4.0.1.tgz#2ecf99957f302e49f599f7b704a019fc16e6f59a"
+  integrity sha512-+afiKQOlQowfuTw6Od9KLUG3dzLaARGRqJ3cqK1gvd7HO+XXV1gmsVorhZNLWWymbTbjgkPSblw9ONe1favJpA==
 
 glob-to-regexp@^0.4.1:
   version "0.4.1"
