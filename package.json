@@ -21,6 +21,6 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-renderer-swig": "^1.1.0",
     "hexo-server": "^2.0.0",
-    "hexo-wordcount": "3.0.2"
+    "hexo-wordcount": "6.0.1"
   }
 }
