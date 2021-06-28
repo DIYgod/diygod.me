@@ -1687,10 +1687,10 @@ execa@^5.0.0:
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
 
-exports-loader@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-2.0.0.tgz#ca7861b86726997bb4e55001888d2af940935979"
-  integrity sha512-k/VFrVEUmotfkk8vZ+njG5NEXpr5Ee+BonV+AYINV2hNo3o+/UB8nEuCUQk2k6IyWIoobmXoTFO0igxrQcMV4Q==
+exports-loader@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/exports-loader/-/exports-loader-3.0.0.tgz#dcc4596a034b3fa002a53f77bc8f04c9667166c2"
+  integrity sha512-b23Yg5SKR63ZvikGrQgfGgwd40MDehaYb7vOXgD7C0fMV04wS8U1I4f7n1j1wEhtQNKUqgdFox/ol2rOruOpOA==
   dependencies:
     source-map "^0.6.1"
 
