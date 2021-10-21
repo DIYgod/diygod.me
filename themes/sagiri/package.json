@@ -29,7 +29,7 @@
     "babel-loader": "^8.0.6",
     "coffee-script": "^1.10.0",
     "cross-env": "7.0.3",
-    "exports-loader": "2.0.0",
+    "exports-loader": "3.1.0",
     "file-loader": "6.2.0",
     "git-revision-webpack-plugin": "5.0.0",
     "webpack": "^5.0.0",
