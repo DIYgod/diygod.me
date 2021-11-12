@@ -27,7 +27,7 @@ tags: 分享境
 
 可以点[这里]( https://gather.town/invite?token=qK0VM80sY7Aj0-hbBUCLaRt7qg6m55W2)参观我们的线上办公室
 
-![](/images/job.png)
+![](/images/job2.png)
 
 <!--more-->
 
