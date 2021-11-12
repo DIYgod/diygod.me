@@ -12,6 +12,13 @@ jobs:
       with:
         node-version: '14'
 
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        cd themes/sagiri
+        yarn
+        cd ../..
+    
     # Deploy hexo blog website.
     - name: Deploy
       id: deploy
