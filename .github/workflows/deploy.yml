@@ -25,10 +25,10 @@ jobs:
         run: npm install
       - name: Build
         run: |
-          npm run build
           cd themes/sagiri
           npm install
           cd ../..
+          npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
