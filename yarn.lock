@@ -1491,10 +1491,10 @@ hexo-generator-index@^2.0.0:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
-hexo-generator-sitemap@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-2.1.0.tgz#efd938049ddbf9a961a077fcc5947918ba5b213a"
-  integrity sha512-3+gF9lFdTJ67A65Z2f517DGmtloDX7ZwMmJUJxvv2tF+a8Hr6Kg9K/DXqOBpM39A/y9eqoGfQ3bmLlBx9rynTg==
+hexo-generator-sitemap@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-generator-sitemap/-/hexo-generator-sitemap-3.0.0.tgz#731f1e01455ea94f2e4808cde0fc6787cb85c2ee"
+  integrity sha512-Wv8tglblG4fHUtsUrxDSKSOCWn2f3RpXHlXPIcsnHluUaCGqmZ/b6KvCH1chxvtQ4IcMRu+rVZeUN3Z9UKoy4A==
   dependencies:
     hexo-util "^2.1.0"
     micromatch "^4.0.2"
