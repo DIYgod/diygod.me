@@ -3,7 +3,7 @@ title: Unidata - 提供人类友好的 Web3 数据的便捷访问
 date: 2022-05-06 23:27:01
 tags:
 ---
-Web3 的魅力在于数据属于用户自己，但由于区块链低效的效率和设计，再加上数据格式标准的缺失，访问和展示自己或用户的 Web3 数据是一件极度困难的事情。所以我做了 [Unidata](https://unidata.app/)，给 Web3 开发者提供人类友好的 Web3 数据的便捷访问。
+Web3 的魅力在于数据属于用户自己，但由于区块链低效的效率和设计，再加上数据格式标准的缺失，访问和展示自己或用户的 Web3 数据是一件极度困难的事情。所以我做了开源项目 [Unidata](https://unidata.app/)，给 Web3 开发者提供人类友好的 Web3 数据的便捷访问。
 
 Ethereum NFT 数据是目前 Web3 最常使用的数据，所以我使用 Ethereum NFT 来举例。<!--more-->
 
@@ -30,3 +30,7 @@ Ethereum NFT 数据是目前 Web3 最常使用的数据，所以我使用 Ethere
 [Links](https://unidata.app/guide/links/) 目前支持了 CyberConnect。
 
 还有很多正在不断添加中，可以[在文档看目前支持的所有服务和数据源](https://unidata.app/guide/#supported-sources)。
+
+[![GitHub Org's stars](https://img.shields.io/github/stars/DIYgod/Unidata?style=social)](https://github.com/DIYgod/Unidata) [![Discord](https://img.shields.io/discord/968954680514342973?label=Discord&logo=discord&style=social)](https://discord.gg/ggrfhdS9Fe) [![Twitter Follow](https://img.shields.io/twitter/follow/Unidata_?style=social)](https://twitter.com/Unidata_)
+
+![](/images/unidata-2.jpeg)
