@@ -23,7 +23,7 @@ Ethereum NFT 数据是目前 Web3 最常使用的数据，所以我使用 Ethere
 
 [Assets](https://unidata.app/guide/assets/) 目前支持了 Ethereum NFT（Mainnet、Polygon、BSC、Arbitrum、Fantom、Gnosis、POAP）、Solana NFT、Alchemy、Solscan、Moralis、OpenSea。
 
-[Notes](https://unidata.app/guide/notes/) 目前支持了 Mirror Entry、Ethereum NFT Activity（Mainnet、Polygon、BSC、Arbitrum、Fantom、Gnosis、POAP）。
+[Notes](https://unidata.app/guide/notes/) 目前支持了 Mirror Entry、Ethereum NFT Activity（Mainnet、Polygon、BSC、Arbitrum、Fantom、Gnosis、POAP）、RSS3。
 
 [Profiles](https://unidata.app/guide/profiles/) 目前支持了 ENS、Crossbell、Infura。
 
