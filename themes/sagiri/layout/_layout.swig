@@ -41,7 +41,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-image">
-        <img src="https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/images/footer.png">
+        <img src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/footer.png">
       </div>
       <div class="footer-inner">
         {% include '_partials/footer.swig' %}
@@ -52,7 +52,7 @@
 
     {% if not theme.sidebar.b2t %}
       <div class="back-to-top">
-        <img src="https://cdn.jsdelivr.net/gh/DIYgod/hexo-theme-sagiri/source/images/scroll.png">
+        <img src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/scroll.png">
         {% if theme.sidebar.scrollpercent %}
           <span id="scrollpercent"><span>0</span>%</span>
         {% endif %}
