@@ -22,6 +22,7 @@
   border-radius: 5px;
   z-index: 2;
   if (hexo-config('motion.enable') and hexo-config('motion.transition.sidebar')) { opacity: 0; }
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 
   &.affix {
     position: fixed;
@@ -43,33 +44,43 @@
 .site-author {
   clearfix();
   position: relative;
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  align-items: center;
 }
 
 .site-author-image {
   max-width: none;
-  width: 100%;
   border: none;
   padding: 0;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px;
 }
 
 .site-author-name {
-  position: absolute;
-  bottom: 36px;
-  margin: 0 0 0 -65px;
+  text-align: left;
   font-size: 20px;
   letter-spacing: .5px;
   color: #FF9800;
   text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
   font-weight: 700;
-  width: 130px;
-  left: 50%;
+  line-height: 30px;
 }
 
 .site-description {
-  font-size: 14px;
-  margin: 7px 0;
-  font-weight: 700;
+  margin: 0;
+  font-size: 12px;
+  text-align: left;
   color: #555;
+
+  a {
+    text-decoration: underline;
+  }
 }
 
 .sidebar a {
@@ -137,16 +148,12 @@
   sidebar-inline-links-item();
 
   a {
-    display: block;
     text-decoration: none;
     overflow: visible;
-  }
-
-  i {
     font-size: 12px;
     display: inline-block;
-    height: 30px;
-    line-height: 30px;
+    height: 25px;
+    line-height: 25px;
     border-radius: 15px;
     color: rgba(0,0,0,.5);
     fill: rgba(0,0,0,.5);
@@ -158,19 +165,28 @@
     align-items: center;
     justify-content:center;
     padding: 0 10px;
+    margin: 0 5px;
+
+    i {
+      font-size: 14px;
+      vertical-align: middle;
+      margin-right: 5px;
+      height: 14px;
+    }
 
     &:before,
     svg {
-      font-size: 18px;
-      margin-right: 5px;
+      font-size: 14px;
     }
 
     svg {
-      width: 18px;
+      width: 14px;
+      vertical-align: super;
     }
 
     span {
       color: rgba(0,0,0,.5);
+      vertical-align: middle;
     }
   }
   .fa-globe { font-size: 15px; }
@@ -247,7 +263,6 @@
   margin: 10px 0;
   color: rgba(0,0,0,.5);
   border-radius: 4px;
-  min-height: 120px;
 }
 
 .des-of-author-nav {

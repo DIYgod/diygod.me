@@ -29,19 +29,13 @@
       <section class="site-overview-wrap sidebar-panel{% if not display_toc or toc(page.content).length <= 1 %} sidebar-panel-active{% endif %}">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            {% if theme.avatar %}
-              <img class="site-author-image" itemprop="image"
-                src="{{ url_for( theme.card.avatar | default(theme.images + '/card.jpg') ) }}"
-                alt="{{ theme.author }}" />
-            {% endif %}
+            <img class="site-author-image" itemprop="image"
+              src="{{ url_for( theme.avatar | default(theme.images + '/card.jpg') ) }}"
+              alt="{{ theme.author }}" />
+            <div class="site-author-info">
               <p class="site-author-name" itemprop="name">{{ theme.card.name }}</p>
-              <p class="site-description motion-element" itemprop="description">{#
-            #}{% if theme.seo %}{#
-              #}{{ theme.signature }}{#
-            #}{% else %}{#
-              #}{{ theme.card.description }}{#
-            #}{% endif %}{#
-            #}</p>
+              <p class="site-description motion-element" itemprop="description">{{ theme.card.description }}</p>
+            </div>
           </div>
 
           <div class="links-of-author motion-element">
@@ -82,10 +76,12 @@
               </div>
           </div>
 
+          {#
           <details class="views-top-wrap">
             <summary class="views-top-name scaleup">看爆 Top5</summary>
             <ul class="views-top"></ul>
           </details>
+          #}
 
           {#
           {% if theme.rss %}

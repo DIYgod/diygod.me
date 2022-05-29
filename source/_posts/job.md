@@ -9,6 +9,8 @@ tags: 分享境
 
 我们都意识到现在互联网还与这种理想相差甚远，如果你愿意为它做出亿点点改变，一起来吧 🌍
 
+<!--more-->
+
 ## 我们是谁？
 
 我们是 Natural Selection Labs 自然选择实验室，致力于打造一个信息自由流通的互联网
@@ -28,8 +30,6 @@ tags: 分享境
 可以点[这里]( https://gather.town/invite?token=qK0VM80sY7Aj0-hbBUCLaRt7qg6m55W2)参观我们的线上办公室
 
 ![](/images/job2.png)
-
-<!--more-->
 
 ## 我们具体在做什么？
 

@@ -206,7 +206,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>让·巴尔 礼服ver.手办</p>
-        <p><strong>状态：</strong>想要</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>让·巴尔</p>
         <p><strong>作品：</strong>碧蓝航线</p>
         <p><strong>出荷：</strong>2021年8月</p>
@@ -321,6 +321,21 @@ date: 2020-03-04 23:40:42
         <p><strong>制作：</strong>眼镜厂</p>
         <p><strong>价格：</strong>250元</p>
         <p><strong>链接：</strong><a href="https://www.hpoi.net/hobby/26101">手办维基</a></p>
+    </div>
+</div>
+<div class="gk-item">
+    <div class="gk-img">
+        <img src="/images/gk/mdz-4.png">
+    </div>
+    <div class="gk-desc">
+        <p><strong>名称：</strong>Figuarts mini 鬼灭之刃 小祢豆子</p>
+        <p><strong>状态：</strong>已入手</p>
+        <p><strong>角色：</strong>祢豆子</p>
+        <p><strong>作品：</strong>鬼灭之刃</p>
+        <p><strong>出荷：</strong>2021年11月</p>
+        <p><strong>制作：</strong>BANDAI SPIRITS</p>
+        <p><strong>价格：</strong>29.99镑</p>
+        <p><strong>链接：</strong><a href="https://mall.bilibili.com/detail.html?from=ip_3000294&hasBack=false&itemsId=10042886">会员购</a> <a href="https://www.hpoi.net/hobby/67409">手办维基</a></p>
     </div>
 </div>
 <div class="gk-item">

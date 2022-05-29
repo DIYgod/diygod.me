@@ -13,11 +13,8 @@ Hi，我是 DIYgod，一个可爱的人，一个纯粹的人，一个没有脱�
 | 一句话 | 写代码是热爱，写到世界充满爱！ |
 | 生日 | 1995/06/09 |
 | 特征 | 胆小、反应迟钝、记忆力差，线上岁纳京子，线下阿卡林 |
-| 装备 | MacBook Pro (13-inch, 2020)、iPhone 12 mini、小米手环 6、Nintendo Switch、iPad Pro 2021 + Apple Pencil 2、AirPods Pro |
-| 从事 | RSS3 |
-| 最喜欢的作品 | 鬼灭之刃、四月是你的谎言、摇曳百合、为美好的世界献上祝福！、DARLING in the FRANXX、Re：从零开始的异世界生活 |
-| 最喜欢的女孩子 | 岁纳京子、惠惠、02、宫园薰、雷姆、和泉纱雾、灶门祢豆子、英梨梨、土间埋 |
-| 最喜欢的游戏 | 集合啦！动物森友会、守望先锋、怪物猎人：世界、地平线：零之曙光、健身环大冒险 |
+| 装备 | MacBook Pro (14-inch, 2021)、iPhone 12 mini、小米手环 6、Nintendo Switch、PlayStation 5、iPad Pro 2021 + Apple Pencil 2、AirPods Pro |
+| 从事 | RSS3、开源 |
 | 最喜欢的颜色 | 橙色、黄色 |
 | 最喜欢的食物 | 橙子、冰淇淋、肉末茄子、小炒肉 |
 
