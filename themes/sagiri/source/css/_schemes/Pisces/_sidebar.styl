@@ -2,7 +2,7 @@
 
 .sidebar {
   margin: 0;
-  background: #fff;
+  background: none;
   border-radius: 5px;
 
   // Do NOT delete this line
@@ -35,6 +35,77 @@
     width: $sidebar-desktop;
   }
 
+}
+
+.sidebar-nft {
+  margin-top: 40px;
+
+  .sidebar-nft-header {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .sidebar-nft-description {
+    font-size: 12px;
+    color: #ccc;
+    margin-bottom: 3px;
+
+    a {
+      text-decoration: underline;
+      color: #ccc;
+    }
+  }
+
+  .sidebar-nft-body {
+    font-size: 0;
+
+    > span {
+      font-size: 14px;
+    }
+  }
+
+  .nft-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 5px;
+    box-sizing: border-box;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+      position: relative;
+      z-index: 1;
+      overflow: visible;
+
+      img,
+      video {
+        transform: scale(5);
+        pointer-events: none;
+      }
+
+      model-viewer {
+        height: 500%;
+        position: absolute;
+      }
+
+      iframe {
+        height: 500%;
+        pointer-events: none;
+      }
+    }
+
+    > * {
+      height: 100%;
+      max-width: none;
+      transition: all 0.3s ease;
+    }
+  }
 }
 
 .site-overview {

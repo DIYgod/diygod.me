@@ -7,8 +7,8 @@ window.DPlayer = require('dplayer');
 
 require('./utils');
 require('./motion');
-require('./affix');
-require('./pisces')();
+// require('./affix');
+// require('./pisces')();
 require('./scrollspy');
 require('./post-details')();
 require('./bootstrap');
@@ -26,3 +26,4 @@ require('./pjax');
 require('./search');
 require('./zoom')();
 require('./cursor-effects');
+require('./nft');

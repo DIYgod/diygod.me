@@ -253,6 +253,8 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
 
+  nft: "0xC8b960D09C0078c18Dcbe7eB9AB9d816BcCa8944"
+
 
 # ---------------------------------------------------------------
 # Post Settings

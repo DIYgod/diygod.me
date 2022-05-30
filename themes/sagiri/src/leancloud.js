@@ -74,7 +74,9 @@ function leancloud () {
                 $element.find('.leancloud-visitors-count').text(counter.get('time'));
               })
               .then(function (counter, error) {
-                console.log('Failed to save Visitor num, with error message: ' + error.message);
+                if (error) {
+                  console.log('Failed to save Visitor num, with error message: ' + error.message);
+                }
               });
           } else {
             var newcounter = new Counter();
