@@ -32,18 +32,22 @@ function showNFT () {
           ]).includes(nft.list[i]?.metadata?.collection_address)) {
             continue;
           }
-          const item = nft.list[i]?.items?.[0];
+          const item = nft.list[i]?.previews?.[nft.list[i]?.previews?.length - 1];
           if (item) {
             let itemElement = '';
             const type = item.mime_type?.split('/')[0];
             if (type === 'video') {
-              itemElement = `<video src="${item.address}" autoplay loop muted crossorigin="anonymous"></video>`;
+              itemElement = `<video src="${item.address}" preload="metadata" loop muted crossorigin="anonymous"></video>`;
             } else if (type === 'model') {
               itemElement = `<model-viewer src="${item.address}" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan crossorigin="anonymous"></model-viewer>`;
             } else if (type === 'text') {
               itemElement = `<iframe src="${item.address}" frameborder="0"></iframe>`;
             } else {
-              itemElement = `<img src="${item.address}">`;
+              if (item.address?.startsWith('https://nft.showme.fan')) {
+                itemElement = `<img src="${item.address}">`;
+              } else {
+                itemElement = `<img src="${item.address}" crossorigin="anonymous">`;
+              }
             }
             if (nft.list[i].related_urls?.length && type !== 'model') {
               html += `
@@ -68,22 +72,26 @@ function showNFT () {
             const parentElement = e.path[0].parentElement;
             const src = e.path[0].src;
             parentElement.removeChild(e.path[0]);
-            axios({
-              url: src,
-              method: 'HEAD',
-            }).then((result) => {
-              const type = result.headers['content-type']?.split('/')[0];
-              if (type === 'video') {
-                itemElement = `<video src="${src}" autoplay loop muted crossorigin="anonymous"></video>`;
-              } else if (type === 'model') {
-                itemElement = `<model-viewer src="${src}" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan crossorigin="anonymous"></model-viewer>`;
-              } else if (type === 'text') {
-                itemElement = `<iframe src="${src}" frameborder="0"></iframe>`;
-              }
-              if (itemElement) {
+            try {
+              axios({
+                url: src,
+                method: 'HEAD',
+              }).then((result) => {
+                const type = result.headers['content-type']?.split('/')[0];
+                if (type === 'video') {
+                  itemElement = `<video src="${src}" preload="metadata" loop muted crossorigin="anonymous"></video>`;
+                } else if (type === 'model') {
+                  itemElement = `<model-viewer src="${src}" ar ar-modes="webxr scene-viewer quick-look" seamless-poster shadow-intensity="1" camera-controls enable-pan crossorigin="anonymous"></model-viewer>`;
+                } else if (type === 'text') {
+                  itemElement = `<iframe src="${src}" frameborder="0"></iframe>`;
+                } else {
+                  itemElement = `<img src="${item.address}">`;
+                }
                 parentElement.innerHTML = itemElement;
-              }
-            });
+              });
+            } catch (error) {
+              parentElement.innerHTML = `<img src="${item.address}">`;
+            }
           });
         });
       })
