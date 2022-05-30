@@ -56,7 +56,7 @@ precaching.precacheAndRoute(
 
 // cdn.jsdelivr.net - cors enabled
 routing.registerRoute(
-    /.*cdn\.jsdelivr\.net/,
+    new RegExp('.*cdn\.jsdelivr\.net'),
     new CacheFirst({
         cacheName: 'static-immutable' + cacheSuffixVersion,
         fetchOptions: {
@@ -79,7 +79,7 @@ routing.registerRoute(
  */
 
 routing.registerRoute(
-    /.*\.google-analytics\.com/,
+    new RegExp('.*\.google-analytics\.com'),
     new NetworkOnly({
         plugins: [
             new backgroundSync.BackgroundSyncPlugin('Optical_Collect', {
@@ -147,12 +147,89 @@ routing.registerRoute(
     new RegExp('https://(.*)/ipfs/(.*)'),
     new CacheFirst({
         cacheName: 'nft-assets' + cacheSuffixVersion,
-        // plugins: [
-        //     new CacheableResponsePlugin({
-        //         statuses: [200]
-        //     }),
-        //     new RangeRequestsPlugin(),
-        // ],
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            }),
+            new RangeRequestsPlugin(),
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://(.*)\.amazonaws\.com'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://assets\.poap\.xyz'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://metadata\.ens\.domains'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://(.*)\.cloudfront\.net'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://nft\.showme\.fan'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://(.*)\.arweave\.net'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+routing.registerRoute(
+    new RegExp('https://lh3.googleusercontent.com'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        plugins: [
+            new CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
     })
 );
 
@@ -192,8 +269,17 @@ routing.registerRoute(
  */
 routing.registerRoute(
     // Cache image files
-    /.*\.(?:png|jpg|jpeg|svg|gif|webp)/,
-    new StaleWhileRevalidate()
+    new RegExp('.*\.(?:png|jpg|jpeg|svg|gif|webp)'),
+    new CacheFirst()
+);
+routing.registerRoute(
+    // Cache image files
+    new RegExp('.*\.(?:mp3)'),
+    new CacheFirst({
+        plugins: [
+            new RangeRequestsPlugin(),
+        ]
+    })
 );
 
 /*
@@ -203,7 +289,7 @@ routing.registerRoute(
  */
 routing.registerRoute(
     // Cache CSS files
-    /.*\.(css|js)/,
+    new RegExp('.*\.(css|js)'),
     // Use cache but update in the background ASAP
     new StaleWhileRevalidate()
 );
