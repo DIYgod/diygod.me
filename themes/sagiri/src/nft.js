@@ -43,11 +43,7 @@ function showNFT () {
             } else if (type === 'text') {
               itemElement = `<iframe src="${item.address}" frameborder="0"></iframe>`;
             } else {
-              if (item.address?.startsWith('https://nft.showme.fan')) {
-                itemElement = `<img src="${item.address}">`;
-              } else {
-                itemElement = `<img src="${item.address}" crossorigin="anonymous">`;
-              }
+              itemElement = `<img src="${item.address}">`;
             }
             if (nft.list[i].related_urls?.length && type !== 'model') {
               html += `
