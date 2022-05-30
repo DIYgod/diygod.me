@@ -1,13 +1,14 @@
-importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.3/workbox/workbox-sw.js');
+importScripts('https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/workbox-sw.js');
 
 workbox.setConfig({
-    modulePathPrefix: 'https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.3/workbox/'
+    modulePathPrefix: 'https://cdn.jsdelivr.net/npm/workbox-cdn@5.1.4/workbox/'
 });
 
-const { core, precaching, routing, strategies, expiration, cacheableResponse, backgroundSync } = workbox;
+const { core, precaching, routing, strategies, expiration, cacheableResponse, backgroundSync, rangeRequests } = workbox;
 const { CacheFirst, NetworkFirst, NetworkOnly, StaleWhileRevalidate } = strategies;
 const { ExpirationPlugin } = expiration;
 const { CacheableResponsePlugin } = cacheableResponse;
+const { RangeRequestsPlugin } = rangeRequests;
 
 const cacheSuffixVersion = '-200629',
     // precacheCacheName = core.cacheNames.precache,
@@ -62,12 +63,12 @@ routing.registerRoute(
             mode: 'cors',
             credentials: 'omit'
         },
-        plugins: [
-            new ExpirationPlugin({
-                maxAgeSeconds: 30 * 24 * 60 * 60,
-                purgeOnQuotaError: true
-            })
-        ]
+        // plugins: [
+        //     new ExpirationPlugin({
+        //         maxAgeSeconds: 30 * 24 * 60 * 60,
+        //         purgeOnQuotaError: true
+        //     })
+        // ]
     })
 );
 
@@ -136,6 +137,52 @@ routing.registerRoute(
 routing.registerRoute(
     new RegExp('^https://(.*)disquscdn\.com(.*)'),
     new NetworkOnly()
+);
+
+/*
+ * NFT assets
+ * Method: CacheFirst
+ */
+routing.registerRoute(
+    new RegExp('https://(.*)/ipfs/(.*)'),
+    new CacheFirst({
+        cacheName: 'nft-assets' + cacheSuffixVersion,
+        // plugins: [
+        //     new CacheableResponsePlugin({
+        //         statuses: [200]
+        //     }),
+        //     new RangeRequestsPlugin(),
+        // ],
+    })
+);
+
+/*
+ * NFT API
+ * Method: staleWhileRevalidate
+ */
+routing.registerRoute(
+    new RegExp('https://eth-mainnet\.alchemyapi\.io'),
+    new StaleWhileRevalidate()
+);
+
+routing.registerRoute(
+    new RegExp('https://polygon-mainnet\.g\.alchemy\.com'),
+    new StaleWhileRevalidate()
+);
+
+routing.registerRoute(
+    new RegExp('https://deep-index\.moralis\.io'),
+    new StaleWhileRevalidate()
+);
+
+routing.registerRoute(
+    new RegExp('https://api\.opensea\.io'),
+    new StaleWhileRevalidate()
+);
+
+routing.registerRoute(
+    new RegExp('https://api\.poap\.tech'),
+    new StaleWhileRevalidate()
 );
 
 /*
