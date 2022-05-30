@@ -1,3 +1,5 @@
+require("regenerator-runtime/runtime");
+
 window.FastClick = require('fastclick');
 require('lazyload');
 
