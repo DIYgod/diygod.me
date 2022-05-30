@@ -26,4 +26,4 @@ require('./pjax');
 require('./search');
 require('./zoom')();
 require('./cursor-effects');
-require('./nft');
+require('./nft')();
