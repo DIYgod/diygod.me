@@ -5,7 +5,7 @@ function showNFT () {
   if (!NexT.utils.isMobile() && CONFIG.sidebar.nft) {
     const dom = document.querySelector('.sidebar-nft-body');
 
-    if (dom) {
+    if (dom && dom.classList.contains('sidebar-nft-loading')) {
       window.chekNFTMimeType = (e) => {
         console.log(e);
       }
@@ -90,6 +90,8 @@ function showNFT () {
             }
           });
         });
+
+        dom.classList.remove('sidebar-nft-loading')
       })
     }
   }

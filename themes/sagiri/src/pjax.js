@@ -13,6 +13,8 @@ $(document).pjax('a:not(.fancybox):not([target="_blank"])', '#main', {
   timeout: 5000,
 });
 
+let nftBody;
+
 $(document).on('pjax:start', function () {
     NProgress.start();
     $('html, body').animate({
@@ -31,10 +33,22 @@ $(document).on('pjax:start', function () {
       }
       window.aplayers = [];
     }
+
+  if (!$('.sidebar-nft-body').hasClass('sidebar-nft-loading')) {
+    nftBody = $('.sidebar-nft-body').html();
+  } else {
+    nftBody = null;
+  }
 });
 
 $(document).on('pjax:end', function () {
-    NProgress.done();
+  NProgress.done();
+
+  if (nftBody) {
+    $('.sidebar-nft-body').html(nftBody);
+    $('.sidebar-nft-body').removeClass('sidebar-nft-loading');
+  }
+
     require('./post-details')();
     require('./leancloud')();
     require('./share')();
