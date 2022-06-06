@@ -71,7 +71,7 @@ menu:
   归档: /archives/ || fas fa-archive
   后宫: /friends/ || fas fa-mars-stroke
   # 留言板: /message/ || fas fa-comment-dots
-  手办柜: /gk/ || fas fa-child
+  物品公开: /gk/ || fas fa-gift
   关于我: /about/ || fas fa-heartbeat
 
 submenu:
@@ -83,6 +83,9 @@ submenu:
     APlayer: https://aplayer.js.org/
     Miniflux: https://miniflux.diygod.me/
     监控: https://status.diygod.me/
+  物品公开:
+    手办: /gk/
+    电子产品: /electronics/
 
 # Enable/Disable menu icons.
 menu_icons:
