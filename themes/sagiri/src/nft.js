@@ -12,6 +12,10 @@ function showNFT () {
 
       const unidata = new Unidata({
         moralisWeb3APIKey: 'gqcVQSCpWGNlfs2nMM1xvW1pOmZhzHc058aNpEK8BKIp26Q39PJemBu5BJi6SZOD',
+        alchemyEthereumAPIKey: 'MU3piaLLUjTaRIFQGhZ5w-x7fmHUFJnS',
+        alchemyPolygonAPIKey: 'ZTVtyap1M4odXn_KxeziM9FB6Kh4S300',
+        alchemyFlowAPIKey: 'mhpu034zfnf3mlpwzv0d83frdhseagyy',
+        nftscanAPIKey: 'hQUmpExk',
       });
 
       unidata.assets.get({
@@ -29,6 +33,10 @@ function showNFT () {
             '0x23a8c2ce858b2e66222567923641cb6417994caf',
             '0x6470f8d1fb3c757e878a7ab8231cf45d0d752fa5',
             '0x4de0881ca95106a3fa01007cd2e4fe773fc8ac99',
+            '0xd47eb1c2f8105b8d0d50487614934ccc309ae41f',
+            '0xe087169656720cf9d66afa778fe995d378d571f0',
+            '0x2a79a3b7284deaa4c0c400e70414fad439739935',
+            '0xf5f941cccf571a8bddd4420af269427394aed8fe',
           ]).includes(nft.list[i]?.metadata?.collection_address)) {
             continue;
           }

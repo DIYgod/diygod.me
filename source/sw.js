@@ -262,6 +262,11 @@ routing.registerRoute(
     new StaleWhileRevalidate()
 );
 
+routing.registerRoute(
+    new RegExp('https://(.*)\.nftscan\.com'),
+    new StaleWhileRevalidate()
+);
+
 /*
  * Others img
  * Method: staleWhileRevalidate
