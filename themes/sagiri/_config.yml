@@ -256,7 +256,7 @@ sidebar:
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
 
-  nft: "0xC8b960D09C0078c18Dcbe7eB9AB9d816BcCa8944"
+  nft:
 
 
 # ---------------------------------------------------------------
@@ -899,4 +899,4 @@ footer:
 description: 写代码是热爱，写到世界充满爱！
 
 # Theme version
-version: 1.0.11
+version: 1.0.12
