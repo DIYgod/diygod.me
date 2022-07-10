@@ -54,7 +54,7 @@ $(document).on('pjax:end', function () {
     require('./share')();
     require('./pisces')();
     require('./zoom')();
-    require('./nft')();
+    // require('./nft')();
     window.originTitle = document.title;
 
     if (ga) {

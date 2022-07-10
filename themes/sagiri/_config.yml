@@ -870,7 +870,7 @@ header_bg: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/ima
 card:
   avatar: https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/DIYgod-avatar2.jpeg
   name: 可爱的 DIYgod
-  description: 写代码是热爱，写到世界充满爱！正在与 <a href="https://twitter.com/justjustjustcc">justcc</a>、酸奶组建家庭。<a href="https://rss3.io/">RSS3</a> 联合创始人。开源作者，<a href="https://unidata.app/">Unidata</a>, <a href="https://docs.rsshub.app/">RSSHub</a>, <a href="https://dplayer.js.org/">DPlayer</a>, <a href="https://aplayer.js.org/">APlayer</a> 作者。
+  description: 写代码是热爱，写到世界充满爱！正在与 <a href="https://twitter.com/justjustjustcc">justcc</a>、酸奶组建家庭。<a href="https://linktr.ee/rss3.io">RSS3</a> 联合创始人。开源作者，<a href="https://unidata.app/">Unidata</a>, <a href="https://docs.rsshub.app/">RSSHub</a>, <a href="https://dplayer.js.org/">DPlayer</a>, <a href="https://aplayer.js.org/">APlayer</a> 作者。
 
 footer:
   # Specify the date when the site was setup.
@@ -899,4 +899,4 @@ footer:
 description: 写代码是热爱，写到世界充满爱！
 
 # Theme version
-version: 1.0.12
+version: 1.0.13

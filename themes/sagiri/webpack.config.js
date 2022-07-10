@@ -25,7 +25,12 @@ module.exports = {
 
     resolve: {
         modules: ['node_modules'],
-        extensions: ['.js']
+        extensions: ['.js'],
+        fallback: {
+          "url": require.resolve("url/"),
+          "assert": require.resolve("assert/"),
+          "stream": require.resolve("stream-browserify")
+      }
     },
 
     module: {
