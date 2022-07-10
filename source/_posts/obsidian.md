@@ -9,6 +9,8 @@ tags:
 **日记**
 ![](/images/obsidian-1.png)
 
+<!--more-->
+
 **周记**和**月记**
 ![](/images/obsidian-8.png)
 
