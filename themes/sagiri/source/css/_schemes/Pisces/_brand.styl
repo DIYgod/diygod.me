@@ -20,10 +20,29 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  align-items: center;
+  background: #1d110e;
 
   picture,
   img {
+    display: none;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    +mobile() {
+      display: flex;
+    }
+  }
+
+  video {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+
+    +mobile() {
+      display: none;
+    }
   }
 }
 

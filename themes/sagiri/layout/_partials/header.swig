@@ -59,11 +59,10 @@
 
 <div class="site-brand-wrapper">
   <div class="site-brand-bg">
+    <video src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-any.mp4" autoplay muted playsinline webkit-playsinline></video>
     <picture>
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-rss33.webp" type="image/webp" media="(max-width: 500px)">
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-rss33.png" type="image/png" media="(max-width: 500px)">
-      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-rss3.webp" type="image/webp">
-      <img loading="lazy" src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-rss3.png">
+      <source srcset="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-any.webp" type="image/webp">
+      <img loading="lazy" src="https://cdn.jsdelivr.net/gh/DIYgod/diygod.me/themes/sagiri/source/images/header-any.jpg">
     </picture>
   </div>
   <div class="site-meta {% if theme.custom_logo.enabled %}custom-logo{% endif %}">
