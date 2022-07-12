@@ -1,5 +1,5 @@
 ---
-title: 基于 Obisidian 的生活记录系统
+title: 基于 Obsidian 的生活记录系统
 date: 2022-07-09 18:23:52
 tags:
 ---
