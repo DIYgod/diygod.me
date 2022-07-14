@@ -6,7 +6,43 @@ date: 2022-06-05 19:40:42
 <div class="post-body">
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/POCO-M4-Pro.png" type="image/webp"><img loading="lazy" src="/images/electronics/POCO-M4-Pro.png"></picture>
+            <picture><source srcset="/images/electronics/Redmi-Router-AX6S.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Redmi-Router-AX6S.png"></picture>
+        </div>
+        <div class="gk-desc">
+            <p><strong>名称：</strong>Redmi 路由器 AX6S</p>
+            <p><strong>链接：</strong><a href="https://www.mi.com/shop/buy/detail?product_id=15032" target="_blank">小米</a></p>
+            <p><strong>时间：</strong>2022-07-14</p>
+            <p><strong>渠道：</strong><a href="https://item.taobao.com/item.htm?id=660835622281" target="_blank">淘宝</a></p>
+            <p><strong>价格：</strong>￥276.8</p>
+            <p><strong>处理器：</strong>MT7622B 双核1.35GHz CPU</p>
+            <p><strong>内存：</strong>256MB</p>
+            <p><strong>Wi-Fi：</strong>2.4G Wi-Fi 4x4, 5G Wi-Fi 4x4, 外置天线 6 根</p>
+            <p><strong>接口：</strong>1 x 10/100/1000M WAN 口, 3 x 10/100/1000M LA N口</p>
+            <p><strong>尺寸：</strong>284 x 186 x 186 mm</p>
+        </div>
+    </div>
+    <div class="gk-item">
+        <div class="gk-img">
+            <picture><source srcset="/images/electronics/Xiaomi-band7.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Xiaomi-band7.jpg"></picture>
+        </div>
+        <div class="gk-desc">
+            <p><strong>名称：</strong>小米手环7</p>
+            <p><strong>链接：</strong><a href="https://www.mi.com/shouhuan7" target="_blank">小米</a></p>
+            <p><strong>时间：</strong>2022-06-24</p>
+            <p><strong>渠道：</strong><a href="https://item.jd.com/100023000435.html" target="_blank">京东</a></p>
+            <p><strong>价格：</strong>¥239</p>
+            <p><strong>屏幕：</strong>1.62英寸 AMOLED屏</p>
+            <p><strong>分辨率：</strong>192 × 490</p>
+            <p><strong>亮度：</strong>500nit</p>
+            <p><strong>传感器：</strong>光学心率及血氧传感器，六轴运动传感器</p>
+            <p><strong>蓝牙：</strong>蓝牙BLE 5.2</p>
+            <p><strong>电池容量：</strong>180mAh</p>
+            <p><strong>重量：</strong>13.5g</p>
+        </div>
+    </div>
+    <div class="gk-item">
+        <div class="gk-img">
+            <picture><source srcset="/images/electronics/POCO-M4-Pro.webp" type="image/webp"><img loading="lazy" src="/images/electronics/POCO-M4-Pro.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>POCO M4 Pro</p>
@@ -15,20 +51,18 @@ date: 2022-06-05 19:40:42
             <p><strong>时间：</strong>2022-04-25</p>
             <p><strong>渠道：</strong><a href="https://www.po.co/uk/product/poco-m4-pro/" target="_blank">POCO UK</a></p>
             <p><strong>价格：</strong>£129</p>
-            <p><strong>处理器：</strong>MediaTek Helio G96, CPU: Octa-core CPU, up to 2.05GHz, GPU: Mali-G57 MC2</p>
+            <p><strong>处理器：</strong>MediaTek Helio G96</p>
             <p><strong>内存：</strong>6GB</p>
             <p><strong>容量：</strong>128GB</p>
-            <p><strong>颜色：</strong>Power Black</p>
             <p><strong>显示屏：</strong>6.43-inch 2400 x 1080 90Hz</p>
             <p><strong>电池：</strong>5000mAh</p>
-            <p><strong>摄像头：</strong>64MP, f/1.8 f/2.2 f/2.4, 1080p 30fps</p>
             <p><strong>尺寸：</strong>159.87 x 73.87 x 8.09 mm</p>
             <p><strong>重量：</strong>179.5g</p>
         </div>
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Apple-MacBook-Pro.jpeg" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-MacBook-Pro.jpeg"></picture>
+            <picture><source srcset="/images/electronics/Apple-MacBook-Pro.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-MacBook-Pro.jpeg"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Apple MacBook Pro 14-inch 2021</p>
@@ -49,7 +83,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Sony-PlayStation-5.png" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-PlayStation-5.png"></picture>
+            <picture><source srcset="/images/electronics/Sony-PlayStation-5.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-PlayStation-5.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Sony PlayStation 5</p>
@@ -69,7 +103,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Sony-WH-1000XM4.png" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-WH-1000XM4.png"></picture>
+            <picture><source srcset="/images/electronics/Sony-WH-1000XM4.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-WH-1000XM4.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Sony WH-1000XM4</p>
@@ -88,26 +122,25 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Redmi-Router-AC2100.png" type="image/webp"><img loading="lazy" src="/images/electronics/Redmi-Router-AC2100.png"></picture>
+            <picture><source srcset="/images/electronics/Redmi-Router-AC2100.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Redmi-Router-AC2100.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Redmi 路由器 AC2100</p>
-            <p><strong>链接：</strong>
-            <a href="https://www.mi.com/rm2100" target="_blank">小米</a></p>
+            <p><strong>链接：</strong><a href="https://www.mi.com/rm2100" target="_blank">小米</a></p>
             <p><strong>时间：</strong>2021-09-20</p>
-            <p><strong>渠道：</strong><a href="#" target="_blank">淘宝</a></p>
+            <p><strong>渠道：</strong>淘宝</p>
             <p><strong>价格：</strong>￥149.9</p>
             <p><strong>处理器：</strong>MT7621A MIPS 双核880MHz</p>
             <p><strong>内存：</strong>128MB</p>
             <p><strong>ROM：</strong>128MB</p>
-            <p><strong>无线信道：</strong>2.4GHz Channel 1,2,3,4,5,6,7,8,9,10,11,12,13, 5GHz Channel 36,40,44,48,149,153,157,161,165</p>
+            <p><strong>Wi-Fi：</strong>2.4G Wi-Fi 2x2, 5G Wi-Fi 4x4, 外置天线 6 根</p>
             <p><strong>接口：</strong>1 x 10/100/1000M WAN 口, 3 x 10/100/1000M LA N口</p>
             <p><strong>尺寸：</strong>259 x 176 x 184 mm</p>
         </div>
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Dell-S2721QS.jpeg" type="image/webp"><img loading="lazy" src="/images/electronics/Dell-S2721QS.jpeg"></picture>
+            <picture><source srcset="/images/electronics/Dell-S2721QS.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Dell-S2721QS.jpeg"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Dell S2721QS Monitor</p>
@@ -127,7 +160,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Synology-DS920plus.png" type="image/webp"><img loading="lazy" src="/images/electronics/Synology-DS920plus.png"></picture>
+            <picture><source srcset="/images/electronics/Synology-DS920plus.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Synology-DS920plus.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Synology DS920+</p>
@@ -135,7 +168,7 @@ date: 2022-06-05 19:40:42
             <a href="https://www.synology.com/en-us/products/DS920+" target="_blank">Synology</a>
             <a href="https://www.synology.cn/zh-cn/products/DS920+" target="_blank">群晖</a></p>
             <p><strong>时间：</strong>2021-07-29</p>
-            <p><strong>渠道：</strong><a href="#" target="_blank">闲鱼</a></p>
+            <p><strong>渠道：</strong>闲鱼</p>
             <p><strong>价格：</strong>￥3600</p>
             <p><strong>CPU：</strong>Intel Celeron J4125, 4-core 2.0 (base) / 2.7 (burst) GHz</p>
             <p><strong>内存：</strong>8 GB DDR4 non-ECC</p>
@@ -146,7 +179,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Apple-iPhone-12-mini.png" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-iPhone-12-mini.png"></picture>
+            <picture><source srcset="/images/electronics/Apple-iPhone-12-mini.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-iPhone-12-mini.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Apple iPhone 12 mini</p>
@@ -168,7 +201,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Apple-iPad-Pro-2021.jpeg" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-iPad-Pro-2021.jpeg"></picture>
+            <picture><source srcset="/images/electronics/Apple-iPad-Pro-2021.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-iPad-Pro-2021.jpeg"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Apple iPad Pro 11-inch 2021</p>
@@ -176,7 +209,7 @@ date: 2022-06-05 19:40:42
             <a href="https://www.apple.com/ipad-pro/" target="_blank">Apple</a>
             <a href="https://www.apple.com.cn/ipad-pro/" target="_blank">Apple (中国大陆)</a></p>
             <p><strong>时间：</strong>2021-04-30</p>
-            <p><strong>渠道：</strong><a href="#" target="_blank">拼多多</a></p>
+            <p><strong>渠道：</strong>拼多多</p>
             <p><strong>价格：</strong>￥5119</p>
             <p><strong>芯片：</strong>Apple M1 chip with 8-core CPU, 8-core GPU, 16-core Neural Engine</p>
             <p><strong>内存：</strong>8GB RAM</p>
@@ -191,28 +224,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Xiaomi-band6.jpg" type="image/webp"><img loading="lazy" src="/images/electronics/Xiaomi-band6.jpg"></picture>
-        </div>
-        <div class="gk-desc">
-            <p><strong>名称：</strong>小米手环6</p>
-            <p><strong>链接：</strong>
-            <a href="https://www.mi.com/shouhuan6" target="_blank">小米</a></p>
-            <p><strong>时间：</strong>2021-04-?</p>
-            <p><strong>渠道：</strong><a href="#" target="_blank">?</a></p>
-            <p><strong>价格：</strong>¥?</p>
-            <p><strong>屏幕：</strong>1.56英寸 AMOLED屏</p>
-            <p><strong>分辨率：</strong>152 × 486</p>
-            <p><strong>亮度：</strong>450nit</p>
-            <p><strong>传感器：</strong>光学心率及血氧传感器，六轴运动传感器</p>
-            <p><strong>蓝牙：</strong>蓝牙5.0 BLE版</p>
-            <p><strong>电池容量：</strong>125mAh</p>
-            <p><strong>尺寸：</strong>47.4 × 18.6 × 12.7mm</p>
-            <p><strong>重量：</strong>13g</p>
-        </div>
-    </div>
-    <div class="gk-item">
-        <div class="gk-img">
-            <picture><source srcset="/images/electronics/Sony-ZV-1.png" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-ZV-1.png"></picture>
+            <picture><source srcset="/images/electronics/Sony-ZV-1.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-ZV-1.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Sony ZV-1 Camera</p>
@@ -232,7 +244,29 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Apple-AirPods-Pro.png" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-AirPods-Pro.png"></picture>
+            <picture><source srcset="/images/electronics/Mi-10-Pro.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Mi-10-Pro.jpeg"></picture>
+        </div>
+        <div class="gk-desc">
+            <p><strong>名称：</strong>小米10 Pro</p>
+            <p><strong>链接：</strong>
+            <a href="https://baike.baidu.com/reference/24255057/55a7NgC52WSoVQ0VAn1JhVrpRgX478XZkV9I9dV18Pm4hn22PEvAUHZ4GRttFiOOPIz8IDKhJ1yC1XxBNQ" target="_blank">小米</a></p>
+            <p><strong>时间：</strong>2020-05-09</p>
+            <p><strong>渠道：</strong>拼多多</p>
+            <p><strong>价格：</strong>￥5285</p>
+            <p><strong>处理器：</strong>骁龙 865</p>
+            <p><strong>内存：</strong>12GB</p>
+            <p><strong>容量：</strong>512GB</p>
+            <p><strong>颜色：</strong>珍珠白</p>
+            <p><strong>显示屏：</strong>6.67-inch 2340 x 1080 90Hz</p>
+            <p><strong>电池：</strong>4500mAh</p>
+            <p><strong>摄像头：</strong>1 亿像素, f/1.69 f/2.0 f/2.2, 8K 30fps</p>
+            <p><strong>尺寸：</strong>162.6 x 74.8 x 8.96 mm</p>
+            <p><strong>重量：</strong>208g</p>
+        </div>
+    </div>
+    <div class="gk-item">
+        <div class="gk-img">
+            <picture><source srcset="/images/electronics/Apple-AirPods-Pro.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Apple-AirPods-Pro.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Apple AirPods Pro</p>
@@ -240,7 +274,7 @@ date: 2022-06-05 19:40:42
             <a href="https://www.apple.com/airpods-pro/" target="_blank">Apple</a>
             <a href="https://www.apple.com.cn/airpods-pro/" target="_blank">Apple (中国大陆)</a></p>
             <p><strong>时间：</strong>2019-11-02</p>
-            <p><strong>渠道：</strong><a href="#" target="_blank">?</a></p>
+            <p><strong>渠道：</strong>?</p>
             <p><strong>价格：</strong>¥?</p>
             <p><strong>芯片：</strong>H1 耳机芯片</p>
             <p><strong>防水：</strong>IPX4</p>
@@ -252,7 +286,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Nintendo-Switch.png" type="image/webp"><img loading="lazy" src="/images/electronics/Nintendo-Switch.png"></picture>
+            <picture><source srcset="/images/electronics/Nintendo-Switch.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Nintendo-Switch.png"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Nintendo Switch</p>
@@ -270,7 +304,7 @@ date: 2022-06-05 19:40:42
     </div>
     <div class="gk-item">
         <div class="gk-img">
-            <picture><source srcset="/images/electronics/Sony-SRS-XB10.jpeg" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-SRS-XB10.jpeg"></picture>
+            <picture><source srcset="/images/electronics/Sony-SRS-XB10.webp" type="image/webp"><img loading="lazy" src="/images/electronics/Sony-SRS-XB10.jpeg"></picture>
         </div>
         <div class="gk-desc">
             <p><strong>名称：</strong>Sony SRS-XB10 Speaker</p>

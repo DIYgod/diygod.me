@@ -41,7 +41,7 @@ date: 2020-03-04 23:40:42
     </div>
     <div class="gk-desc">
         <p><strong>名称：</strong>绊爱 Hello World 金发Ver. 手办</p>
-        <p><strong>状态：</strong>已预订</p>
+        <p><strong>状态：</strong>已入手</p>
         <p><strong>角色：</strong>绊爱</p>
         <p><strong>作品：</strong>虚拟 YouTuber</p>
         <p><strong>出荷：</strong>2021年6月</p>
