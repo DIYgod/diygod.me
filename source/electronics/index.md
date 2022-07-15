@@ -172,7 +172,7 @@ date: 2022-06-05 19:40:42
             <p><strong>价格：</strong>￥3600</p>
             <p><strong>CPU：</strong>Intel Celeron J4125, 4-core 2.0 (base) / 2.7 (burst) GHz</p>
             <p><strong>内存：</strong>8 GB DDR4 non-ECC</p>
-            <p><strong>存储：</strong>3 x 4T Seagate IronWolf HDD, 2 x 16G Intel Optane SSD</p>
+            <p><strong>存储：</strong>3 x 4T Seagate IronWolf HDD, 16T Western Digital Enterprise HDD, 2 x 16G Intel Optane SSD</p>
             <p><strong>尺寸：</strong>166 x 199 x 223 mm</p>
             <p><strong>重量：</strong>2.24 kg</p>
         </div>
