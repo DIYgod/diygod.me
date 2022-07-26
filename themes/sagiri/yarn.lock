@@ -5139,9 +5139,9 @@ unicode-property-aliases-ecmascript@^2.0.0:
   integrity sha512-5Zfuy9q/DFr4tfO7ZPeVXb1aPoeQSdeFMLpYuFebehDAhbuevLs5yxSZmIFN1tP5F9Wl4IpJrYojg85/zgyZHQ==
 
 unidata.js@^0.6.3:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/unidata.js/-/unidata.js-0.6.3.tgz#8967661901c4e0022970d81009d705207f46a568"
-  integrity sha512-w2vWxsJGIZ+t2CLO9yxBStHbuMijmoaPKw4jBhfrUtVuUjD0MMGIUZ5mVbDbbvaNDKCWli5JqaNZjaSmCCmaYw==
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/unidata.js/-/unidata.js-0.6.5.tgz#89a35b735fffe00654bf14fa9a8ec486bbf76490"
+  integrity sha512-AixbsW0FxWo572YNmEbEY/KC5PyTuMTrFKedywvA668Y9CJn0GeleyfxK1eSKUmkYgvho3k8wO52u4aZ3rKDUQ==
   dependencies:
     "@types/lodash" "^4.14.182"
     "@urql/core" "2.5.0"
