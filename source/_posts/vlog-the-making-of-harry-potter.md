@@ -18,7 +18,8 @@ var player = new DogePlayer({
     userId: 17,
     vcode: 'bbb5a2178cafea64',
     autoPlay: false,
-    vtype: 10
+    vtype: 10,
+    pic: '/images/vlog-the-making-of-harry-potter.jpg',
 });
 </script>
 {% endraw %}
