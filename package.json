@@ -12,7 +12,7 @@
     "hexo": "^5.4.0",
     "hexo-all-minifier": "0.5.7",
     "hexo-deployer-git": "3.0.0",
-    "hexo-fs": "3.1.0",
+    "hexo-fs": "4.1.1",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "3.0.0",
